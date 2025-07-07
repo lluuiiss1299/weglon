@@ -1,4 +1,6 @@
 import React from "react";
+import LogoIcon from '../../assets/Icons/LogoAzul.svg';
+import WeglonIcon from '../../assets/Icons/LetraWeglon2.svg';
 
 const Navbar = () => {
   const menuItems = [
@@ -22,8 +24,8 @@ const Navbar = () => {
 
   return (
     <nav className="bg-white shadow-md ">
-      <div className="mx-auto max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
-        <div className="text-xl font-bold text-blue-600">🌎 Weglon</div>
+      <div className="mx-auto max-w-7xl mx-auto px-4 py-1 flex justify-between items-center">
+        <div className="text-xl font-bold homeLabel flex items-center align-items-center"><img className="w-md h-8 mr-2" src={LogoIcon} alt="Weglon Logo"/> <img className="w-20" src={WeglonIcon} alt="Weglon Logo"/></div>
         <ul className="flex space-x-6">
           {menuItems.map((item, idx) =>
             item.submenu ? (
@@ -31,12 +33,12 @@ const Navbar = () => {
                 <button className="text-gray-700 font-medium hover:text-blue-600">
                   {item.label}
                 </button>
-                <ul className="absolute hidden group-hover:block bg-white shadow-lg mt-2 rounded-lg z-10">
+                <ul className="absolute hidden group-hover:block bg-white shadow-lg rounded-lg z-10">
                   {item.submenu.map((subItem, subIdx) => (
                     <li key={subIdx}>
                       <a
                         href="#"
-                        className="block px-4 py-2 whitespace-nowrap hover:bg-blue-100 text-gray-700"
+                        className="block px-4 py-2 whitespace-nowrap hover:bg-blue-100 text-gray-700  rounded-lg z-10"
                       >
                         {subItem}
                       </a>
