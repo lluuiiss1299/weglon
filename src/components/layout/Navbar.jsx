@@ -25,7 +25,7 @@ const Navbar = () => {
   return (
     <nav className="bg-white shadow-md ">
       <div className="mx-auto max-w-7xl mx-auto px-4 py-1 flex justify-between items-center">
-        <div className="text-xl font-bold homeLabel flex items-center align-items-center"><img className="w-md h-8 mr-2" src={LogoIcon} alt="Weglon Logo"/> <img className="w-20" src={WeglonIcon} alt="Weglon Logo"/></div>
+        <div className="text-xl font-bold homeLabel flex items-center align-items-center"><img className="w-md h-8 mr-2" src={LogoIcon} alt="Weglon Logo"/> <img className="w-20 mt-1" src={WeglonIcon} alt="Weglon Logo"/></div>
         <ul className="flex space-x-6">
           {menuItems.map((item, idx) =>
             item.submenu ? (

@@ -16,7 +16,7 @@ const VideoHero = () => {
         start: 'top top',
         end: 'bottom center',
         scrub: true,
-        markers: true,
+        // markers: true,
       },
       borderRadius: '45px',
       scale: 0.87,
@@ -39,7 +39,7 @@ const VideoHero = () => {
         </video>
         </div>
         <div className='mx-auto max-w-7xl px-12 pt-12 pb-24 flex flex-row justify-between items-center'>
-        <h1 className="text-6xl font-bold text-center mt-6">We-Experience</h1>
+        <h1 className="text-5xl font-bold text-center mt-6">We-Experience</h1>
         <p className="text-center text-lg mt-4">
           Más que un viaje, una transformación.
         </p>
