@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React from 'react';
 import VideoHero from '../Principal/VideoHero';
 import CardCarousel from '../Principal/CardCarousel';
 import Certifications from '../Principal/Certifications';

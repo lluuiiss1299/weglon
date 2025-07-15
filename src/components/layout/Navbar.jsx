@@ -7,37 +7,43 @@ const Navbar = () => {
     {
       label: "Programas",
       submenu: ["Nasa", "Canadá", "Tokio"],
+      link: "/Programas",
+      submenuLink: ["/Programas/Nasa", "/Programas/Canada", "/Programas/Tokio"],
     },
     {
       label: "Certificaciones",
       submenu: ["Certificación inglés online", "Conviértete en centro certificador"],
+      link: "/#",
+      submenuLink: ["/certificaciones/ingles-online", "/certificaciones/centro-certificador"],
     },
     {
       label: "Plataformas",
       submenu: ["Anglolinguist", "Cursos"],
+      link: "/#",
+      submenuLink: ["/plataformas/anglolinguist", "/plataformas/cursos"],
     },
     {
       label: "Contáctanos",
-      link: "#contacto",
+      link: "/contacto",
     },
   ];
 
   return (
     <nav className="bg-white shadow-md ">
       <div className="mx-auto max-w-7xl mx-auto px-4 py-1 flex justify-between items-center">
-        <div className="text-xl font-bold homeLabel flex items-center align-items-center"><img className="w-md h-8 mr-2" src={LogoIcon} alt="Weglon Logo"/> <img className="w-20 mt-1" src={WeglonIcon} alt="Weglon Logo"/></div>
+        <div className="text-xl font-bold homeLabel flex items-center align-items-center"><img className="w-md h-6 mr-2" src={LogoIcon} alt="Weglon Logo"/> <img className="w-16 mt-1" src={WeglonIcon} alt="Weglon Logo"/></div>
         <ul className="flex space-x-6">
           {menuItems.map((item, idx) =>
             item.submenu ? (
               <li key={idx} className="group relative">
-                <button className="text-gray-700 font-medium hover:text-blue-600">
+                <a href={item.link} className="text-gray-700 font-medium hover:text-blue-600">
                   {item.label}
-                </button>
+                </a>
                 <ul className="absolute hidden group-hover:block bg-white shadow-lg rounded-lg z-10">
                   {item.submenu.map((subItem, subIdx) => (
                     <li key={subIdx}>
                       <a
-                        href="#"
+                        href={item.submenuLink[subIdx]}
                         className="block px-4 py-2 whitespace-nowrap hover:bg-blue-100 text-gray-700  rounded-lg z-10"
                       >
                         {subItem}
