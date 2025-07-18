@@ -8,6 +8,8 @@ import Logo6 from '../../assets/Images/Escudos/CollageLaCuenca.png';
 import Logo7 from '../../assets/Images/Escudos/CollageMonteAlban.png';
 import Logo8 from '../../assets/Images/Escudos/CollageVictoriaVirtud.png';
 import gsap from "gsap";
+import CenterTitle from './CenterTitle';
+import { useTranslation } from 'react-i18next';
 
 const logos = [
     Logo1,
@@ -23,6 +25,7 @@ const logos = [
 const EscudosCarrusel = () => {
   const containerRef = useRef();
   const tweenRef = useRef();
+  const { t } = useTranslation();
 
   useEffect(() => {
     const container = containerRef.current;
@@ -61,12 +64,7 @@ const EscudosCarrusel = () => {
 
   return (
     <section className="py-16 bg-white overflow-hidden">
-      <div className="text-center mb-10">
-        <h2 className="text-3xl font-semibold">Centros Educativos Asociados</h2>
-        <p className="text-gray-700 text-lg mt-2">
-          Convierte tu colegio en un centro certificador
-        </p>
-      </div>
+      <CenterTitle title={t('centers.title')} subtitle={t('centers.subtitle')} />
 
       <div
         className="relative w-full overflow-hidden"

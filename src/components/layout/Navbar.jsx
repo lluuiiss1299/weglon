@@ -1,29 +1,41 @@
 import React from "react";
+import { useTranslation } from 'react-i18next';
 import LogoIcon from '../../assets/Icons/LogoAzul.svg';
 import WeglonIcon from '../../assets/Icons/LetraWeglon2.svg';
 
 const Navbar = () => {
+  const { t } = useTranslation();
   const menuItems = [
     {
-      label: "Programas",
-      submenu: ["Nasa", "Canadá", "Tokio"],
+      label: t('navbar.programs'),
+      submenu: [
+        t('navbar.submenu.nasa'),
+        t('navbar.submenu.canada'),
+        t('navbar.submenu.tokyo')
+      ],
       link: "/Programas",
       submenuLink: ["/Programas/Nasa", "/Programas/Canada", "/Programas/Tokio"],
     },
     {
-      label: "Certificaciones",
-      submenu: ["Certificación inglés online", "Conviértete en centro certificador"],
+      label: t('navbar.certifications'),
+      submenu: [
+        t('navbar.submenu.english_cert'),
+        t('navbar.submenu.become_center')
+      ],
       link: "/#",
       submenuLink: ["/certificaciones/ingles-online", "/certificaciones/centro-certificador"],
     },
     {
-      label: "Plataformas",
-      submenu: ["Anglolinguist", "Cursos"],
+      label: t('navbar.platforms'),
+      submenu: [
+        t('navbar.submenu.anglolinguist'),
+        t('navbar.submenu.courses')
+      ],
       link: "/#",
       submenuLink: ["/plataformas/anglolinguist", "/plataformas/cursos"],
     },
     {
-      label: "Contáctanos",
+      label: t('navbar.contact'),
       link: "/contacto",
     },
   ];
@@ -31,7 +43,7 @@ const Navbar = () => {
   return (
     <nav className="bg-white shadow-md ">
       <div className="mx-auto max-w-7xl mx-auto px-4 py-1 flex justify-between items-center">
-        <div className="text-xl font-bold homeLabel flex items-center align-items-center"><img className="w-md h-6 mr-2" src={LogoIcon} alt="Weglon Logo"/> <img className="w-16 mt-1" src={WeglonIcon} alt="Weglon Logo"/></div>
+        <a href="/" className="text-xl font-bold homeLabel flex items-center align-items-center"><img className="w-md h-6 mr-2" src={LogoIcon} alt="Weglon Logo"/> <img className="w-16 mt-1" src={WeglonIcon} alt="Weglon Logo"/></a>
         <ul className="flex space-x-6">
           {menuItems.map((item, idx) =>
             item.submenu ? (

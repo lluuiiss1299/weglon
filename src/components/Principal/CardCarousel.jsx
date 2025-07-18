@@ -4,7 +4,7 @@ import cardNasa from '../../assets/Images/CardNasa.png';
 import cardTokio from '../../assets/Images/CardTokio.png';
 import cardCanada from '../../assets/Images/CardCanada.png';
 import cardItaly from '../../assets/Images/CardItaly.png';
-
+import { useTranslation } from 'react-i18next';
 const destinos = [
   { nombre: "NASA", ruta: "/programas/nasa", imagen: cardNasa },
   { nombre: "TOKYO", ruta: "/programas/tokyo", imagen: cardTokio },
@@ -13,10 +13,11 @@ const destinos = [
 ];
 
 const Carousel = () => {
+  const { t } = useTranslation();
   return (
     <section className="w-full px-6 pt-10 pb-24 bg-gray-100">
-      <h2 className="text-center text-lg font-medium text-gray-700 mb-12">
-        Viaja al extranjero, diviértete, estudia, conecta con nuevas<br /> culturas, haz amigos, y vive experiencias únicas.
+      <h2 className="text-center text-lg font-medium text-gray-700 mb-12 w-1/3 mx-auto">
+        {t('destinations.subtitle')}
       </h2>
 
       <div className="flex gap-6 overflow-x-auto scrollbar-hide items-center flex-row justify-center items-center">

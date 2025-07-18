@@ -1,3 +1,51 @@
 {
-    
+  "navbar": {
+    "programs": "Programs",
+    "certifications": "Certifications",
+    "platforms": "Platforms",
+    "contact": "Contact Us",
+    "submenu": {
+      "nasa": "Nasa",
+      "canada": "Canada",
+      "tokyo": "Tokyo",
+      "english_cert": "Online English Certification",
+      "become_center": "Become a Certification Center",
+      "anglolinguist": "Anglolinguist",
+      "courses": "Courses"
+    }
+  },
+  "destinations": {
+    "subtitle": "Travel abroad, have fun, study, connect with new cultures, make friends, and live unique experiences."
+  },
+  "hero": {
+    "title": "We-Experience",
+    "subtitle": "More than a trip, a transformation."
+  },
+  "certifications": {
+    "title": "We-Certifications",
+    "subtitle": "Certify your future with international standards.",
+    "text": "In <b>Weglon</b> we guide you step by step to obtain official certifications recognized by national and international institutions."
+  },
+  "platform": {
+    "title": "Anglolinguist",
+    "subtitle": "Designed to help students from beginner to advanced level verify their English level aligned with the Common European Framework (CEFR)"
+  },
+  "centers": {
+    "title": "Associated Educational Centers",
+    "subtitle": "Turn your school into a certification center"
+  },
+  "footer": {
+    "aboutTitle": "About",
+    "aboutText1": "At WEGLON we have a professional and trained team to make your trip and certification process an unforgettable experience.",
+    "aboutText2": "We have a team of experts in international education. We are committed to training world leaders for the development of our country, introducing the culture of other countries, promoting leadership and teamwork through a global perspective.",
+    "sitesTitle": "Sites",
+    "privacy": "Privacy Notice",
+    "language": "Language",
+    "contactTitle": "Contact Us",
+    "phone": "(777) 323 3890"
+  },
+  "programs": {
+    "title": "We-Exprience",
+    "subtitle": "Transcending borders embracing the world"
+  }
 } 

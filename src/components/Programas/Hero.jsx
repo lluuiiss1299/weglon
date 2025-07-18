@@ -3,13 +3,13 @@ import VideoHeroSrc from '../../assets/Videos/japon.mp4';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(gsap, ScrollTrigger);
-import HeroTitle from './HeroTitle';
+import HeroTitle from '../Principal/HeroTitle';
 import { useTranslation } from 'react-i18next';
+import { Trans } from 'react-i18next';
 
 const VideoHero = () => {
   const videoRef = useRef(null);
   const { t } = useTranslation();
-
   useEffect(() => {
     if (!videoRef.current) return;
 
@@ -28,8 +28,8 @@ const VideoHero = () => {
   }, []);
 
   return (
-    <section className="w-full py-6">
-      <HeroTitle title={t('platform.title')} subtitle={t('platform.subtitle')} />
+    <section className="w-full pt-6">
+        <HeroTitle title={t('programs.title')} subtitle={<Trans i18nKey="programs.subtitle" components={{ br: <br /> }} />} />
         <div className="mx-auto">
         <video
             className="w-full"
@@ -42,7 +42,6 @@ const VideoHero = () => {
             Tu navegador no soporta la reproducción de video.
         </video>
         </div>
-        
     </section>
   );
 };

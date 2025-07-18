@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from 'react-i18next';
 import FacebookIcon from '../../assets/Icons/Facebook.svg';
 import InstagramIcon from '../../assets/Icons/Instagram.svg';
 import UbicacionIcon from '../../assets/Icons/Ubicacion.svg';
@@ -8,6 +9,7 @@ import i18n from '../../i18n';
 
 
 const Footer = () => {
+  const { t } = useTranslation();
   const changeLanguage = (lang) => {
     i18n.changeLanguage(lang);
     localStorage.setItem('lang', lang);
@@ -16,24 +18,24 @@ const Footer = () => {
     <footer className="bg-gray-100 ">
       <div className="max-w-7xl mx-auto px-6 py-8 grid grid-cols-1 md:grid-cols-[50%,25%,25%] gap-8">
         <div className="p-4">
-          <h2 className="text-lg font-bold mb-2">Sobre <span className="font-extrabold">WEGLON</span></h2>
+          <h2 className="text-lg font-bold mb-2">{t('footer.aboutTitle')} <span className="font-extrabold">WEGLON</span></h2>
           <p className="text-sm text-gray-700">
-            En WEGLON contamos con un equipo profesional y capacitado para hacer de tu viaje y de tu proceso de certificación una experiencia inolvidable.
+            {t('footer.aboutText1')}
             <br />
-            Contamos con un equipo de asesores expertos en educación internacional. Estamos comprometidos con la formación de líderes a nivel mundial para el desarrollo de nuestro país, introduciendo la cultura de otros países, fomentando el liderazgo y el trabajo en equipo mediante una perspectiva global.
+            {t('footer.aboutText2')}
           </p>
         </div>
 
         <div className="p-4 ml-4">
-          <h2 className="text-lg font-bold mb-2">Sitios</h2>
+          <h2 className="text-lg font-bold mb-2">{t('footer.sitesTitle')}</h2>
           <ul className="space-y-1 text-sm text-gray-700">
-            <li><a href="#" className="hover:underline">Programas</a></li>
-            <li><a href="#" className="hover:underline">Certificaciones</a></li>
-            <li><a href="#" className="hover:underline">Plataformas</a></li>
-            <li><a href="#" className="hover:underline">Aviso de privacidad</a></li>
+            <li><a href="#" className="hover:underline">{t('navbar.programs')}</a></li>
+            <li><a href="#" className="hover:underline">{t('navbar.certifications')}</a></li>
+            <li><a href="#" className="hover:underline">{t('navbar.platforms')}</a></li>
+            <li><a href="#" className="hover:underline">{t('footer.privacy')}</a></li>
             <li className="group relative">
               <a href="#" key="idioma" className="text-gray-700 font-medium hover:text-blue-600">
-                Idioma
+                {t('footer.language')}
               </a>
               <ul className="absolute bottom-full left-0 hidden group-hover:block bg-white shadow-lg rounded-lg z-10">
                 <li>
@@ -67,9 +69,9 @@ const Footer = () => {
 
 
         <div className="p-4  ml-4">
-          <h2 className="text-lg font-bold mb-2">Contáctanos</h2>
+          <h2 className="text-lg font-bold mb-2">{t('footer.contactTitle')}</h2>
           <p className="text-sm text-gray-700 mb-2">
-            (777) 323 3890<br />
+            {t('footer.phone')}<br />
             <a href="mailto:wegn2013@gmail.com" className="underline hover:text-blue-500">wegn2013@gmail.com</a>
           </p>
 

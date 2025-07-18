@@ -1,3 +1,81 @@
 {
-    
+  "navbar": {
+    "programs": "Programas",
+    "certifications": "Certificaciones",
+    "platforms": "Plataformas",
+    "contact": "Contáctanos",
+    "submenu": {
+      "nasa": "Nasa",
+      "canada": "Canadá",
+      "tokyo": "Tokio",
+      "english_cert": "Certificación inglés online",
+      "become_center": "Conviértete en centro certificador",
+      "anglolinguist": "Anglolinguist",
+      "courses": "Cursos"
+    }
+  },
+  "destinations": {
+    "subtitle": "Viaja al extranjero, diviértete, estudia, conecta con nuevas culturas, haz amigos, y vive experiencias únicas.",
+    "programs": {
+      "title": "Explora y aprende.",
+      "subtitle": "Trascendiendo fronteras,<br> abrazando al mundo"
+    },
+    "nasa": {
+      "HeroText": "Interactúa, convive y comparte con un astronauta y deja que su historia en el espacio encienda tu pasión por soñar en grande.",
+      "CardText": "Diseñado solo para ti."
+    },
+    "tokyo": {
+      "HeroText": "Descubre TOKIO, donde la tradición milenaria se encuentra con la tecnología del futuro.",
+      "CardText": "Educativa, segura y transformadora."
+    },
+    "canada": {
+      "HeroText": "Perfecciona tu nivel de inglés y vive con una familia CANADIENSE.",
+      "CardText": "Conecta, explora y diviértete."
+    }
+  },
+  "hero": {
+    "title": "We-Experience",
+    "subtitle": "Más que un viaje, una transformación."
+  },
+  "certifications": {
+    "title": "We-Certifications",
+    "subtitle": "Certifica tu futuro con estándares internacionales.",
+    "text": "En <b>Weglon</b> te guiamos paso a paso para obtener certificaciones oficiales reconocidas por instituciones nacionales e internacionales."
+  },
+  "platform": {
+    "title": "Anglolinguist",
+    "subtitle": "Diseñada para ayudar a estudiantes de nivel básico a avanzado, a verificar su nivel de inglés alineado con el marco común europeo (MCER)"
+  },
+  "centers": {
+    "title": "Centros Educativos Asociados",
+    "subtitle": "Convierte tu colegio en un centro certificador"
+  },
+  "footer": {
+    "aboutTitle": "Sobre",
+    "aboutText1": "En WEGLON contamos con un equipo profesional y capacitado para hacer de tu viaje y de tu proceso de certificación una experiencia inolvidable.",
+    "aboutText2": "Contamos con un equipo de asesores expertos en educación internacional. Estamos comprometidos con la formación de líderes a nivel mundial para el desarrollo de nuestro país, introduciendo la cultura de otros países, fomentando el liderazgo y el trabajo en equipo mediante una perspectiva global.",
+    "sitesTitle": "Sitios",
+    "privacy": "Aviso de privacidad",
+    "language": "Idioma",
+    "contactTitle": "Contáctanos",
+    "phone": "(777) 323 3890"
+  },
+  "programs": {
+    "title": "We-Exprience",
+    "subtitle": "Trascendiendo fronteras,<br> abrazando al mundo"
+  },
+  "travelBenefits": {
+    "flight": "Vuelo redondo",
+    "insurance": "Seguro de viaje",
+    "security": "Seguridad 24 hrs",
+    "hotel": "Hospedaje",
+    "bus": "Todos los traslados",
+    "culture": "Actividades culturales",
+    "cards": {
+      "title": "Todo lo necesario para que",
+      "subtitle": "aprendas y explores."
+    }
+  }
+  
+
 } 

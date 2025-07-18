@@ -1,3 +1,51 @@
 {
-    
+  "navbar": {
+    "programs": "Programmes",
+    "certifications": "Certifications",
+    "platforms": "Plateformes",
+    "contact": "Contactez-nous",
+    "submenu": {
+      "nasa": "Nasa",
+      "canada": "Canada",
+      "tokyo": "Tokyo",
+      "english_cert": "Certification d'anglais en ligne",
+      "become_center": "Devenir centre de certification",
+      "anglolinguist": "Anglolinguist",
+      "courses": "Cours"
+    }
+  },
+  "destinations": {
+    "subtitle": "Voyagez à l'étranger, amusez-vous, étudiez, connectez-vous avec de nouvelles cultures, faites des amis, et vivez des expériences uniques."
+  },
+  "hero": {
+    "title": "We-Experience",
+    "subtitle": "Plus qu'un voyage, une transformation."
+  },
+  "certifications": {
+    "title": "We-Certifications",
+    "subtitle": "Certifiez votre avenir avec des normes internationales.",
+    "text": "Chez <b>Weglon</b> nous vous guidons étape par étape pour obtenir des certifications officielles reconnues par des institutions nationales et internationales."
+  },
+  "platform": {
+    "title": "Anglolinguist",
+    "subtitle": "Conçue pour aider les étudiants du niveau débutant à avancé à vérifier leur niveau d'anglais conformément au Cadre européen commun (CECR)"
+  },
+  "centers": {
+    "title": "Centres Éducatifs Associés",
+    "subtitle": "Transformez votre école en centre de certification"
+  },
+  "footer": {
+    "aboutTitle": "À propos",
+    "aboutText1": "Chez WEGLON, nous disposons d'une équipe professionnelle et qualifiée pour faire de votre voyage et de votre processus de certification une expérience inoubliable.",
+    "aboutText2": "Nous avons une équipe de conseillers experts en éducation internationale. Nous nous engageons à former des leaders mondiaux pour le développement de notre pays, en introduisant la culture d'autres pays, en favorisant le leadership et le travail d'équipe à travers une perspective globale.",
+    "sitesTitle": "Sites",
+    "privacy": "Avis de confidentialité",
+    "language": "Langue",
+    "contactTitle": "Contactez-nous",
+    "phone": "(777) 323 3890"
+  },
+  "programs": {
+    "title": "We-Exprience",
+    "subtitle": "Transcending borders embracing the world"
+  }
 } 

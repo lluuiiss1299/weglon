@@ -3,10 +3,12 @@ import VideoHeroSrc from '../../assets/Videos/japon.mp4';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(gsap, ScrollTrigger);
+import HeroTitle from './HeroTitle';
+import { useTranslation } from 'react-i18next';
 
 const VideoHero = () => {
   const videoRef = useRef(null);
-
+  const { t } = useTranslation();
   useEffect(() => {
     if (!videoRef.current) return;
 
@@ -38,12 +40,7 @@ const VideoHero = () => {
             Tu navegador no soporta la reproducción de video.
         </video>
         </div>
-        <div className='mx-auto max-w-7xl px-12 pt-12 pb-24 flex flex-row justify-between items-center flex-wrap'>
-        <h1 className="text-5xl font-bold text-center mt-6">We-Experience</h1>
-        <p className="text-center text-lg mt-4">
-          Más que un viaje, una transformación.
-        </p>
-      </div>
+        <HeroTitle title={t('hero.title')} subtitle={t('hero.subtitle')} />
     </section>
   );
 };
