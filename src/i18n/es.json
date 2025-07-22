@@ -61,7 +61,7 @@
     "phone": "(777) 323 3890"
   },
   "programs": {
-    "title": "We-Exprience",
+    "title": "We-Experience",
     "subtitle": "Trascendiendo fronteras,<br> abrazando al mundo"
   },
   "travelBenefits": {
@@ -75,7 +75,50 @@
       "title": "Todo lo necesario para que",
       "subtitle": "aprendas y explores."
     }
+  },
+  "travelVisits": {
+    "title": "Actividades socioculturales",
+    "subtitle": "Enfoque de enseñanza interactivo y práctico diseñado para que logres tu maximo potencial",
+    "canada": {
+      "title": "Canadá",
+      "destinos": [
+        "Observa ballenas",
+        "Beakor Hill Park",
+        "Fisherman Wark",
+        "Aprende Kayak",
+        "Dinolab",
+        "Royal BC Museum",
+        "Bug Zoo"
+      ],
+      "link": "/programas/canada"
+    },
+    "nasa": {
+      "title": "Nasa",
+      "destinos": [
+        "Tour espacial",
+        "Centro espacial Kennedy",
+        "Observa lanzamientos",
+        "Simulación espacial",
+        "Museo del Espacio",
+        "Astronaut Experience",
+        "Rocket Garden"
+      ],
+      "link": "/programas/nasa"
+    },
+    "tokyo": {
+      "title": "Tokio",
+      "destinos": [
+        "Torre Tokio",
+        "Shibuya Crossing",
+        "Akihabara",
+        "Monte Fuji",
+        "Senso-ji",
+        "Harajuku",
+        "Meiji Shrine"
+      ],
+      "link": "/programas/tokyo"
+    }
   }
-  
+}
 
-} 
+
