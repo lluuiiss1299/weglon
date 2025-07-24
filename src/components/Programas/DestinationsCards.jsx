@@ -12,7 +12,7 @@ import { motion } from 'framer-motion';
 const Carousel = () => {
     const { t } = useTranslation();
     const destinos = [
-        { nombre: "NASA", texto: t('destinations.nasa.CardText'), ruta: "/programas/nasa", imagen: HeroNasa },
+        { nombre: "NASA", texto: t('destinations.nasa.CardText'), ruta: "/programas/nasa", imagen: "https://images.pixieset.com/84918549/fead465bfdb26a0c8cf16bae4b64e7e4-xxlarge.jpg" },
         { nombre: "TOKYO", texto: t('destinations.tokyo.CardText'), ruta: "/programas/tokyo", imagen: HeroTokio },
         { nombre: "CANADA", texto: t('destinations.canada.CardText'), ruta: "/programas/canada", imagen: HeroCanada },
       //   { nombre: "ITALIA", ruta: "/programas/italia", imagen: cardItaly },

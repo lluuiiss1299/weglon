@@ -15,7 +15,7 @@ const HeroImage = ({ image, leftTitle, rightText, index }) => {
     gsap.fromTo(
       textRef.current,
       { opacity: 0, y: 40 },
-      { opacity: 1, y: 0, duration: 1, delay: 0.6, ease: 'power2.inOut' }
+      { opacity: 1, y: 0, duration: 1, delay: 0.2, ease: 'power2.inOut' }
     );
   }, []);
 

@@ -78,7 +78,7 @@
   },
   "travelVisits": {
     "title": "Actividades socioculturales",
-    "subtitle": "Enfoque de enseñanza interactivo y práctico diseñado para que logres tu maximo potencial",
+    "subtitle": "Enfoque de enseñanza interactivo y práctico diseñado para que logres tu máximo potencial",
     "canada": {
       "title": "Canadá",
       "destinos": [
@@ -117,6 +117,105 @@
         "Meiji Shrine"
       ],
       "link": "/programas/tokyo"
+    }
+  },
+  "travelDetails": {
+    "title": "Conoce las características de tu viaje",
+    "security": {
+      "title": "Seguridad 24 hrs",
+      "subtitle": "Seguridad las 24 horas por nuestro personal capacitado, para hacer de tu viaje una experiencia maravillosa."
+    },
+    "lodging": {
+      "title": "Hospedaje",
+      "subtitle": "Hospedaje de alta calidad y comodidad garantizada para todos nuestros viajeros."
+    },
+    "fly": {
+      "title": "Vuelo redondo",
+      "subtitle": "Incluye vuelo redondo con aerolíneas de prestigio internacional con equipaje documentado."
+    },
+    "transportation": {
+      "title": "Todos los traslados",
+      "subtitle": "Servicio completo de traslado desde y hacia todas las actividades del viaje en transporte privado y local de la zona."
+    },
+    "travelerSecurity": {
+      "title": "Seguro de viajero",
+      "subtitle": "Seguro integral de viajero para cubrir todas tus necesidades."
+    }
+  },
+  "weglonTeam": {
+    "HeroText": "Conoce a nuestro equipo",
+    "title": "Nuestro personal experto en educación y viajes internacionales",
+    "subtitle": "Seguridad las 24 horas por nuestro personal capacitado, para hacer de tu viaje una experiencia maravillosa.",
+    "team": [
+      {
+        "name": "Maura Morales",
+        "profession": "Directora"
+      },
+      {
+        "name": "Rogelio Villegas",
+        "profession": "Representante Internacional"
+      },
+      {
+        "name": "Alexia Monterrubio",
+        "profession": "Asistente de Dirección"
+      },
+      {
+        "name": "Arón Ramírez",
+        "profession": "Representante Internacional"
+      },
+      {
+        "name": "Haidee González",
+        "profession": "Representante Internacional / Administrativo"
+      },
+      {
+        "name": "Baruj Hernández",
+        "profession": "Representante Internacional"
+      }
+    ]
+  },
+  "wePassport": {
+    "title": "We-Passport",
+    "subtitle": "Conviértete en un viajero frecuente y obtén beneficios exclusivos."
+  },
+  "testimonials": {
+    "title": "Testimonios de la Comunidad",
+    "comments": {
+      "0": {
+        "comment": "¡Una experiencia inolvidable! Todo el equipo fue muy profesional y atento.",
+        "name": "María López",
+        "rol": "Viajera Canadá",
+        "trip": "canada"
+      },
+      "1": {
+        "comment": "El viaje superó mis expectativas. Lo recomiendo totalmente.",
+        "name": "Carlos Pérez",
+        "rol": "Viajero NASA",
+        "trip": "nasa"
+      },
+      "2": {
+        "comment": "Me sentí seguro y acompañado en todo momento. ¡Gracias Weglon!",
+        "name": "Ana Torres",
+        "rol": "Viajera Tokio",
+        "trip": "tokio"
+      },
+      "3": {
+        "comment": "La organización fue impecable y los destinos increíbles.",
+        "name": "Luis Ortega",
+        "rol": "Viajero Canadá",
+        "trip": "canada"
+      },
+      "4": {
+        "comment": "Sin duda volvería a viajar con ustedes.",
+        "name": "Sofía Ramírez",
+        "rol": "Viajera NASA",
+        "trip": "nasa"
+      },
+      "5": {
+        "comment": "El mejor viaje de mi vida, ¡gracias por todo!",
+        "name": "Miguel Sánchez",
+        "rol": "Viajero Tokio",
+        "trip": "tokio"
+        }
     }
   }
 }

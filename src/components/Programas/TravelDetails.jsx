@@ -1,97 +1,118 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import CenterTitle from "../../components/Principal/CenterTitle";
+import { useTranslation } from "react-i18next";
+import Hospedaje from "../../assets/Images/CaracteristicasViaje/Hospedaje.jpeg";
+import Seguridad from "../../assets/Images/CaracteristicasViaje/Seguridad.jpg";
+import Vuelo from "../../assets/Images/CaracteristicasViaje/VueloRedondo.jpg";
+import Traslados from "../../assets/Images/CaracteristicasViaje/Traslados.png";
+import Seguro from "../../assets/Images/CaracteristicasViaje/SeguroViajero.jpg";
+import ArrowDown from "../../assets/Icons/ArrowDown.svg";
 
-const caracteristicas = [
-  {
-    titulo: "Seguridad 24 hrs",
-    descripcion: "Seguridad las 24 horas por nuestro personal capacitado, para hacer de tu viaje una experiencia maravillosa.",
-    imagen: "/images/seguridad.jpg",
-  },
-  {
-    titulo: "Hospedaje",
-    descripcion: "Hospedaje de alta calidad y comodidad garantizada para todos nuestros viajeros.",
-    imagen: "/images/hospedaje.jpg",
-  },
-  {
-    titulo: "Vuelo redondo",
-    descripcion: "Incluye vuelo redondo con aerolíneas de prestigio internacional.",
-    imagen: "/images/vuelo.jpg",
-  },
-  {
-    titulo: "Todos los traslados",
-    descripcion: "Servicio completo de traslado desde y hacia todas las actividades del viaje.",
-    imagen: "/images/traslados.jpg",
-  },
-  {
-    titulo: "Seguro de viajero",
-    descripcion: "Seguro integral de viajero para cubrir todas tus necesidades.",
-    imagen: "/images/seguro.jpg",
-  },
-];
 
-const CaracteristicasViaje = () => {
+const TravelDetails = () => {
+
   const [activo, setActivo] = useState(0);
 
+  const { t } = useTranslation();
+
+  const details = [
+    {
+      title: t("travelDetails.security.title"),
+      description: t("travelDetails.security.subtitle"),
+      image: Seguridad,
+    },
+    {
+      title: t("travelDetails.lodging.title"),
+      description: t("travelDetails.lodging.subtitle"),
+      image: Hospedaje,
+    },
+    {
+      title: t("travelDetails.fly.title"),
+      description: t("travelDetails.fly.subtitle"),
+      image: Vuelo,
+    },
+    {
+      title: t("travelDetails.transportation.title"),
+      description: t("travelDetails.transportation.subtitle"),
+      image: Traslados,
+    },
+    {
+      title: t("travelDetails.travelerSecurity.title"),
+      description: t("travelDetails.travelerSecurity.subtitle"),
+      image: Seguro,
+    },
+  ];
+
   return (
-    <section className="w-full max-w-6xl mx-auto bg-gray-50 rounded-xl shadow-lg p-8">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
-        
-        <div>
-          {caracteristicas.map((item, index) => {
-            const esActivo = activo === index;
-            return (
-              <div key={index} className="border-b border-gray-300 py-3">
-                <button
-                  className="flex justify-between items-center w-full"
-                  onClick={() => setActivo(esActivo ? null : index)}
-                >
-                  <span className="text-lg font-semibold">{item.titulo}</span>
-                  <motion.span
-                    initial={{ rotate: 0 }}
-                    animate={{ rotate: esActivo ? 180 : 0 }}
-                    transition={{ duration: 0.3 }}
-                    className="text-xl font-bold"
+    <motion.section
+      className="w-full py-16"
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.8, ease: "easeOut" }}
+    >
+      <CenterTitle title={t("travelDetails.title")} /> 
+      <section className="w-full max-w-6xl mx-auto bg-gray-50 rounded-xl shadow-lg p-8 mb-10 mt-16">
+        <div className="grid grid-cols-1 md:grid-cols-6 gap-8 items-start">
+          
+          <div className="col-span-3">
+            {details.map((item, index) => {
+              const esActivo = activo === index;
+              return (
+                <div key={index} className="border-b border-gray-300 py-3">
+                  <button
+                    className="flex justify-between items-center w-full"
+                    onClick={() => setActivo(esActivo ? null : index)}
                   >
-                    ▼
-                  </motion.span>
-                </button>
-
-                <AnimatePresence>
-                  {esActivo && (
-                    <motion.div
-                      initial={{ opacity: 0, height: 0 }}
-                      animate={{ opacity: 1, height: "auto" }}
-                      exit={{ opacity: 0, height: 0 }}
+                    <span className="text-lg font-semibold">{item.title}</span>
+                    <motion.span
+                      initial={{ rotate: 0 }}
+                      animate={{ rotate: esActivo ? 180 : 0 }}
                       transition={{ duration: 0.3 }}
-                      className="mt-2 text-gray-600 text-sm overflow-hidden"
+                      className="text-xl font-bold"
                     >
-                      {item.descripcion}
-                    </motion.div>
-                  )}
-                </AnimatePresence>
-              </div>
-            );
-          })}
-        </div>
+                      <img src={ArrowDown} alt="arrow-down" className="w-6 h-6" />
+                    </motion.span>
+                  </button>
 
-        <div className="w-full h-64 md:h-80 overflow-hidden rounded-xl shadow-md bg-gray-300">
-          <AnimatePresence mode="wait">
-            {activo !== null && (
-              <motion.img
-                key={caracteristicas[activo].imagen}
-                src={caracteristicas[activo].imagen}
-                initial={{ opacity: 0, scale: 1.1 }}
-                animate={{ opacity: 1, scale: 1 }}
-                exit={{ opacity: 0, scale: 1.1 }}
-                transition={{ duration: 0.4, ease: "easeInOut" }}
-                className="w-full h-full object-cover"
-              />
-            )}
-          </AnimatePresence>
+                  <AnimatePresence>
+                    {esActivo && (
+                      <motion.div
+                        initial={{ opacity: 0, height: 0 }}
+                        animate={{ opacity: 1, height: "auto" }}
+                        exit={{ opacity: 0, height: 0 }}
+                        transition={{ duration: 0.3 }}
+                        className="mt-2 text-gray-600 text-sm overflow-hidden pr-10"
+                      >
+                        {item.description}
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
+                </div>
+              );
+            })}
+          </div>
+
+          <div className="w-full h-64 md:h-80 overflow-hidden rounded-xl shadow-md bg-gray-300 col-span-3">
+            <AnimatePresence mode="wait">
+              {activo !== null && (
+                <motion.img
+                  key={details[activo].image}
+                  src={details[activo].image}
+                  initial={{ opacity: 0, scale: 1.1 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  exit={{ opacity: 0, scale: 1.1 }}
+                  transition={{ duration: 0.4, ease: "easeInOut" }}
+                  className="w-full h-full object-cover"
+                />
+              )}
+            </AnimatePresence>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </motion.section>
   );
 };
 
-export default CaracteristicasViaje;
+export default TravelDetails;

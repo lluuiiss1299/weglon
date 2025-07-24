@@ -47,6 +47,7 @@ const EscudosCarrusel = () => {
   }, []);
 
   const handleMouseEnter = () => {
+    gsap.killTweensOf(tweenRef.current, "timeScale");
     gsap.to(tweenRef.current, {
       timeScale: 0,
       duration: 1.5,
@@ -55,6 +56,7 @@ const EscudosCarrusel = () => {
   };
 
   const handleMouseLeave = () => {
+    gsap.killTweensOf(tweenRef.current, "timeScale");
     gsap.to(tweenRef.current, {
       timeScale: 1,
       duration: 1,
