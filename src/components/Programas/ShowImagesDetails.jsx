@@ -75,7 +75,7 @@ const ExperienciasSeccion = () => {
   };
 
   return (
-    <section className="flex flex-col gap-20 py-12">
+    <section className="flex flex-col gap-20 py-12 mb-12">
       <ImageModal isOpen={modalOpen} onClose={() => setModalOpen(false)} imgSrc={modalImg} alt={modalAlt} />
       {secciones.map((sec, i) => (
         <div
