@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import HeroTitle from "../Principal/HeroTitle";
-import WePassport from "../../assets/Images/pasaporte.jpg";
+import WePassport from "../../assets/Images/WEPASSPORT.png";
 
 
 
@@ -16,13 +16,12 @@ const Carousel = () => {
       viewport={{ once: true }}
       transition={{ duration: 0.8, ease: "easeOut" }}
     >
-        <section className="w-full px-6 pt-10 pb-24 ">
-            <HeroTitle title={t("wePassport.title")} subtitle={t("wePassport.subtitle")} />
-            <div className="flex flex-row justify-center items-center">
-                <img src={WePassport} alt="We-Passport" className="w-50 h-80 object-cover"/>
-                
-            </div>
-        </section>
+      <section className="w-full px-6 pt-10 ">
+        <HeroTitle title={t("wePassport.title")} subtitle={t("wePassport.subtitle")} />
+        <div className="flex flex-row justify-center items-center">
+          <img src={WePassport} alt="We-Passport" className="w-[850px] h-[650px] object-cover"/>
+        </div>
+      </section>
     </motion.section>
   );
 };

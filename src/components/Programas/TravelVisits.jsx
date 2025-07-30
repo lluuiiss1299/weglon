@@ -5,9 +5,9 @@ import CenterTitle from "../../components/Principal/CenterTitle";
 import Canada from "../../assets/Images/CanadaBenefits.jpg";
 import Canada1 from "../../assets/Images/CardItaly.png";
 import Canada2 from "../../assets/Images/CardTokio.png";
-import Canada3 from "../../assets/Images/HeroCanada.webp";
-import Canada4 from "../../assets/Images/HeroTokio.jpg";
-import Canada5 from "../../assets/Images/HeroNasa.jpg";
+import Canada3 from "../../assets/Images/Hero/HeroCanada.jpg";
+import Canada4 from "../../assets/Images/Hero/HeroTokio.jpg";
+import Canada5 from "../../assets/Images/Hero/HeroNasa.jpg";
 import Canada6 from "../../assets/Images/CardCanada.png";
 
 
@@ -32,7 +32,7 @@ const TravelVisits = () => {
       nombre: "Tokio",
       destinos: t("travelVisits.tokyo.destinos", { returnObjects: true }),
       imagenes: ["/tokyo1.jpg", "/tokyo2.jpg", "/tokyo3.jpg", "/tokyo4.jpg", "/tokyo5.jpg", "/tokyo6.jpg", "/tokyo7.jpg"],
-      link: "/programas/tokyo"
+      link: "/programas/tokio"
     }
   ];
 
@@ -77,7 +77,7 @@ const TravelVisits = () => {
                   className={`px-3 py-2 rounded-full transition ${destinoActivo === i ? "bg-gray-300" : "hover:bg-gray-200"}`}
                   onClick={() => moverCarrusel(i)}
                 >
-                  {destino}
+                  {destino.title}
                 </button>
               </li>
             ))}

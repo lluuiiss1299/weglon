@@ -16,21 +16,37 @@
   },
   "destinations": {
     "subtitle": "Viaja al extranjero, diviértete, estudia, conecta con nuevas culturas, haz amigos, y vive experiencias únicas.",
+    "buttonText": "Mas Información",
     "programs": {
       "title": "Explora y aprende.",
       "subtitle": "Trascendiendo fronteras,<br> abrazando al mundo"
     },
     "nasa": {
-      "HeroText": "Interactúa, convive y comparte con un astronauta y deja que su historia en el espacio encienda tu pasión por soñar en grande.",
-      "CardText": "Diseñado solo para ti."
+      "heroText": "Interactúa, convive y comparte con un astronauta y deja que su historia en el espacio encienda tu pasión por soñar en grande.",
+      "imageHero": "HeroNasa.jpg",
+      "heroTitle": "NASA",
+      "CardText": "Diseñado solo para ti.",
+      "videoTitle": "WE-EXPERIENCE NASA",
+      "videoText1": "Te acerca al pasado al presente y al futuro.",
+      "videoText2": "Sumate y se parte de esta gran aventura."
     },
-    "tokyo": {
-      "HeroText": "Descubre TOKIO, donde la tradición milenaria se encuentra con la tecnología del futuro.",
-      "CardText": "Educativa, segura y transformadora."
+    "tokio": {
+      "heroText": "Descubre TOKIO, donde la tradición milenaria se encuentra con la tecnología del futuro.",
+      "imageHero": "HeroTokio.jpg",
+      "heroTitle": "TOKIO",
+      "CardText": "Educativa, segura y transformadora.",
+      "videoTitle": "WE-EXPERIENCE JAPÓN",
+      "videoText1": "Una experiencia única que mezcla tradición, innovación y fantasía.",
+      "videoText2": "Japón no es un sueño lejano, es tu siguiente aventura."
     },
     "canada": {
-      "HeroText": "Perfecciona tu nivel de inglés y vive con una familia CANADIENSE.",
-      "CardText": "Conecta, explora y diviértete."
+      "heroText": "Perfecciona tu nivel de inglés y vive con una familia CANADIENSE.",
+      "imageHero": "HeroCanada.jpg",
+      "heroTitle": "CANADÁ",
+      "CardText": "Conecta, explora y diviértete.",
+      "videoTitle": "WE-EXPERIENCE CANADÁ",
+      "videoText1": "Sumérgete en la vida, costumbres y valores de una cultura distinta, en un ambiente cálido y seguro con una familia canadiense.",
+      "videoText2": "No dejes pasar esta gran oportunidad."
     }
   },
   "hero": {
@@ -81,42 +97,129 @@
     "subtitle": "Enfoque de enseñanza interactivo y práctico diseñado para que logres tu máximo potencial",
     "canada": {
       "title": "Canadá",
+      "hospedaje": ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"],
       "destinos": [
-        "Observa ballenas",
-        "Beakor Hill Park",
-        "Fisherman Wark",
-        "Aprende Kayak",
-        "Dinolab",
-        "Royal BC Museum",
-        "Bug Zoo"
+        {
+          "title": "Observa ballenas",
+          "img": ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"]
+        },
+        {
+          "title": "Beakor Hill Park",
+          "img": ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"]
+        },
+        {
+          "title": "Fisherman Wark",
+          "img": ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"]
+        },
+        {
+          "title": "Aprende Kayak",
+          "img": ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"]
+        },
+        {
+          "title": "Dinolab",
+          "img": ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"]
+        },
+        {
+          "title": "Royal BC Museum",
+          "img": ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"]
+        },
+        {
+          "title": "Bug Zoo",
+          "img": ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"]
+        }
       ],
       "link": "/programas/canada"
     },
     "nasa": {
       "title": "Nasa",
+      "hospedaje": ["https://images.pixieset.com/84918549/80cc375c5096037b83f385a30c3effde-large.jpg",
+                    "https://images.pixieset.com/84918549/80cc375c5096037b83f385a30c3effde-large.jpg",
+                    "https://images.pixieset.com/84918549/80cc375c5096037b83f385a30c3effde-large.jpg"
+                  ],
       "destinos": [
-        "Tour espacial",
-        "Centro espacial Kennedy",
-        "Observa lanzamientos",
-        "Simulación espacial",
-        "Museo del Espacio",
-        "Astronaut Experience",
-        "Rocket Garden"
+      {
+        "title": "Downtown Acuarium",
+        "img": ["https://images.pixieset.com/84918549/1bbc6d4fd7419ac68206bbfe78857bac-xxlarge.jpg",
+                "https://images.pixieset.com/84918549/1bbc6d4fd7419ac68206bbfe78857bac-xxlarge.jpg",
+                "https://images.pixieset.com/84918549/1bbc6d4fd7419ac68206bbfe78857bac-xxlarge.jpg",
+                "https://images.pixieset.com/84918549/1bbc6d4fd7419ac68206bbfe78857bac-xxlarge.jpg",
+                "https://images.pixieset.com/84918549/1bbc6d4fd7419ac68206bbfe78857bac-xxlarge.jpg",
+                "https://images.pixieset.com/84918549/1bbc6d4fd7419ac68206bbfe78857bac-xxlarge.jpg"
+              ]
+      },
+      {
+        "title": "Museum of Natural Science",
+        "img": ["https://images.pixieset.com/84918549/5986d7439537218152153be9763b291e-xxlarge.jpg",
+                "https://images.pixieset.com/84918549/5986d7439537218152153be9763b291e-xxlarge.jpg",
+                "https://images.pixieset.com/84918549/5986d7439537218152153be9763b291e-xxlarge.jpg",
+                "https://images.pixieset.com/84918549/5986d7439537218152153be9763b291e-xxlarge.jpg"
+                ]
+      },
+      {
+        "title": "Houston Zoo",
+        "img": ["https://images.pixieset.com/84918549/59177f158b1b6496e83703b2eec1f94d-large.jpg",
+                "https://images.pixieset.com/84918549/59177f158b1b6496e83703b2eec1f94d-large.jpg",
+                "https://images.pixieset.com/84918549/59177f158b1b6496e83703b2eec1f94d-large.jpg",
+                "https://images.pixieset.com/84918549/59177f158b1b6496e83703b2eec1f94d-large.jpg"
+                ]
+      },
+      {
+        "title": "The Health Museum",
+        "img": ["https://images.pixieset.com/84918549/c3e54882030ecc8676eadc344d338de0-xxlarge.jpg",
+                "https://images.pixieset.com/84918549/c3e54882030ecc8676eadc344d338de0-xxlarge.jpg",
+                "https://images.pixieset.com/84918549/c3e54882030ecc8676eadc344d338de0-xxlarge.jpg",
+                "https://images.pixieset.com/84918549/c3e54882030ecc8676eadc344d338de0-xxlarge.jpg"
+                ]
+      },
+      {
+        "title": "Children Museum",
+        "img": ["https://images.pixieset.com/84918549/2675423cb85c3781b123fb58a0135902-large.jpg",
+                "https://images.pixieset.com/84918549/2675423cb85c3781b123fb58a0135902-large.jpg",
+                "https://images.pixieset.com/84918549/2675423cb85c3781b123fb58a0135902-large.jpg",
+                "https://images.pixieset.com/84918549/2675423cb85c3781b123fb58a0135902-large.jpg"
+                ]
+      },
+      {
+        "title": "NASA Johnson Space Center",
+        "img": ["https://images.pixieset.com/84918549/1f30e98fa49c4c20b7d53e94086386b4-xxlarge.jpg",
+                "https://images.pixieset.com/84918549/1f30e98fa49c4c20b7d53e94086386b4-xxlarge.jpg",
+                "https://images.pixieset.com/84918549/1f30e98fa49c4c20b7d53e94086386b4-xxlarge.jpg",
+                "https://images.pixieset.com/84918549/1f30e98fa49c4c20b7d53e94086386b4-xxlarge.jpg"
+                ]
+      }
       ],
       "link": "/programas/nasa"
     },
-    "tokyo": {
+    "tokio": {
       "title": "Tokio",
+      "hospedaje": ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"],
       "destinos": [
-        "Torre Tokio",
-        "Shibuya Crossing",
-        "Akihabara",
-        "Monte Fuji",
-        "Senso-ji",
-        "Harajuku",
-        "Meiji Shrine"
+        {
+          "title": "Torre Tokio",
+          "img": ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"]
+        },
+        {
+          "title": "Shibuya Crossing",
+          "img": ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"]
+        },
+        {
+          "title": "Akihabara",
+          "img": ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"]
+        },
+        {
+          "title": "Senso-ji",
+          "img": ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"]
+        },
+        {
+          "title": "Harajuku",
+          "img": ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"]
+        },
+        {
+          "title": "Meiji Shrine",
+          "img": ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"]
+        }
       ],
-      "link": "/programas/tokyo"
+      "link": "/programas/tokio"
     }
   },
   "travelDetails": {
@@ -217,6 +320,221 @@
         "trip": "tokio"
         }
     }
+  },
+  "showImagesDetails": {
+    "title": "LUGARES QUE VISITAMOS",
+    "nasa": [
+    {
+      "title": "Conoce y desayuna con un ASTRONAUTA y aprende sobre el espacio.",
+      "hoverTitle": "JHONSON SPACE CENTER",
+      "hoverSubtitle": "The Food Lab.",
+      "imgs": [
+        ["https://images.pixieset.com/84918549/1bbc6d4fd7419ac68206bbfe78857bac-xxlarge.jpg"],
+        ["https://images.pixieset.com/84918549/5986d7439537218152153be9763b291e-xxlarge.jpg",
+          "https://images.pixieset.com/84918549/59177f158b1b6496e83703b2eec1f94d-large.jpg",
+          "https://images.pixieset.com/84918549/c3e54882030ecc8676eadc344d338de0-xxlarge.jpg"]
+      ],
+      "reverse": false
+    },
+    {
+      "title": "Despierta la maravilla por la salud y el cuerpo humano en El Health Museum.",
+      "hoverTitle": "DEBAKEY CELL LAB",
+      "hoverSubtitle": "un laboratorio educativo bilingüe donde podrás analizar y descubrir misterios microscópicos.",
+      "imgs": [
+        ["https://images.pixieset.com/84918549/8aed15732a3a6ff9bbe5d55a55cfc03e-large.jpg"],
+        ["https://images.pixieset.com/84918549/2675423cb85c3781b123fb58a0135902-large.jpg",
+          "https://images.pixieset.com/84918549/1f30e98fa49c4c20b7d53e94086386b4-xxlarge.jpg",
+          "https://images.pixieset.com/84918549/80cc375c5096037b83f385a30c3effde-large.jpg"]
+      ],
+      "reverse": true
+    },
+    {
+      "title": "Sorpréndete con la evolución que ha vivido el ser humano en THE MUSEUM OF NATURAL SCIENCE.",
+      "hoverTitle": "Morian Hall of Paleontology",
+      "hoverSubtitle": "Hogar de más de 60 esqueletos completos, incuidos varios T. rex.",
+      "imgs": [
+        ["https://images.pixieset.com/84918549/142691b927c0dae96b6f98d076b43538-xxlarge.jpg"],
+        ["https://images.pixieset.com/84918549/6e003777a5fa4e075529102fa0ba987c-large.jpg",
+          "https://images.pixieset.com/84918549/ee130b95af11323231f9eacbf52e130a-large.jpg",
+          "https://images.pixieset.com/84918549/05e55c38e3b97c7b1fb435f5e66875b6-large.jpg"]
+      ],
+      "reverse": false
+    }
+    ],
+    "tokio": [
+      {
+        "title": "Tokio, una inmersión académica, cultural y emocional en uno de los países más fascinantes del planeta.",
+        "hoverTitle": "Templo senzo-ji",
+        "hoverSubtitle": "El templo budista mas antiguo y visitado en tokio dedicado a la diosa kannon.",
+        "imgs": [
+          ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"],
+          ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg",
+          "https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg",
+          "https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"]
+        ],
+        "reverse": false
+      },
+      {
+        "title": "Sorprendete con la ciudad de Shibuya  y vive de cerca el anime y la tecnología.",
+        "hoverTitle": "SHIBUYA CROSSING:el cruce peatonal más famoso del mundo",
+        "hoverSubtitle": "Ubicado frente la estación de Shibuya en Tokio.",
+        "imgs": [
+          ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"],
+          ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg",
+          "https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg",
+          "https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"]
+        ],
+        "reverse": true
+      },
+      {
+        "title": "Recorre el santuario Meiji un encuentro con la espiritualidad JAPONESA.",
+        "hoverTitle": "Santuario Meiji",
+        "hoverSubtitle": "Espacio sagrado que convina armoniosamente naturaleza, espiritualidad e historia moderna de JAPÓN.",
+        "imgs": [
+          ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"],
+          ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg",
+          "https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg",
+          "https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"]
+        ],
+        "reverse": false
+      }
+    ],
+    "canada": [
+      {
+        "title": "Mejora tu inglés y convive con estudiantes de todo el mundo.",
+        "hoverTitle": "Certificación Académica Internacional",
+        "hoverSubtitle": "Al finalizar el programa cada viajero recibe una constancia oficial de estudios avalando su participación.",
+        "imgs": [
+          ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"],
+          ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg",
+          "https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg",
+          "https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"]
+        ],
+        "reverse": true
+      },
+      {
+        "title": "Descubre la  belleza de CANADÁ... ¡desde el agua!",
+        "hoverTitle": "Practica kayak en BC Victoria ",
+        "hoverSubtitle": "Rodeados de escenarios naturales espectaculares.",
+        "imgs": [
+          ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"],
+          ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg",
+          "https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg",
+          "https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"]
+        ],
+        "reverse": false
+      },
+      {
+        "title": "Vive la emoción de ver ballenas en su habitat natural.",
+        "hoverTitle": "Encuentro con gigantes del océano",
+        "hoverSubtitle": "A bordo de una embarcación segura y especializada.",
+        "imgs": [
+          ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"],
+          ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg",
+          "https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg",
+          "https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"]
+        ],
+        "reverse": true
+      }
+    ]
+  },
+  "gallery": {
+    "HeroText": "Galería de imágenes"
+  },
+  "characteristics":{
+    "title": "Conoce que incluye tu viaje",
+    "nasa":[{
+        "title": "TRASLADOS",
+        "hoverText": "Traslados incluidos durante toda tu estancia.",
+        "img": "https://images.pixieset.com/84918549/80cc375c5096037b83f385a30c3effde-large.jpg"
+    },
+    {
+        "title": "VUELO REDONDO",
+        "hoverText": "Vuelo redondo, incluye equipaje documentado.",
+        "img": "https://images.pixieset.com/84918549/80cc375c5096037b83f385a30c3effde-large.jpg"
+    },
+    {
+        "title": "HOSPEDAJE",
+        "hoverText": "Hotel Spring Hill Suites by Marriott. Desayuno incluido, habitación doble, gym 24 hrs, lavandería, área de alberca y jacuzzi.",
+        "img": "https://images.pixieset.com/84918549/80cc375c5096037b83f385a30c3effde-large.jpg"
+    },
+    {
+        "title": "SEGURIDAD 24H",
+        "hoverText": "Seguridad y bienestar emocional las 24 horas por nuestro personal capacitado, para hacer de tu viaje una experiencia inolvidable.",
+        "img": "https://images.pixieset.com/84918549/80cc375c5096037b83f385a30c3effde-large.jpg"
+    },
+    {
+        "title": "STAFF",
+        "hoverText": "Nuestro staff: El corazón que acompaña cada viaje.",
+        "img": "https://images.pixieset.com/84918549/80cc375c5096037b83f385a30c3effde-large.jpg"
+    },
+    {
+        "title": "COMIDAS",
+        "hoverText": "Alimentos incluidos(desayuno, comida y cena) tradicional y adaptable a las necesidades del viajero.",
+        "img": "https://images.pixieset.com/84918549/80cc375c5096037b83f385a30c3effde-large.jpg"
+    }],
+    "tokio": [{
+      "title": "TRASLADOS",
+      "hoverText": "Traslados incluidos durante toda tu estancia.",
+      "img": "https://images.pixieset.com/84918549/80cc375c5096037b83f385a30c3effde-large.jpg"
+    },
+    {
+      "title": "VUELO REDONDO",
+      "hoverText": "Vuelo redondo, incluye equipaje documentado.",
+      "img": "https://images.pixieset.com/84918549/80cc375c5096037b83f385a30c3effde-large.jpg"
+    },
+    {
+      "title": "HOSPEDAJE",
+      "hoverText": "Prince Hotel Tokio, habiatación doble, convenience store.",
+      "img": "https://images.pixieset.com/84918549/80cc375c5096037b83f385a30c3effde-large.jpg"
+    },
+    {
+      "title": "SEGURIDAD 24H",
+      "hoverText": "Seguridad las 24 horas por nuestro personal capacitado, para hacer de tu viaje una experiencia maravillosa.",
+      "img": "https://images.pixieset.com/84918549/80cc375c5096037b83f385a30c3effde-large.jpg"
+    },
+    {
+      "title": "STAFF",
+      "hoverText": "Nuestro staff: El corazón que acompaña cada viaje.",
+      "img": "https://images.pixieset.com/84918549/80cc375c5096037b83f385a30c3effde-large.jpg"
+    },
+    
+    {
+      "title": "COMIDAS",
+      "hoverText": "Desayuno buffet tipo American/Japanese.",
+      "img": "https://images.pixieset.com/84918549/80cc375c5096037b83f385a30c3effde-large.jpg"
+    }
+  ],
+    "canada": [{
+      "title": "TRASLADOS",
+      "hoverText": "Traslados incluidos durante toda tu estancia.",
+      "img": "https://images.pixieset.com/84918549/80cc375c5096037b83f385a30c3effde-large.jpg"
+    },
+    {
+      "title": "VUELO REDONDO",
+      "hoverText": "Vuelo redondo, incluye equipaje documentado.",
+      "img": "https://images.pixieset.com/84918549/80cc375c5096037b83f385a30c3effde-large.jpg"
+    },
+    {
+      "title": "HOSPEDAJE",
+      "hoverText": "Porque en el Homestay no solo se aprende; también se encuentra un segundo hogar.",
+      "img": "https://images.pixieset.com/84918549/80cc375c5096037b83f385a30c3effde-large.jpg"
+    },
+    {
+      "title": "SEGURIDAD 24H",
+      "hoverText": "Seguridad y bienestar emocional las 24 horas por nuestro personal capacitado, para hacer de tu viaje una experiencia inolvidable.",
+      "img": "https://images.pixieset.com/84918549/80cc375c5096037b83f385a30c3effde-large.jpg"
+    },
+    {
+      "title": "STAFF",
+      "hoverText": "Nuestro staff: El corazón que acompaña cada viaje.",
+      "img": "https://images.pixieset.com/84918549/80cc375c5096037b83f385a30c3effde-large.jpg"
+    },
+    {
+      "title": "COMIDAS",
+      "hoverText": "Incluye comida en horario tradicional(6:00pm).",
+      "img": "https://images.pixieset.com/84918549/80cc375c5096037b83f385a30c3effde-large.jpg"
+    }]
   }
 }
 

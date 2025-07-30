@@ -10,11 +10,11 @@ import AgendaCita from '../../Programas/ContactHook';
 const Home = () => {
   return (
     <>
-    <HeroImage trip="nasa" index={0} />
-    <ShowImagesDetails trip="nasa"/>
-    <BgVideo trip="nasa"/>
-    <Gallery trip="nasa"/>
-    <CarruselCaracteristicas trip="nasa"/>
+    <HeroImage trip="tokio" index={1} />
+    <ShowImagesDetails trip="tokio"/>
+    <BgVideo trip="tokio"/>
+    <Gallery trip="tokio"/>
+    <CarruselCaracteristicas trip="tokio"/>
     <WePassportAnimated />  
     <AgendaCita />
     </>

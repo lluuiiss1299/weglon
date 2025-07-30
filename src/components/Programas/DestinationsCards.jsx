@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import HeroNasa from '../../assets/Images/HeroNasa.jpg';
-import HeroTokio from '../../assets/Images/HeroTokio.jpg';
-import HeroCanada from '../../assets/Images/HeroCanada.webp';
+import HeroNasa from '../../assets/Images/Hero/HeroNasa.jpg';
+import HeroTokio from '../../assets/Images/Hero/HeroTokio.jpg';
+import HeroCanada from '../../assets/Images/Hero/HeroCanada.jpg';
 import HeroTitle from '../Principal/HeroTitle';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
@@ -12,8 +12,8 @@ import { motion } from 'framer-motion';
 const Carousel = () => {
     const { t } = useTranslation();
     const destinos = [
-        { nombre: "NASA", texto: t('destinations.nasa.CardText'), ruta: "/programas/nasa", imagen: "https://images.pixieset.com/84918549/fead465bfdb26a0c8cf16bae4b64e7e4-xxlarge.jpg" },
-        { nombre: "TOKYO", texto: t('destinations.tokyo.CardText'), ruta: "/programas/tokyo", imagen: HeroTokio },
+        { nombre: "NASA", texto: t('destinations.nasa.CardText'), ruta: "/programas/nasa", imagen: HeroNasa },
+        { nombre: "TOKYO", texto: t('destinations.tokyo.CardText'), ruta: "/programas/tokio", imagen: HeroTokio },
         { nombre: "CANADA", texto: t('destinations.canada.CardText'), ruta: "/programas/canada", imagen: HeroCanada },
       //   { nombre: "ITALIA", ruta: "/programas/italia", imagen: cardItaly },
       ];
@@ -27,9 +27,6 @@ const Carousel = () => {
             key={index}
             to={destino.ruta}
             className="group flex-shrink-0 w-[400px] h-[500px] bg-cover bg-center rounded-2xl shadow-md relative scale-90 hover:scale-100 transition-all duration-300"
-            // style={{
-            //   backgroundImage: `url(${destino.imagen})`,
-            // }}
           ><motion.img
           src={destino.imagen}
           layoutId={`hero-image-${index}`}

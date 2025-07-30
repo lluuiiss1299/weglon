@@ -19,7 +19,6 @@ const VideoHero = () => {
         start: 'top top',
         end: 'bottom center',
         scrub: true,
-        // markers: true,
       },
       borderRadius: '45px',
       scale: 0.87,

@@ -22,7 +22,7 @@ const Navbar = () => {
         t('navbar.submenu.english_cert'),
         t('navbar.submenu.become_center')
       ],
-      link: "/#",
+      link: "",
       submenuLink: ["/certificaciones/ingles-online", "/certificaciones/centro-certificador"],
     },
     {
@@ -31,7 +31,7 @@ const Navbar = () => {
         t('navbar.submenu.anglolinguist'),
         t('navbar.submenu.courses')
       ],
-      link: "/#",
+      link: "",
       submenuLink: ["/plataformas/anglolinguist", "/plataformas/cursos"],
     },
     {

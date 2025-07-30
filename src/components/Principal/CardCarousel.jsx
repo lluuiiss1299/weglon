@@ -7,7 +7,7 @@ import cardItaly from '../../assets/Images/CardItaly.png';
 import { useTranslation } from 'react-i18next';
 const destinos = [
   { nombre: "NASA", ruta: "/programas/nasa", imagen: cardNasa },
-  { nombre: "TOKYO", ruta: "/programas/tokyo", imagen: cardTokio },
+  { nombre: "TOKYO", ruta: "/programas/tokio", imagen: cardTokio },
   { nombre: "CANADA", ruta: "/programas/canada", imagen: cardCanada },
   { nombre: "ITALIA", ruta: "/programas/italia", imagen: cardItaly },
 ];

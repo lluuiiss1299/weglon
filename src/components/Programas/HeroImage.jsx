@@ -1,23 +1,21 @@
 import React, { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import gsap from 'gsap';
+import { useTranslation } from 'react-i18next'; 
+import HeroImge from '../../assets/Images/Hero/HeroNasa.jpg';
 
-const HeroImage = ({ image, leftTitle, rightText, index }) => {
+const HeroImage = ({ trip, index }) => {
   const imageRef = useRef(null);
   const textRef = useRef(null);
-
+  const { t } = useTranslation();
   useEffect(() => {
-    // gsap.fromTo(
-    //   imageRef.current,
-    //   { opacity: 0, scale: 1.05 },
-    //   { opacity: 1, scale: 1, duration: 0.8, ease: 'power4.in' }
-    // );
     gsap.fromTo(
       textRef.current,
       { opacity: 0, y: 40 },
       { opacity: 1, y: 0, duration: 1, delay: 0.2, ease: 'power2.inOut' }
     );
   }, []);
+  const image = "/src/assets/Images/Hero/" + t(`destinations.${trip}.imageHero`);
 
   return (
     <motion.div
@@ -39,12 +37,12 @@ const HeroImage = ({ image, leftTitle, rightText, index }) => {
         <div className="mt-6 md:mt-0 md:ml-4 text-center ">
           <h1 className="text-4xl md:text-3xl font-semibold text-white leading-tight">WE-Experience</h1>
           <span className="text-2xl md:text-3xl font-bold text-white leading-tight">
-            {leftTitle}
+            {t(`destinations.${trip}.heroTitle`)}
           </span>
         </div>
         <div className="mt-4 md:mt-0 md:mr-4 text-center max-w-sm ml-auto">
           <p className="text-base md:text-lg text-white">
-            {rightText}
+            {t(`destinations.${trip}.heroText`)}
           </p>
         </div>
       </div>

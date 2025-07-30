@@ -7,6 +7,8 @@ import Home from './components/pages/Home';
 import Programs from './components/pages/Programs';
 import Nasa from './components/pages/Travels/Nasa';
 import ScrollToTop from './components/ScrollToTop';
+import Tokio from './components/pages/Travels/Tokio';
+import Canada from './components/pages/Travels/Canada';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/programas" element={<Programs />} />
             <Route path="/programas/nasa" element={<Nasa />} />
+            <Route path="/programas/tokio" element={<Tokio />} />
+            <Route path="/programas/canada" element={<Canada />} />
           </Routes>
         </main>
         <Footer />
