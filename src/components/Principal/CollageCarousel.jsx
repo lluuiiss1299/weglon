@@ -66,7 +66,7 @@ const EscudosCarrusel = () => {
 
   return (
     <section className="py-16 bg-white overflow-hidden">
-      <CenterTitle title={t('centers.title')} subtitle={t('centers.subtitle')} />
+      
 
       <div
         className="relative w-full overflow-hidden"

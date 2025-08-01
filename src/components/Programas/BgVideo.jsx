@@ -84,7 +84,7 @@ const VideoScrollReveal = ({ trip }) => {
                 <h2 className="text-4xl mb-4">
                 {t(`destinations.${trip}.videoText2`)}
                 </h2>
-                <a href="#" className=" text-black px-12 py-2 rounded-full text-white border-2 border-gray-300 border-solid w-[70%] text-center mx-auto hover:bg-gray-300 hover:text-black">
+                <a href="/contacto" className=" text-black px-12 py-2 rounded-full text-white border-2 border-gray-300 border-solid w-[70%] text-center mx-auto hover:bg-gray-300 hover:text-black">
                     <span className="text-white text-4xl">{t(`destinations.buttonText`)}</span>
                 </a>
             </div>

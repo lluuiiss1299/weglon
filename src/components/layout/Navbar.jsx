@@ -32,7 +32,7 @@ const Navbar = () => {
         t('navbar.submenu.courses')
       ],
       link: "",
-      submenuLink: ["/plataformas/anglolinguist", "/plataformas/cursos"],
+      submenuLink: ["https://anglolinguist.com/", "/plataformas/cursos"],
     },
     {
       label: t('navbar.contact'),
@@ -56,6 +56,7 @@ const Navbar = () => {
                     <li key={subIdx}>
                       <a
                         href={item.submenuLink[subIdx]}
+                        target={item.label.includes("Anglolinguist") ? "_blank" : "_self"}
                         className="block px-4 py-2 whitespace-nowrap hover:bg-blue-100 text-gray-700  rounded-lg z-10"
                       >
                         {subItem}

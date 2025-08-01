@@ -29,10 +29,10 @@ const Footer = () => {
         <div className="p-4 ml-4">
           <h2 className="text-lg font-bold mb-2">{t('footer.sitesTitle')}</h2>
           <ul className="space-y-1 text-sm text-gray-700">
-            <li><a href="#" className="hover:underline">{t('navbar.programs')}</a></li>
-            <li><a href="#" className="hover:underline">{t('navbar.certifications')}</a></li>
-            <li><a href="#" className="hover:underline">{t('navbar.platforms')}</a></li>
-            <li><a href="#" className="hover:underline">{t('footer.privacy')}</a></li>
+            <li><a href="/programas" className="hover:underline">{t('navbar.programs')}</a></li>
+            <li><a href="/ingles-online" className="hover:underline">{t('navbar.certifications')}</a></li>
+            <li><a href="/cursos-online" className="hover:underline">{t('navbar.platforms')}</a></li>
+            <li><a href="/privacidad" className="hover:underline">{t('footer.privacy')}</a></li>
             <li className="group relative">
               <a href="#" key="idioma" className="text-gray-700 font-medium hover:text-blue-600">
                 {t('footer.language')}

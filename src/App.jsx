@@ -9,6 +9,11 @@ import Nasa from './components/pages/Travels/Nasa';
 import ScrollToTop from './components/ScrollToTop';
 import Tokio from './components/pages/Travels/Tokio';
 import Canada from './components/pages/Travels/Canada';
+import EnglishOnline from './components/pages/Certifications/EnglishOnline';
+import CertifyingCenter from './components/pages/Certifications/CertifyingCenter';
+import PrivacityPolice from './components/pages/PrivacityPolice';
+import Contact from './components/pages/Contact';
+import Courses from './components/pages/Courses/Courses';
 
 function App() {
   return (
@@ -23,6 +28,11 @@ function App() {
             <Route path="/programas/nasa" element={<Nasa />} />
             <Route path="/programas/tokio" element={<Tokio />} />
             <Route path="/programas/canada" element={<Canada />} />
+            <Route path="/certificaciones/ingles-online" element={<EnglishOnline />} />
+            <Route path="/certificaciones/centro-certificador" element={<CertifyingCenter />} />
+            <Route path="/privacidad" element={<PrivacityPolice />} />
+            <Route path="/contacto" element={<Contact />} />
+            <Route path="/plataformas/cursos" element={<Courses />} />
           </Routes>
         </main>
         <Footer />

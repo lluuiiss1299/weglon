@@ -5,6 +5,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(gsap, ScrollTrigger);
 import HeroTitle from './HeroTitle';
 import { useTranslation } from 'react-i18next';
+import CenterTitle from './CenterTitle';
 
 const VideoHero = () => {
   const videoRef = useRef(null);
@@ -42,7 +43,7 @@ const VideoHero = () => {
             Tu navegador no soporta la reproducción de video.
         </video>
         </div>
-        
+        <CenterTitle title={t('centers.title')} subtitle={t('centers.subtitle')} /> 
     </section>
   );
 };

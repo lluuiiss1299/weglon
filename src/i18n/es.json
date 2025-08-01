@@ -535,6 +535,68 @@
       "hoverText": "Incluye comida en horario tradicional(6:00pm).",
       "img": "https://images.pixieset.com/84918549/80cc375c5096037b83f385a30c3effde-large.jpg"
     }]
+  },
+  "OnlineCertifications": {
+    "title": "CERTIFICACIÓN INGLÉS ONLINE",
+    "button": "Inscribete Hoy",
+    "text1": "¿Sabías que la certificación Cenni es la única aceptada por la SEP para los procesos de evaluación, contratación y permanencia docente?",
+    "text2": "Recursos interactivos que fortalecen comprensión lectora, auditiva, vocabulario y gramática. Evaluación continua y recomendaciones personalizadas para mejorar el desempeño. Acceso desde cualquier dispositivo en cualquier momento.",
+    "benefits": {
+      "0": {
+        "title": "Programas, (8,16,24 y 36 semanas) nos ajustamos a tu ritmo",
+        "icon": "Calendario"
+      },
+      "1": {
+        "title": "Abierta las 24hrs los 7 días de la semana",
+        "icon": "Clock24Hrs"
+      },
+      "2": {
+        "title": "Examen en Línea (Oxford Online placement Test)",
+        "icon": "Test"
+      },
+      "3": {
+        "title": "Coaching durante el proceso",
+        "icon": "Support"
+      },
+      "4": {
+        "title": "Certificado con Validez Nacional e Internacional",
+        "icon": "Certificated"
+      }
+    }
+  },
+  "centroCertificador": {
+    "titulo": "Conviértete en CENTRO CERTIFICADOR",
+    "texto": "Eleva el nivel académico de tus alumnos, ofreciéndoles una ventaja competitiva para su futuro.",
+    "button": "Cominícate con nosotros",
+    "text1": "Haz que tus alumnos certifiquen su nivel de inglés con seguridad, respaldo académico y tecnología educativa de primer nivel.",
+    "text2": "Esta oportunidad es solo para Colegios selectos,¿quieres ser uno de ellos? solicita tu demo, seguro te encantará.",
+    "collage": "Cada escuela que se une a anglolinguist se convierte en parte de un movimiento educativo con visión global.",
+    "benefits": {
+      "0": {
+        "title": "Plataformas digitales",
+        "subtitle": "Estudia a tu ritmo plataforma abierta las 24 hrs, disponible en cualquier dispositivo con acceso a internet."
+      },
+      "1": {
+        "title": "Beneficios económicos y académicos",
+        "subtitle": "contáctanos y conoce mas."
+      },
+      "2": {
+        "title": "Herramientas",
+        "subtitle": "Examen diagnostico para ubicarte en tu nivel (A1 - B2+) basado en el marco común europeo, exámenes de practica."
+      },
+      "3": {
+        "title": "Certificacion gratuita",
+        "subtitle": "1 Certificacion sin costo para tus maestros, consulta bases y condiciones."
+      },
+      "4": {
+        "title": "Retribucion economica",
+        "subtitle": "Retribucion económica parta institucion consulta bases y condiciones."
+      },
+      "5": {
+        "title": "Material Publicitario",
+        "subtitle": "Material publicitario para tu centro certificador."
+      }
+    }
   }
 }
 
