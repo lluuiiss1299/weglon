@@ -597,6 +597,151 @@
         "subtitle": "Material publicitario para tu centro certificador."
       }
     }
+  },
+  "courses": {
+    "title": "PLATAFORMAS DE ENTRENAMIENTO PARA CERTIFICARTE EN EL IDIOMA DE TU PREFERENCIA",
+    "benefit1": "Test diagnóstico inicial.",
+    "benefit2": "Simulacros de examen, ejercicios y hojas de repaso.",
+    "benefit3": "Formación oral con videos.",
+    "benefit4": "Artículos, flashcards, coaching y más.",
+    "benefit5": "Accesibilidad totalmente online.",
+    "benefit6": "Ruta personalizada según examen y fecha.",
+    "benefit7": "Feedback detallado y estadísticas.",
+    "benefit8": "Tiempo de entrenamiento: 3 y 6 meses.",
+    "benefit9": "Ruta de estudio adaptada a tus objetivos.",
+    "benefit10": "Accesibilidad totalmente online.",
+    "language": {
+      "english": {
+        "title": "Plataforma Inglés",
+        "headerColor": "#180E6D",
+        "hrColor": "#1CA5F8",
+        "textColor": "#5285C3",
+        "bgHover": "#DAF0FF",
+        "courses": [
+          {
+            "name": "IELTS",
+            "description": "Test diagnóstico inicial.",
+            "link": "/cursos/ielts"
+          },
+          {
+            "name": "LINGUASKILL CAMBRIDGE",
+            "description": "Test diagnóstico inicial.",
+            "link": "/cursos/linguaskill"
+          },
+          {
+            "name": "TOEFL IBT",
+            "description": "Test diagnóstico inicial.",
+            "link": "/cursos/toefl-ibt"
+          },
+          {
+            "name": "TOEFL ITP",
+            "description": "Test diagnóstico inicial.",
+            "link": "/cursos/toefl-itp"
+          },
+          {
+            "name": "CAMBRIDGE ENGLISH ADVANCED",
+            "description": "Test diagnóstico inicial.",
+            "link": "/cursos/cambridge-advanced"
+          },
+          {
+            "name": "TEST BRIGHT ENGLISH",
+            "description": "Test diagnóstico inicial.",
+            "link": "/cursos/test-bright-english"
+          },
+          {
+            "name": "TOEIC BRIDGE",
+            "description": "Test diagnóstico inicial.",
+            "link": "/cursos/toeic-bridge"
+          },
+          {
+            "name": "CAMBRIDGE ENGLISH B2 FIRST",
+            "description": "Test diagnóstico inicial.",
+            "link": "/cursos/cambridge-english-b2-first"
+          },
+          {
+            "name": "TOIEC",
+            "description": "Test diagnóstico inicial.",
+            "link": "/cursos/toiec"
+          }
+        ]
+      },
+      "french": {
+        "title": "Plataforma Francés",
+        "headerColor": "#DC2626",
+        "hrColor": "#EF4444",
+        "textColor": "#F87171",
+        "bgHover": "#FFECEE",
+        "courses": [
+          {
+            "name": "DELF",
+            "description": "Test diagnóstico inicial.",
+            "link": "/cursos/delft"
+          },
+          {
+            "name": "TFI",
+            "description": "Test diagnóstico inicial.",
+            "link": "/cursos/tfc"
+          }
+        ]
+      },
+      "spanish": {
+        "title": "Plataforma Español",
+        "headerColor": "#EAB308",
+        "hrColor": "#F59E0B",
+        "textColor": "#FBBF24",
+        "bgHover": "#FFFEEC",
+        "courses": [
+          {
+            "name": "DELE",
+            "description": "Test diagnóstico inicial.",
+            "link": "/cursos/dele"
+          },
+          {
+            "name": "Bright Spanish",
+            "description": "Test diagnóstico inicial.",
+            "link": "/cursos/tfc"
+          }
+        ]
+      },
+      "german": {
+        "title": "Plataforma Alemán",
+        "headerColor": "#059669",
+        "hrColor": "#10B981",
+        "textColor": "#34D399",
+        "bgHover": "#ECFFEE",
+        "courses": [
+          {
+            "name": "Bright Deutsch",
+            "description": "Test diagnóstico inicial.",
+            "link": "/cursos/bright-deutsch"
+          },
+          {
+            "name": "WiDaF",
+            "description": "Test diagnóstico inicial.",
+            "link": "/cursos/widaf"
+          },
+          {
+            "name": "TELC",
+            "description": "Test diagnóstico inicial.",
+            "link": "/cursos/telc"
+          }
+        ]
+      },
+      "mandarin": {
+        "title": "Plataforma Mandarín",
+        "headerColor": "#7C3AED",
+        "hrColor": "#8B5CF6",
+        "textColor": "#A78BFA",
+        "bgHover": "#F8ECFF",
+        "courses": [
+          {
+            "name": "HSK",
+            "description": "Test diagnóstico inicial.",
+            "link": "/cursos/hsk"
+          }
+        ]
+      }
+    }
   }
 }
 

@@ -13,7 +13,7 @@ const Carousel = () => {
     const { t } = useTranslation();
     const destinos = [
         { nombre: "NASA", texto: t('destinations.nasa.CardText'), ruta: "/programas/nasa", imagen: HeroNasa },
-        { nombre: "TOKYO", texto: t('destinations.tokyo.CardText'), ruta: "/programas/tokio", imagen: HeroTokio },
+        { nombre: "TOKYO", texto: t('destinations.tokio.CardText'), ruta: "/programas/tokio", imagen: HeroTokio },
         { nombre: "CANADA", texto: t('destinations.canada.CardText'), ruta: "/programas/canada", imagen: HeroCanada },
       //   { nombre: "ITALIA", ruta: "/programas/italia", imagen: cardItaly },
       ];
