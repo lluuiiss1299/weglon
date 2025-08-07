@@ -1,7 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import video from "../../assets/Videos/japon.mp4";
 import { useTranslation } from "react-i18next";
 
 gsap.registerPlugin(ScrollTrigger);
