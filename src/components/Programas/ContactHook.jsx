@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { EQUIPOWEGLON } from "../../constants/constantsPrograms"; 
 
 const AgendaCita = () => (
     <motion.section
@@ -29,7 +30,7 @@ const AgendaCita = () => (
     {/* Imagen */}
     <div className="flex-1 max-w-xl mt-8 md:mt-0 md:ml-8">
       <div className="rounded-2xl overflow-hidden">
-        <img src="https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg" alt="Equipo" className="object-cover w-full h-[290px]" />
+        <img src={EQUIPOWEGLON+"STAFFCOMPLETO.png"} alt="Equipo" className="object-cover w-full h-[290px]" />
       </div>
     </div>
   </section>

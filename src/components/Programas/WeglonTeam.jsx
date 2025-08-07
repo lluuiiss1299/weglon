@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import gsap from "gsap";
 import HeroTitle from "../Principal/HeroTitle";
 import { useTranslation } from "react-i18next";
-import { equipoWeglon } from "../../constants/constantsPrograms";
+import { equipoWeglon, EQUIPOWEGLON } from "../../constants/constantsPrograms";
 
 const WeglonTeam = () => {
   const { t } = useTranslation();
@@ -87,10 +87,10 @@ const WeglonTeam = () => {
                 {[...equipoWeglon, ...equipoWeglon].map((persona, idx) => (
                     <div
                         key={idx}
-                        className="min-w-[180px] w-[250px] h-[350px] rounded-[25px] relative flex flex-col justify-end items-center bg-gradient-to-b from-[#CFF1FF] to-[#0E85F4] mx-1 shadow-lg transition"
+                        className="min-w-[180px] w-[240px] h-[350px] rounded-[25px] relative flex flex-col justify-end items-center bg-gradient-to-b from-[#CFF1FF] to-[#0E85F4] mx-1 shadow-lg transition"
                     >
                         <img
-                            src={persona.imagen}
+                            src={EQUIPOWEGLON + t(persona.imagen)}
                             alt={t(persona.nombreKey)}
                             className="w-full object-contain drop-shadow-xl"
                             draggable={false}

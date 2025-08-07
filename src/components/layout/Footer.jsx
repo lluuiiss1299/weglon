@@ -30,8 +30,8 @@ const Footer = () => {
           <h2 className="text-lg font-bold mb-2">{t('footer.sitesTitle')}</h2>
           <ul className="space-y-1 text-sm text-gray-700">
             <li><a href="/programas" className="hover:underline">{t('navbar.programs')}</a></li>
-            <li><a href="/ingles-online" className="hover:underline">{t('navbar.certifications')}</a></li>
-            <li><a href="/cursos-online" className="hover:underline">{t('navbar.platforms')}</a></li>
+            <li><a href="/certificaciones/ingles-online" className="hover:underline">{t('navbar.certifications')}</a></li>
+            <li><a href="/plataformas/cursos" className="hover:underline">{t('navbar.platforms')}</a></li>
             <li><a href="/privacidad" className="hover:underline">{t('footer.privacy')}</a></li>
             <li className="group relative">
               <a href="#" key="idioma" className="text-gray-700 font-medium hover:text-blue-600">
@@ -76,11 +76,11 @@ const Footer = () => {
           </p>
 
           <div className="flex space-x-3 mt-8 bottom-0 align-items-end">
-            <img className="w-8 h-8" src={WhatsappIcon} alt="Whatsapp"/>
-            <img className="w-8 h-8" src={InstagramIcon} alt="Instagram"/>
-            <img className="w-8 h-8" src={FacebookIcon} alt="Facebook"/>
+            <a href="https://wa.me/5217773701746" target="_blank" rel="noopener noreferrer"><img className="w-8 h-8" src={WhatsappIcon} alt="Whatsapp"/></a>  
+            <a href="https://www.instagram.com/weglon.experience?igsh=MWJyN3E3Y3pubWd6eg==" target="_blank" rel="noopener noreferrer"> <img className="w-8 h-8" src={InstagramIcon} alt="Instagram"/></a>
+            <a href="https://www.facebook.com/share/1HuH7hsfrr/" target="_blank" rel="noopener noreferrer"><img className="w-8 h-8" src={FacebookIcon} alt="Facebook"/></a>
             {/* <img className="w-8 h-8" src={UbicacionIcon} alt="Ubicacion"/> */}
-            <img className="w-8 h-8" src={YoutubeIcon} alt="Youtube"/>
+            <a href="https://youtube.com/@weglon.experience?si=2qtbKUEC-8zSAO4T" target="_blank" rel="noopener noreferrer"><img className="w-8 h-8" src={YoutubeIcon} alt="Youtube"/></a>
 
           </div>
         </div>

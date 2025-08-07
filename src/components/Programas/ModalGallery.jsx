@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from "react";
 import ImageModal from './ImageModal';
 import { useTranslation } from "react-i18next";
+import { LUGARESNASA, LUGARESTOKIO, LUGARESCANADA, BENEFICIOS } from "../../constants/constantsPrograms";
 
 
 
 
 const ModalGallery = ({ abierto, onClose, trip }) => {
-
+    const lugares = trip === "nasa" ? LUGARESNASA : trip === "tokio" ? LUGARESTOKIO : LUGARESCANADA;
+    const beneficios = trip === "nasa" ? BENEFICIOS + "Nasa/" : trip === "tokio" ? BENEFICIOS + "Tokio/" : BENEFICIOS + "Canada/";
     const { t } = useTranslation();
     const [tab, setTab] = useState("todas");
     const [modalOpen, setModalOpen] = useState(false);
@@ -15,13 +17,21 @@ const ModalGallery = ({ abierto, onClose, trip }) => {
 
     const categorias = [
         { nombre: "Todas las fotos", key: "todas", imgs: [] },
-        { nombre: "Hospedaje", key: "hospedaje", imgs: t(`travelVisits.${trip}.hospedaje`, { returnObjects: true }) },
-        { nombre: t(`travelVisits.${trip}.destinos.0.title`), key: t(`travelVisits.${trip}.destinos.0.title`), imgs: t(`travelVisits.${trip}.destinos.0.img`, { returnObjects: true }) },
-        { nombre: t(`travelVisits.${trip}.destinos.1.title`), key: t(`travelVisits.${trip}.destinos.1.title`), imgs: t(`travelVisits.${trip}.destinos.1.img`, { returnObjects: true }) },
-        { nombre: t(`travelVisits.${trip}.destinos.2.title`), key: t(`travelVisits.${trip}.destinos.2.title`), imgs: t(`travelVisits.${trip}.destinos.2.img`, { returnObjects: true }) },
-        { nombre: t(`travelVisits.${trip}.destinos.3.title`), key: t(`travelVisits.${trip}.destinos.3.title`), imgs: t(`travelVisits.${trip}.destinos.3.img`, { returnObjects: true }) },
-        { nombre: t(`travelVisits.${trip}.destinos.4.title`), key: t(`travelVisits.${trip}.destinos.4.title`), imgs: t(`travelVisits.${trip}.destinos.4.img`, { returnObjects: true }) },
-        { nombre: t(`travelVisits.${trip}.destinos.5.title`), key: t(`travelVisits.${trip}.destinos.5.title`), imgs: t(`travelVisits.${trip}.destinos.5.img`, { returnObjects: true }) },
+        { nombre: "Hospedaje", key: "hospedaje", imgs: t(`travelVisits.${trip}.hospedaje`, { returnObjects: true }).map(img => beneficios + img) },
+        ...(() => {
+          // Obtenemos el arreglo de destinos desde la traducción
+          const destinos = t(`travelVisits.${trip}.destinos`, { returnObjects: true });
+          if (!Array.isArray(destinos)) return [];
+          return destinos.map((destino, idx) => ({
+            nombre: destino.title,
+            key: destino.title,
+            // imgs: destino.img,
+            imgs: (() => {
+              if (!Array.isArray(destino.img)) return [];
+              return destino.img.map(img => lugares + img);
+              })(),
+          }));
+        })(),
       ];
 
   
@@ -88,11 +98,11 @@ const ModalGallery = ({ abierto, onClose, trip }) => {
               </button>
             ))}
           </div>
-          <hr className="mb-4" />
+          {/* <hr className="mb-4" /> */}
           {/* Subtítulo */}
-          <h3 className="text-xl font-medium">
+          {/* <h3 className="text-xl font-medium">
             {categorias.find(c => c.key === tab)?.nombre}
-          </h3>
+          </h3> */}
         </div>
         
         {/* Contenido scrolleable */}

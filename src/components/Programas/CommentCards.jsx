@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import gsap from "gsap";
-import { testimonios } from "../../constants/constantsPrograms";
+import { testimonios, BASEIMAGE } from "../../constants/constantsPrograms";
 import { useTranslation } from "react-i18next";
 import Titulo from "../Principal/CenterTitle";
 import { motion } from "framer-motion";
@@ -95,7 +95,7 @@ const CommentCards = () => {
                       <div className="italic text-gray-700 mb-6">{t(testi.commentKey)}</div>
                       <div className="flex items-center gap-3">
                         <img
-                          src={testi.avatar}
+                          src={BASEIMAGE + "Avatar/" + t(testi.avatar)}
                           alt={t(testi.nameKey)}
                           className="w-10 h-10 rounded-full object-cover bg-blue-100"
                         />

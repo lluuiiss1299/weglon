@@ -1,31 +1,17 @@
 import React, { useRef, useEffect } from "react";
-import Logo1 from '../../assets/Images/Escudos/CollageAlbertEinstein.png';
-import Logo2 from '../../assets/Images/Escudos/CollageAlianza.png';
-import Logo3 from '../../assets/Images/Escudos/CollageAntonioPlancarte.png';
-import Logo4 from '../../assets/Images/Escudos/CollageGreenland.png';
-import Logo5 from '../../assets/Images/Escudos/CollageHidalgoMichoacan.png';
-import Logo6 from '../../assets/Images/Escudos/CollageLaCuenca.png';
-import Logo7 from '../../assets/Images/Escudos/CollageMonteAlban.png';
-import Logo8 from '../../assets/Images/Escudos/CollageVictoriaVirtud.png';
+import { ESCUDOS } from "../../constants/constantsPrograms";
 import gsap from "gsap";
 import CenterTitle from './CenterTitle';
 import { useTranslation } from 'react-i18next';
 
-const logos = [
-    Logo1,
-    Logo2,
-    Logo3,
-    Logo4,
-    Logo5,
-    Logo6,
-    Logo7,
-    Logo8
-];
 
 const EscudosCarrusel = () => {
   const containerRef = useRef();
   const tweenRef = useRef();
   const { t } = useTranslation();
+
+
+  const logos = t("collage.logos", { returnObjects: true }).map((logo) => ESCUDOS + logo);
 
   useEffect(() => {
     const container = containerRef.current;
@@ -35,7 +21,7 @@ const EscudosCarrusel = () => {
     container.innerHTML += logosClone;
 
     tweenRef.current = gsap.to(container, {
-      xPercent: -50,
+      xPercent: -20,
       ease: "none",
       duration: 50,
       repeat: -1,

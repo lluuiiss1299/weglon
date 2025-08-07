@@ -125,13 +125,13 @@ const ContactoAvanzado = () => (
               </div>
             </div>
             <div className="w-1/2 h-[15%] absolute right-0 top-[85%] flex justify-center items-center gap-4">
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="bg-[#2966cd] rounded-md p-2">
+              <a href="https://www.facebook.com/share/1HuH7hsfrr/" target="_blank" rel="noopener noreferrer" className="bg-[#2966cd] rounded-md p-2">
                 {ICON_FACEBOOK}
               </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="bg-[#2966cd] rounded-md p-2">
+              <a href="https://www.instagram.com/weglon.experience?igsh=MWJyN3E3Y3pubWd6eg==" target="_blank" rel="noopener noreferrer" className="bg-[#2966cd] rounded-md p-2">
                 {ICON_INSTAGRAM}
               </a>
-              <a href="https://wa.me/" target="_blank" rel="noopener noreferrer" className="bg-[#2966cd] rounded-md p-2">
+              <a href="https://wa.me/5217773701746" target="_blank" rel="noopener noreferrer" className="bg-[#2966cd] rounded-md p-2">
                 {ICON_WHATSAPP}
               </a>
             </div>

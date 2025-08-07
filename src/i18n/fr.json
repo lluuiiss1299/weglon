@@ -1,51 +1,893 @@
 {
   "navbar": {
-    "programs": "Programmes",
+    "programs": "Programs",
     "certifications": "Certifications",
-    "platforms": "Plateformes",
-    "contact": "Contactez-nous",
+    "platforms": "Platforms",
+    "contact": "Contact Us",
     "submenu": {
       "nasa": "Nasa",
       "canada": "Canada",
       "tokyo": "Tokyo",
-      "english_cert": "Certification d'anglais en ligne",
-      "become_center": "Devenir centre de certification",
+      "english_cert": "Online English Certification",
+      "become_center": "Become a Certification Center",
       "anglolinguist": "Anglolinguist",
-      "courses": "Cours"
+      "courses": "Courses"
     }
   },
   "destinations": {
-    "subtitle": "Voyagez à l'étranger, amusez-vous, étudiez, connectez-vous avec de nouvelles cultures, faites des amis, et vivez des expériences uniques."
+    "subtitle": "Travel abroad, have fun, study, connect with new cultures, make friends, and live unique experiences.",
+    "buttonText": "More Information",
+    "programs": {
+      "title": "Explore and learn.",
+      "subtitle": "Transcending borders,<br> embracing the world"
+    },
+    "nasa": {
+      "heroText": "Interact, live and share with an astronaut and let their space story ignite your passion for dreaming big.",
+      "imageHero": "HeroNasa.jpg",
+      "heroTitle": "NASA",
+      "CardText": "Designed just for you.",
+      "videoTitle": "WE-EXPERIENCE NASA",
+      "videoText1": "Brings you closer to the past, present and future.",
+      "videoText2": "Join and be part of this great adventure."
+    },
+    "tokio": {
+      "heroText": "Discover TOKYO, where ancient tradition meets future technology.",
+      "imageHero": "HeroTokio.jpg",
+      "heroTitle": "TOKYO",
+      "CardText": "Educational, safe and transformative.",
+      "videoTitle": "WE-EXPERIENCE JAPAN",
+      "videoText1": "A unique experience that blends tradition, innovation and fantasy.",
+      "videoText2": "Japan is not a distant dream, it's your next adventure."
+    },
+    "canada": {
+      "heroText": "Perfect your English level and live with a CANADIAN family.",
+      "imageHero": "HeroCanada.jpg",
+      "heroTitle": "CANADA",
+      "CardText": "Connect, explore and have fun.",
+      "videoTitle": "WE-EXPERIENCE CANADA",
+      "videoText1": "Immerse yourself in the life, customs and values of a different culture, in a warm and safe environment with a Canadian family.",
+      "videoText2": "Don't miss this great opportunity."
+    }
   },
   "hero": {
     "title": "We-Experience",
-    "subtitle": "Plus qu'un voyage, une transformation."
+    "subtitle": "More than a trip, a transformation."
   },
   "certifications": {
     "title": "We-Certifications",
-    "subtitle": "Certifiez votre avenir avec des normes internationales.",
-    "text": "Chez <b>Weglon</b> nous vous guidons étape par étape pour obtenir des certifications officielles reconnues par des institutions nationales et internationales."
+    "subtitle": "Certify your future with international standards.",
+    "text": "At <b>Weglon</b> we guide you step by step to obtain official certifications recognized by national and international institutions."
   },
   "platform": {
     "title": "Anglolinguist",
-    "subtitle": "Conçue pour aider les étudiants du niveau débutant à avancé à vérifier leur niveau d'anglais conformément au Cadre européen commun (CECR)"
+    "subtitle": "Designed to help students from beginner to advanced level verify their English level aligned with the Common European Framework (CEFR)"
   },
   "centers": {
-    "title": "Centres Éducatifs Associés",
-    "subtitle": "Transformez votre école en centre de certification"
+    "title": "Associated Educational Centers",
+    "subtitle": "Turn your school into a certification center"
   },
   "footer": {
-    "aboutTitle": "À propos",
-    "aboutText1": "Chez WEGLON, nous disposons d'une équipe professionnelle et qualifiée pour faire de votre voyage et de votre processus de certification une expérience inoubliable.",
-    "aboutText2": "Nous avons une équipe de conseillers experts en éducation internationale. Nous nous engageons à former des leaders mondiaux pour le développement de notre pays, en introduisant la culture d'autres pays, en favorisant le leadership et le travail d'équipe à travers une perspective globale.",
+    "aboutTitle": "About",
+    "aboutText1": "At WEGLON we have a professional and trained team to make your trip and certification process an unforgettable experience.",
+    "aboutText2": "We have a team of experts in international education. We are committed to training world leaders for the development of our country, introducing the culture of other countries, promoting leadership and teamwork through a global perspective.",
     "sitesTitle": "Sites",
-    "privacy": "Avis de confidentialité",
-    "language": "Langue",
-    "contactTitle": "Contactez-nous",
+    "privacy": "Privacy Notice",
+    "language": "Language",
+    "contactTitle": "Contact Us",
     "phone": "(777) 323 3890"
   },
   "programs": {
     "title": "We-Experience",
-    "subtitle": "Transcending borders embracing the world"
+    "subtitle": "Transcending borders,<br> embracing the world"
+  },
+  "travelBenefits": {
+    "flight": "Round trip flight",
+    "insurance": "Travel insurance",
+    "security": "24-hour security",
+    "hotel": "Accommodation",
+    "bus": "All transfers",
+    "culture": "Cultural activities",
+    "cards": {
+      "title": "Everything you need to",
+      "subtitle": "learn and explore."
+    }
+  },
+  "travelVisits": {
+    "title": "Socio-cultural activities",
+    "subtitle": "Interactive and practical teaching approach designed for you to reach your maximum potential",
+    "canada": {
+      "title": "Canada",
+      "cardTitle": "CANADA",
+      "cardImage": "CardCanada.webp",
+      "hospedaje": ["HospedajeCanada1.webp", "HospedajeCanada2.webp"],
+      "destinos": [
+        {
+          "title": "Whale watching",
+          "img": ["AVISTAMIENTO+BALLENAS.webp"]
+        },
+        {
+          "title": "Beakor Hill Park",
+          "img": ["BEACON+HILL+PARK+.webp"]
+        },
+        {
+          "title": "Fisherman Wark",
+          "img": ["FISHERMAN+WHARF.webp","FISHERMAN+WHARF+2.webp","FISHERMAN+WHARF+3.webp","FISHERMAN+WHARF+5.webp"]
+        },
+        {
+          "title": "Learn Kayak",
+          "img": ["KAYAK.webp","KAYAK+2+.webp","KAYAK+3.webp","KAYAK+4.webp","KAYAK+5.webp"]
+        },
+        {
+          "title": "Multicultural classes",
+          "img": ["INLINGUA+1.webp","INLINGUA+2.webp","INLINGUA+3.webp","INLINGUA+4.webp","INLINGUA+5.webp","INLINGUA+6.webp", "INLINGUA+7.webp", "INLINGUA+8.webp", "INLINGUA+9.webp"]
+        },
+        {
+          "title": "Royal BC Museum",
+          "img": ["ROYAL+BC+MUSEUM.webp","ROYAL+BC+MUSEUM+2.webp","ROYAL+BC+MUSEUM+3.webp","ROYAL+BC+MUSEUM+4.webp","ROYAL+BC+MUSEUM+5.webp"]
+        },
+        {
+          "title": "Parliament",
+          "img": ["PARLAMENTO.webp","PARLAMENTO+2.webp","PARLAMENTO+3.webp","PARLAMENTO+4.webp"]
+        },
+        {
+          "title": "Minuature World",
+          "img": ["MINIATURE+WORLD.webp","MINIATURE+WORLD+2+.webp","MINIATURE+WORLD+3.webp"]
+        }
+      ],
+      "link": "/programas/canada"
+    },
+    "nasa": {
+      "title": "Nasa",
+      "cardTitle": "NASA",
+      "cardImage": "CardNasa.webp",
+      "hospedaje": ["HospedajeNasa1.webp", "HospedajeNasa2.webp"],
+      "destinos": [
+      {
+        "title": "Downtown Acuarium",
+        "img": ["DOWNTOWN+AQUARIUM+5.webp","DOWNTOWN+AQUARIUM+1.webp","DOWNTOWN+AQUARIUM+2.webp","DOWNTOWN+AQUARIUM+3.webp",
+                "DOWNTOWN+AQUARIUM.webp"]
+      },
+      {
+        "title": "Museum of Natural Science",
+        "img": ["MUSEUM+OF+NATURAL+SCIENCE.webp","MUSEUM+OF+NATURAL+SCIENCE+2.webp","MUSEUM+OF+NATURAL+SCIENCE+3.webp",
+                "MUSEUM+OF+NATURAL+SCIENCE+6.webp","MUSEUM+OF+NATURAL+SCIENCE+5.webp","MUSEUM+OF+NATURAL+SCIENCE+7.webp"]
+      },
+      {
+        "title": "Houston Zoo",
+        "img": ["HOUSTON+ZOO+4+.webp","HOUSTON+ZOO+2+.webp","HOUSTON+ZOO+3.webp","HOUSTON+ZOO.webp","HOUSTON+ZOO+4+(1).webp",
+                "HOUSTON+ZOO+6.webp","HOUSTONO+ZOO+7+.webp"]
+      },
+      {
+        "title": "The Health Museum",
+        "img": ["HEALTH+MUSEUM+5.webp","HEALTH+MUSEUM+2.webp","HEALTH+MUSEUM+4.webp","HEALTH+MUSEUM.webp",
+                "HEALTH+MUSEUM+6.webp","HEALTH+MUSEUM+7.webp"]
+      },
+      {
+        "title": "Children Museum",
+        "img": ["CHILDRENS+MUSEUM+.webp","CHILDRENS+MUSEUM+2.webp","CHILDRENS+MUSEUM+3.webp","CHILDRENS+MUSEUM+4.webp"]
+      },
+      {
+        "title": "NASA Johnson Space Center",
+        "img": ["NASA+29.webp","NASA+2.webp","NASA+3.webp","NASA+4.webp","NASA+5.webp","NASA+6+.webp","NASA+7.webp",
+        "NASA+8.webp","NASA+9.webp","NASA+10.webp","NASA+12.webp","NASA+13.webp","NASA+14.webp","NASA+15.webp",
+        "NASA+16.webp","NASA+17.webp","NASA+18.webp","NASA+19.webp","NASA+20.webp","NASA+21.webp","NASA+22.webp",
+        "NASA+24.webp","NASA+25.webp","NASA+26.webp","NASA+27.webp","NASA+28.webp","NASA .webp",
+        "NASA 30.webp","NASA 31.webp","NASA 32.webp"]
+      },
+      {
+        "title": "Bufalo Soldiers Museum",
+        "img": ["BUFFALO+SOLDIERS+MUSEUM+4.webp", "BUFFALO+SOLDIERS+MUSEUM+2+.webp", "BUFFALO+SOLDIERS+MUSEUM+3.webp",
+                "BUFFALO+SOLDIERS+MUSEUM+.webp", "BUFFALO+SOLDIERS+MUSEUM+5.webp", "BUFFALO+SOLDIERS+MUSEUM+6.webp"]
+      },
+      {
+        "title": "Holocaust Museum",
+        "img": ["HOLOCAUSTO+MUSEUM+2.webp","HOLOCAUSTO+MUSEUM.webp","HOLOCAUSTO+MUSEUM+3.webp","HOLOCAUSTO+MUSEUM+4+.webp",
+                "HOLOCAUSTO+MUSEUM+6.webp","HOLOCAUSTO+MUSEUM+7.webp","HOLOCAUSTO+MUSEUM+8.webp"]
+      },
+      {
+        "title": "Mcgovern Centennial Gardens",
+        "img": ["MCGOVERN+CENTENNIAL+GARDENS.webp","MCGOVERN+CENTENNIAL+GARDENS+2.webp","MCGOVERN+CENTENNIAL+GARDENS+3.webp",
+                "MCGOVERN+CENTENNIAL+GARDENS+4.webp","MCGOVERN+CENTENNIAL+GARDENS+5.webp"]
+      }
+      ],
+      "link": "/programas/nasa"
+    },
+    "tokio": {
+      "title": "Tokyo",
+      "cardTitle": "TOKYO",
+      "cardImage": "CardJapon.webp",
+      "hospedaje": ["HospedajeTokio1.webp"],
+      "destinos": [
+        {
+          "title": "Tokyo Tower",
+          "img": ["TOKYO+TOWER+2.webp","TOKYO+TOWER.webp","TOKYO+TOWER+3.webp"]
+        },
+        {
+          "title": "Shibuya Crossing",
+          "img": ["CRUCE+SHIBUYA.webp","CRUCE+SHIBUYA+2.webp"]
+        },
+        {
+          "title": "Akihabara",
+          "img": ["CALLE+AMEYA-YOKOCHO.webp", "CALLE+NAKAMISE.webp", "PARQUE+UENO.webp", "TOWER+RECORD+SHIBUYA.webp"]
+        },
+        {
+          "title": "Zojoji Temple",
+          "img": ["TEMPLO+ZOJOJI.webp","TEMPLO+ZOJOJI+2.webp","TEMPLO+ZOJOJI+3.webp","TEMPLO+ZOJOJI+4+.webp"]
+        },
+        {
+          "title": "Senso-ji Temple",
+          "img": ["TEMPLO+SENSOJI.webp","TEMPLO+SENSOJI+2+.webp","TEMPLO+SENSOJI+3.webp","TEMPLO+SENSOJI+4.webp",
+                  "TEMPLO+SENSOJI+5.webp","TEMPLO+SENSOJI+6.webp"]
+        },
+        {
+          "title": "Harajuku",
+          "img": ["HARAJUKU.webp"]
+        },
+        {
+          "title": "Meiji Shrine",
+          "img": ["SANTUARIO+MEIJI+JINGU+.webp","SANTUARIO+MEIJI+JINGU+2+.webp","SANTUARIO+MEIJI+JINGU+3+.webp",
+                  "SANTUARIO+MEIJI+JINGU+4.webp","SANTUARIO+MEIJI+JINGU+5+.webp"]
+        },
+        {
+          "title": "Tokyo Bay",
+          "img": ["BAHIA+TOKYO+2.webp","BAHIA+TOKYO.webp"]
+        }
+      ],
+      "link": "/programas/tokio"
+    }
+  },
+  "travelDetails": {
+    "title": "Learn about the characteristics of your trip",
+    "security": {
+      "title": "24-hour security",
+      "subtitle": "24-hour security by our trained staff, to make your trip a wonderful experience.",
+      "img": "SeguridadNasa2.webp"
+    },
+    "lodging": {
+      "title": "Accommodation",
+      "subtitle": "High-quality accommodation with guaranteed comfort for all our travelers.",
+      "img": "HospedajeNasa2.webp"
+    },
+    "fly": {
+      "title": "Round trip flight",
+      "subtitle": "Includes round trip flight with prestigious international airlines with checked baggage.",
+      "img": "VueloRedondoNasa3.webp"
+    },
+    "transportation": {
+      "title": "All transfers",
+      "subtitle": "Complete transfer service to and from all trip activities in private and local transportation.",
+      "img": "TrasladosNasa2.webp"
+    },
+    "travelerSecurity": {
+      "title": "Traveler insurance",
+      "subtitle": "Comprehensive traveler insurance to cover all your needs.",
+      "img": "SeguridadTokio1.webp"
+    }
+  },
+  "weglonTeam": {
+    "HeroText": "Meet our team",
+    "title": "Our expert staff in international education and travel",
+    "subtitle": "24-hour security by our trained staff, to make your trip a wonderful experience.",
+    "team": [
+      {
+        "name": "Maura Morales",
+        "profession": "Director",
+        "img": "MAU.webp"
+      },
+      {
+        "name": "Rogelio Villegas",
+        "profession": "International Representative",
+        "img": "ROGELIO.webp"
+      },
+      {
+        "name": "Alexia Monterrubio",
+        "profession": "Assistant Director",
+        "img": "ALE.webp"
+      },
+      {
+        "name": "Arón Ramírez",
+        "profession": "International Representative",
+        "img": "ARON.webp"
+      },
+      {
+        "name": "Haidee González",
+        "profession": "International Representative / Administrative",
+        "img": "HAIDEE.webp"
+      },
+      {
+        "name": "Baruj Hernández",
+        "profession": "International Representative",
+        "img": "BARUJ.webp"
+      }
+    ]
+  },
+  "wePassport": {
+    "title": "We-Passport",
+    "subtitle": "Become a frequent traveler and get exclusive benefits."
+  },
+  "testimonials": {
+    "title": "Community Testimonials",
+    "comments": {
+      "0": {
+        "comment": "An unforgettable experience! The entire team was very professional and attentive.",
+        "name": "María López",
+        "rol": "Canada Traveler",
+        "trip": "canada",
+        "img": "profile1.png"
+      },
+      "1": {
+        "comment": "The trip exceeded my expectations. I totally recommend it.",
+        "name": "Carlos Pérez",
+        "rol": "NASA Traveler",
+        "trip": "nasa",
+        "img": "profile2.png"
+      },
+      "2": {
+        "comment": "I felt safe and accompanied at all times. Thank you Weglon!",
+        "name": "Ana Torres",
+        "rol": "Tokyo Traveler",
+        "trip": "tokio",
+        "img": "profile1.png"
+      },
+      "3": {
+        "comment": "The organization was impeccable and the destinations incredible.",
+        "name": "Luis Ortega",
+        "rol": "Canada Traveler",
+        "trip": "canada",
+        "img": "profile2.png"
+      },
+      "4": {
+        "comment": "I would definitely travel with you again.",
+        "name": "Sofía Ramírez",
+        "rol": "NASA Traveler",
+        "trip": "nasa",
+        "img": "profile1.png"
+      },
+      "5": {
+        "comment": "The best trip of my life, thank you for everything!",
+        "name": "Miguel Sánchez",
+        "rol": "Tokyo Traveler",
+        "trip": "tokio",
+        "img": "profile2.png"
+        }
+    }
+  },
+  "showImagesDetails": {
+    "title": "PLACES WE VISIT",
+    "nasa": [
+    {
+      "title": "Meet and have breakfast with an ASTRONAUT and learn about space.",
+      "hoverTitle": "JOHNSON SPACE CENTER",
+      "hoverSubtitle": "The Food Lab.",
+      "imgs": [
+        ["NASA+32.webp"],
+        ["NASA+5.webp",
+          "NASA+24.webp",
+          "NASA+30.webp"]
+      ],
+      "reverse": false
+    },
+    {
+      "title": "Awaken wonder for health and the human body at The Health Museum.",
+      "hoverTitle": "DEBAKEY CELL LAB",
+      "hoverSubtitle": "an educational bilingual laboratory where you can analyze and discover microscopic mysteries.",
+      "imgs": [
+        ["HEALTH+MUSEUM+5.webp"],
+        ["HEALTH+MUSEUM.webp",
+          "HEALTH+MUSEUM+4.webp",
+          "HEALTH+MUSEUM+2.webp"]
+      ],
+      "reverse": true
+    },
+    {
+      "title": "Be amazed by the evolution that humans have experienced at THE MUSEUM OF NATURAL SCIENCE.",
+      "hoverTitle": "Morian Hall of Paleontology",
+      "hoverSubtitle": "Home to more than 60 complete skeletons, including several T. rex.",
+      "imgs": [
+        ["MUSEUM+OF+NATURAL+SCIENCE+7.webp"],
+        ["MUSEUM+OF+NATURAL+SCIENCE+6.webp",
+          "MUSEUM+OF+NATURAL+SCIENCE+2.webp",
+          "MUSEUM+OF+NATURAL+SCIENCE.webp"]
+      ],
+      "reverse": false
+    }
+    ],
+    "tokio": [
+      {
+        "title": "Tokyo, an academic, cultural and emotional immersion in one of the most fascinating countries on the planet.",
+        "hoverTitle": "Senso-ji Temple",
+        "hoverSubtitle": "The oldest and most visited Buddhist temple in Tokyo dedicated to the goddess Kannon.",
+        "imgs": [
+          ["TEMPLO+SENSOJI+6.webp"],
+          ["TEMPLO+SENSOJI+5.webp",
+          "TEMPLO+SENSOJI.webp",
+          "TEMPLO+SENSOJI+2+.webp"]
+        ],
+        "reverse": false
+      },
+      {
+        "title": "Be amazed by the city of Shibuya and experience anime and technology up close.",
+        "hoverTitle": "SHIBUYA CROSSING: the world's most famous pedestrian crossing",
+        "hoverSubtitle": "Located in front of Shibuya Station in Tokyo.",
+        "imgs": [
+          ["CRUCE+SHIBUYA.webp"],
+          ["HARAJUKU.webp",
+          "CALLE+NAKAMISE.webp",
+          "TOWER+RECORD+SHIBUYA.webp"]
+        ],
+        "reverse": true
+      },
+      {
+        "title": "Walk through the Meiji Shrine, an encounter with JAPANESE spirituality.",
+        "hoverTitle": "Meiji Shrine",
+        "hoverSubtitle": "Sacred space that harmoniously combines nature, spirituality and modern JAPAN history.",
+        "imgs": [
+            ["SANTUARIO+MEIJI+JINGU+.webp"],
+          ["SANTUARIO+MEIJI+JINGU+2+.webp",
+          "SANTUARIO+MEIJI+JINGU+4.webp",
+          "SANTUARIO+MEIJI+JINGU+5+.webp"]
+        ],
+        "reverse": false
+      }
+    ],
+    "canada": [
+      {
+        "title": "Improve your English and interact with students from around the world.",
+        "hoverTitle": "International Academic Certification",
+        "hoverSubtitle": "Upon completion of the program, each traveler receives an official study certificate endorsing their participation.",
+        "imgs": [
+          ["INLINGUA+2.webp"],
+          ["INLINGUA+4.webp",
+          "INLINGUA+8.webp",
+          "INLINGUA+1.webp"]
+        ],
+        "reverse": true
+      },
+      {
+        "title": "Discover the beauty of CANADA... from the water!",
+        "hoverTitle": "Practice kayak in BC Victoria",
+        "hoverSubtitle": "Surrounded by spectacular natural scenery.",
+        "imgs": [
+          ["KAYAK+5.webp"],
+          ["KAYAK+4.webp",
+          "KAYAK+3.webp",
+          "KAYAK.webp"]
+        ],
+        "reverse": false
+      },
+      {
+        "title": "Experience the excitement of seeing whales in their natural habitat.",
+        "hoverTitle": "Encounter with ocean giants",
+        "hoverSubtitle": "Aboard a safe and specialized vessel.",
+        "imgs": [
+          ["AVISTAMIENTO+BALLENAS.webp"],
+          ["FISHERMAN+WHARF+3.webp",
+          "FISHERMAN+WHARF+2.webp",
+          "FISHERMAN+WHARF.webp"]
+        ],
+        "reverse": true
+      }
+    ]
+  },
+  "gallery": {
+    "HeroText": "Image Gallery"
+  },
+  "characteristics":{
+    "title": "Learn what your trip includes",
+    "nasa":[{
+        "title": "TRANSFERS",
+        "hoverText": "Transfers included throughout your stay.",
+        "img": ["TrasladosNasa2.webp","TrasladosNasa1.webp","TrasladosNasa3.webp"]
+    },
+    {
+        "title": "ROUND TRIP FLIGHT",
+        "hoverText": "Round trip flight, includes checked baggage.",
+        "img": ["VueloRedondoNasa1.webp","VueloRedondoNasa2.webp","VueloRedondoNasa3.webp"]
+    },
+    {
+        "title": "ACCOMMODATION",
+        "hoverText": "Spring Hill Suites by Marriott Hotel. Breakfast included, double room, 24-hour gym, laundry, pool area and jacuzzi.",
+        "img": ["HospedajeNasa1.webp","HospedajeNasa2.webp"]
+    },
+    {
+        "title": "24H SECURITY",
+        "hoverText": "24-hour security and emotional well-being by our trained staff, to make your trip an unforgettable experience.",
+        "img": ["SeguridadNasa1.webp","SeguridadNasa2.webp"]
+    },
+    {
+        "title": "STAFF",
+        "hoverText": "Our staff: The heart that accompanies every trip.",
+        "img": ["StaffNasa1.webp"]
+    },
+    {
+        "title": "MEALS",
+        "hoverText": "Included meals (breakfast, lunch and dinner) traditional and adaptable to traveler needs.",
+        "img": ["ComidasNasa1.webp","ComidasNasa2.webp","ComidasNasa3.webp"]
+    }],
+    "tokio": [{
+      "title": "TRANSFERS",
+      "hoverText": "Transfers included throughout your stay.",
+      "img": ["TrasladosTokio1.webp"]
+    },
+    {
+      "title": "ROUND TRIP FLIGHT",
+      "hoverText": "Round trip flight, includes checked baggage.",
+      "img": ["VueloRedondoTokio1.webp","VueloRedondoTokio2.webp"]
+    },
+    {
+      "title": "ACCOMMODATION",
+      "hoverText": "Prince Hotel Tokyo, double room, convenience store.",
+      "img": ["HospedajeTokio1.webp"]
+    },
+    {
+      "title": "24H SECURITY",
+      "hoverText": "24-hour security by our trained staff, to make your trip a wonderful experience.",
+      "img": ["SeguridadTokio1.webp"]
+    },
+    {
+      "title": "STAFF",
+      "hoverText": "Our staff: The heart that accompanies every trip.",
+      "img": ["StaffTokio1.webp"]
+    },
+    
+    {
+      "title": "MEALS",
+      "hoverText": "American/Japanese style buffet breakfast.",
+        "img": ["ComidasTokio1.webp","ComidasTokio2.webp"]
+    }
+  ],
+    "canada": [{
+      "title": "TRANSFERS",
+      "hoverText": "Transfers included throughout your stay.",
+      "img": ["TrasladosCanada1.webp"]
+    },
+    {
+      "title": "ROUND TRIP FLIGHT",
+      "hoverText": "Round trip flight, includes checked baggage.",
+      "img": ["VueloRedondoCanda1.webp"]
+    },
+    {
+      "title": "ACCOMMODATION",
+      "hoverText": "Because in Homestay you not only learn; you also find a second home.",
+      "img": ["HospedajeCanada1.webp","HospedajeCanada2.webp"]
+    },
+    {
+      "title": "24H SECURITY",
+      "hoverText": "24-hour security and emotional well-being by our trained staff, to make your trip an unforgettable experience.",
+      "img": ["SeguridadCanada1.webp"]
+    },
+    {
+      "title": "STAFF",
+      "hoverText": "Our staff: The heart that accompanies every trip.",
+      "img": ["StaffCanada1.webp"]
+    },
+    {
+      "title": "MEALS",
+      "hoverText": "Includes traditional time meal (6:00pm).",
+      "img": ["ComidasCanada1.webp"]
+    }]
+  },
+  "OnlineCertifications": {
+    "title": "ONLINE ENGLISH CERTIFICATION",
+    "button": "Enroll Today",
+    "text1": "Did you know that the Cenni certification is the only one accepted by SEP for teacher evaluation, hiring and permanence processes?",
+    "text2": "Interactive resources that strengthen reading comprehension, listening, vocabulary and grammar. Continuous evaluation and personalized recommendations to improve performance. Access from any device at any time.",
+    "benefits": {
+      "0": {
+        "title": "Programs (8, 16, 24 and 36 weeks) we adapt to your pace",
+        "icon": "Calendario"
+      },
+      "1": {
+        "title": "Open 24 hours, 7 days a week",
+        "icon": "Clock24Hrs"
+      },
+      "2": {
+        "title": "Online Exam (Oxford Online placement Test)",
+        "icon": "Test"
+      },
+      "3": {
+        "title": "Coaching during the process",
+        "icon": "Support"
+      },
+      "4": {
+        "title": "Certificate with National and International Validity",
+        "icon": "Certificated"
+      }
+    }
+  },
+  "centroCertificador": {
+    "titulo": "Become a CERTIFICATION CENTER",
+    "texto": "Elevate your students' academic level, offering them a competitive advantage for their future.",
+    "button": "Contact us",
+    "text1": "Have your students certify their English level with security, academic backing and first-class educational technology.",
+    "text2": "This opportunity is only for select Schools, do you want to be one of them? Request your demo, you'll surely love it.",
+    "collage": "Each school that joins anglolinguist becomes part of an educational movement with global vision.",
+    "benefits": {
+      "0": {
+        "title": "Digital platforms",
+        "subtitle": "Study at your own pace, platform open 24 hours, available on any device with internet access."
+      },
+      "1": {
+        "title": "Economic and academic benefits",
+        "subtitle": "contact us and learn more."
+      },
+      "2": {
+        "title": "Tools",
+        "subtitle": "Diagnostic exam to place you at your level (A1 - B2+) based on the Common European Framework, practice exams."
+      },
+      "3": {
+        "title": "Free certification",
+        "subtitle": "1 Free certification for your teachers, consult terms and conditions."
+      },
+      "4": {
+        "title": "Economic retribution",
+        "subtitle": "Economic retribution for institution, consult terms and conditions."
+      },
+      "5": {
+        "title": "Advertising Material",
+        "subtitle": "Advertising material for your certification center."
+      }
+    }
+  },
+  "courses": {
+    "title": "TRAINING PLATFORMS TO CERTIFY IN YOUR PREFERRED LANGUAGE",
+    "benefit1": "Initial diagnostic test.",
+    "benefit2": "Exam simulations, exercises and review sheets.",
+    "benefit3": "Oral training with videos.",
+    "benefit4": "Articles, flashcards, coaching and more.",
+    "benefit5": "Fully online accessibility.",
+    "benefit6": "Personalized route according to exam and date.",
+    "benefit7": "Detailed feedback and statistics.",
+    "benefit8": "Training time: 3 and 6 months.",
+    "benefit9": "Study route adapted to your objectives.",
+    "benefit10": "Fully online accessibility.",
+    "language": {
+      "english": {
+        "title": "English Platform",
+        "headerColor": "#180E6D",
+        "hrColor": "#1CA5F8",
+        "textColor": "#5285C3",
+        "bgHover": "#DAF0FF",
+        "courses": [
+          {
+            "name": "IELTS",
+            "description": "Initial diagnostic test.",
+            "link": "/curso/ielts"
+          },
+          {
+            "name": "LINGUASKILL CAMBRIDGE",
+            "description": "Initial diagnostic test.",
+            "link": "/curso/linguaskill"
+          },
+          {
+            "name": "TOEFL IBT",
+            "description": "Initial diagnostic test.",
+            "link": "/curso/toefl-ibt"
+          },
+          {
+            "name": "TOEFL ITP",
+            "description": "Initial diagnostic test.",
+            "link": "/curso/toefl-itp"
+          },
+          {
+            "name": "CAMBRIDGE ENGLISH ADVANCED",
+            "description": "Initial diagnostic test.",
+            "link": "/curso/cambridge-advanced"
+          },
+          {
+            "name": "TEST BRIGHT ENGLISH",
+            "description": "Initial diagnostic test.",
+            "link": "/curso/test-bright-english"
+          },
+          {
+            "name": "TOEIC BRIDGE",
+            "description": "Initial diagnostic test.",
+            "link": "/curso/toeic-bridge"
+          },
+          {
+            "name": "CAMBRIDGE ENGLISH B2 FIRST",
+            "description": "Initial diagnostic test.",
+            "link": "/curso/cambridge-english-b2-first"
+          },
+          {
+            "name": "TOIEC",
+            "description": "Initial diagnostic test.",
+            "link": "/curso/toiec"
+          }
+        ]
+      },
+      "french": {
+        "title": "French Platform",
+        "headerColor": "#DC2626",
+        "hrColor": "#EF4444",
+        "textColor": "#F87171",
+        "bgHover": "#FFECEE",
+        "courses": [
+          {
+            "name": "DELF",
+            "description": "Initial diagnostic test.",
+            "link": "/curso/delft"
+          },
+          {
+            "name": "TFI",
+            "description": "Initial diagnostic test.",
+            "link": "/curso/tfc"
+          }
+        ]
+      },
+      "spanish": {
+        "title": "Spanish Platform",
+        "headerColor": "#EAB308",
+        "hrColor": "#F59E0B",
+        "textColor": "#FBBF24",
+        "bgHover": "#FFFEEC",
+        "courses": [
+          {
+            "name": "DELE",
+            "description": "Initial diagnostic test.",
+            "link": "/curso/dele"
+          },
+          {
+            "name": "Bright Spanish",
+            "description": "Initial diagnostic test.",
+            "link": "/curso/bright-spanish"
+          }
+        ]
+      },
+      "german": {
+        "title": "German Platform",
+        "headerColor": "#059669",
+        "hrColor": "#10B981",
+        "textColor": "#34D399",
+        "bgHover": "#ECFFEE",
+        "courses": [
+          {
+            "name": "Bright Deutsch",
+            "description": "Initial diagnostic test.",
+            "link": "/curso/bright-deutsch"
+          },
+          {
+            "name": "WiDaF",
+            "description": "Initial diagnostic test.",
+            "link": "/curso/widaf"
+          },
+          {
+            "name": "TELC",
+            "description": "Initial diagnostic test.",
+            "link": "/curso/telc"
+          }
+        ]
+      },
+      "mandarin": {
+        "title": "Mandarin Platform",
+        "headerColor": "#7C3AED",
+        "hrColor": "#8B5CF6",
+        "textColor": "#A78BFA",
+        "bgHover": "#F8ECFF",
+        "courses": [
+          {
+            "name": "HSK",
+            "description": "Initial diagnostic test.",
+            "link": "/curso/hsk"
+          }
+        ]
+      }
+    }
+  },
+  "coursesData": {
+    "badge": "Improve your level",
+    "description": "It is an academic exam where you will find topics on education, literature, science and technology.",
+    "duration": "<b>2.45</b> hours duration",
+    "validity": "<b>2</b> years validity",
+    "button": "More Information",
+    "back": "Back",
+    "studentImage1": "https://randomuser.me/api/portraits/men/14.jpg",
+    "studentImage2": "https://randomuser.me/api/portraits/women/34.jpg",
+    "students": "10,000 + Students",
+    "studentsDescription": "Our students improve their level by 100%.",
+    "ielts": {
+      "title": "IELTS",
+      "image": "CERTIFICADOANGLO.webp"
+    },
+    "linguaskill": {
+      "title": "Linguaskill",
+      "image": "CERTIFICADOANGLO.webp"
+    },
+    "toefl-ibt": {
+      "title": "TOEFL IBT",
+      "image": "CERTIFICADOANGLO.webp"
+    },
+    "toefl-itp": {
+      "title": "TOEFL ITP",
+      "image": "CERTIFICADOANGLO.webp"
+    },
+    "cambridge-advanced": {
+      "title": "Cambridge English Advanced",
+      "image": "CERTIFICADOANGLO.webp"
+    },
+    "test-bright-english": {
+      "title": "Test Bright English",
+      "image": "CERTIFICADOANGLO.webp"
+    },
+    "toeic-bridge": {
+      "title": "TOEIC Bridge",
+      "image": "CERTIFICADOANGLO.webp"
+    },
+    "cambridge-english-b2-first": {
+      "title": "Cambridge English B2 First",
+      "image": "CERTIFICADOANGLO.webp"
+    },
+    "toiec": {
+      "title": "TOIEC",
+      "image": "CERTIFICADOANGLO.webp"
+    },
+    "delft": {
+      "title": "DELF",
+      "image": "CERTIFICADOANGLO.webp"
+    },
+    "tfc": {
+      "title": "TFI",
+      "image": "CERTIFICADOANGLO.webp"
+    },
+    "dele": {
+      "title": "DELE",
+      "image": "CERTIFICADOANGLO.webp"
+    },
+    "bright-spanish": {
+      "title": "Bright Spanish",
+      "image": "CERTIFICADOANGLO.webp"
+    },
+    "bright-deutsch": {
+      "title": "Bright Deutsch",
+      "image": "CERTIFICADOANGLO.webp"
+    },
+    "widaf": {
+      "title": "WiDaF",
+      "image": "CERTIFICADOANGLO.webp"
+    },
+    "telc": {
+      "title": "TELC",
+      "image": "CERTIFICADOANGLO.webp"
+    },
+    "hsk": {
+      "title": "HSK",
+      "image": "CERTIFICADOANGLO.webp"
+    }
+  },
+  "collage": {
+    "logos": [
+      "alSchool.webp",
+      "atenas.webp",
+      "britishenglishacademy.webp",
+      "casaprimavera.webp",
+      "CACI.webp",
+      "benemerito.webp",
+      "cervantes.webp",
+      "cip.webp",
+      "alberteinstein.webp",
+      "colegiobrisas.webp",
+      "carmensalles.webp",
+      "colegiomichoacan.webp",
+      "howardgardner.webp",
+      "quetzalli.webp",
+      "ColegioPradera.webp",
+      "colegiovida.webp",
+      "williamshakespeare.webp",
+      "CollageMonteAlban.webp",
+      "EmilioFriexas.webp",
+      "normalsuperior.webp",
+      "Euroamericano.webp",
+      "goldenwood.webp",
+      "BENEMERITODELASAMERICAS.webp",
+      "lauravicuña.webp",
+      "leicestersecundaria.webp",
+      "LiceoAgazziBombelli.webp",
+      "CUENCAMORELO.webp",
+      "HOWARDGARNDER.webp",
+      "INSITITUTOALIANZA.webp",
+      "PREPARATORIA.webp",
+      "oxford.webp",
+      "universidad.webp"
+    ]
   }
 } 

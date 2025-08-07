@@ -8,6 +8,7 @@ import Support from "../../../assets/Icons/Benefits/Support.svg";
 import Certificated from "../../../assets/Icons/Benefits/Certificated.svg";
 import TextInfo from "./TextInfo";
 import { motion } from "framer-motion";
+import { BASEIMAGE } from "../../../constants/constantsPrograms";
 // Puedes importar tus propios íconos o usar SVG inline
 
 
@@ -79,7 +80,7 @@ const BeneficiosOnline = () => {
       </div>
       <div className="col-span-3 flex justify-center my-6 absolute top-[280px] left-1/2 -translate-x-1/2 -translate-y-1/2">
         <div className="w-[400px] h-[300px] flex items-center justify-center">
-          <img src={Image} alt="Estudiando online" className="w-full h-full object-contain" />
+          <img src={BASEIMAGE+"OnlineIngles.webp"} alt="Estudiando online" className="w-full h-full object-contain" />
         </div>
       </div>
       <div className="col-span-1 flex flex-col items-center ">

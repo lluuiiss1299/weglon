@@ -2,37 +2,43 @@ import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import CenterTitle from "../../components/Principal/CenterTitle";
-import Canada from "../../assets/Images/CanadaBenefits.jpg";
-import Canada1 from "../../assets/Images/CardItaly.png";
-import Canada2 from "../../assets/Images/CardTokio.png";
-import Canada3 from "../../assets/Images/Hero/HeroCanada.jpg";
-import Canada4 from "../../assets/Images/Hero/HeroTokio.jpg";
-import Canada5 from "../../assets/Images/Hero/HeroNasa.jpg";
-import Canada6 from "../../assets/Images/CardCanada.png";
-
+import { LUGARESNASA, LUGARESTOKIO, LUGARESCANADA } from "../../constants/constantsPrograms.js";
 
 
 const TravelVisits = () => {
   const { t } = useTranslation();
+  const nasaDestinos = t("travelVisits.nasa.destinos", { returnObjects: true }).map((destino) => ({
+    ...destino,
+    img: LUGARESNASA + destino.img[0]
+  }));
+  const canadaDestinos = t("travelVisits.canada.destinos", { returnObjects: true }).map((destino) => ({
+    ...destino,
+    img: LUGARESCANADA + destino.img[0]
+  }));
+  const tokioDestinos = t("travelVisits.tokio.destinos", { returnObjects: true }).map((destino) => ({
+    ...destino,
+    img: LUGARESTOKIO + destino.img[0]
+  }));
+  // console.log(canadaDestinos.map((destino) => destino.img));
 
   const viajes = [
     {
+      nombre: t("travelVisits.nasa.title"),
+      destinos: nasaDestinos,
+      imagenes: nasaDestinos.map((destino) => destino.img),
+      link: t("travelVisits.nasa.link")
+    },
+    {
       nombre: t("travelVisits.canada.title"),
-      destinos: t("travelVisits.canada.destinos", { returnObjects: true }),
-      imagenes: [Canada, Canada1, Canada2, Canada3, Canada4, Canada5, Canada6],
-      link: "/programas/canada"
+      destinos: canadaDestinos,
+      imagenes: canadaDestinos.map((destino) => destino.img),
+      link: t("travelVisits.canada.link")
     },
     {
-      nombre: "Nasa",
-      destinos: t("travelVisits.nasa.destinos", { returnObjects: true }),
-      imagenes: ["/nasa1.jpg", "/nasa2.jpg", "/nasa3.jpg", "/nasa4.jpg", "/nasa5.jpg", "/nasa6.jpg", "/nasa7.jpg"],
-      link: "/programas/nasa"
-    },
-    {
-      nombre: "Tokio",
-      destinos: t("travelVisits.tokyo.destinos", { returnObjects: true }),
-      imagenes: ["/tokyo1.jpg", "/tokyo2.jpg", "/tokyo3.jpg", "/tokyo4.jpg", "/tokyo5.jpg", "/tokyo6.jpg", "/tokyo7.jpg"],
-      link: "/programas/tokio"
+      nombre: t("travelVisits.tokio.title"),
+      destinos: tokioDestinos,
+      imagenes: tokioDestinos.map((destino) => destino.img),
+      link: t("travelVisits.tokio.link")
     }
   ];
 
@@ -84,11 +90,12 @@ const TravelVisits = () => {
           </ul>
 
           {/* Carrusel */}
-          <div className="col-span-3 flex justify-center items-center overflow-hidden relative pt-10 bg-gray-200 rounded-xl ">
+          <div className="col-span-3 flex justify-center items-center overflow-hidden relative pt-10 bg-gray-200 rounded-xl min-h-[340px]">
             <AnimatePresence initial={false}>
               {viajes[tabActivo].imagenes.map((img, i) => {
                 const posicion = i - destinoActivo;
                 const isActive = posicion === 0;
+                console.log(img);
                 return (
                   Math.abs(posicion) <= 1 && (
                     <motion.div

@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import gsap from 'gsap';
-import { useTranslation } from 'react-i18next'; 
-import HeroImge from '../../assets/Images/Hero/HeroNasa.jpg';
+import { useTranslation } from 'react-i18next';
+import { HERO } from '../../constants/constantsPrograms';
 
 const HeroImage = ({ trip, index }) => {
   const imageRef = useRef(null);
@@ -12,10 +12,10 @@ const HeroImage = ({ trip, index }) => {
     gsap.fromTo(
       textRef.current,
       { opacity: 0, y: 40 },
-      { opacity: 1, y: 0, duration: 1, delay: 0.2, ease: 'power2.inOut' }
+      { opacity: 1, y: 0, duration: 1.3, delay: 0.2, ease: 'power2.inOut' }
     );
   }, []);
-  const image = "/src/assets/Images/Hero/" + t(`destinations.${trip}.imageHero`);
+  const image = HERO + t(`destinations.${trip}.imageHero`);
 
   return (
     <motion.div

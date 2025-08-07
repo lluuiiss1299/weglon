@@ -56,7 +56,7 @@ const VideoScrollReveal = ({ trip }) => {
       <div ref={containerRef} className="relative h-[200vh]">
         <video
         ref={videoRef}
-        src={video}
+        src="https://weglon-assets-prod.s3.us-east-1.amazonaws.com/Videos/japon.mp4"
         className="w-full h-[100vh] object-cover sticky top-0"
         autoPlay
         muted
@@ -84,8 +84,8 @@ const VideoScrollReveal = ({ trip }) => {
                 <h2 className="text-4xl mb-4">
                 {t(`destinations.${trip}.videoText2`)}
                 </h2>
-                <a href="/contacto" className=" text-black px-12 py-2 rounded-full text-white border-2 border-gray-300 border-solid w-[70%] text-center mx-auto hover:bg-gray-300 hover:text-black">
-                    <span className="text-white text-4xl">{t(`destinations.buttonText`)}</span>
+                <a href="/contacto" className=" px-12 py-2 rounded-full text-white border-2 border-gray-300 border-solid w-[70%] text-center mx-auto hover:bg-gray-300 hover:text-black">
+                    <span className=" text-4xl">{t(`destinations.buttonText`)}</span>
                 </a>
             </div>
         </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "../../../assets/Images/Hero/HeroCentroCertificador.png";
+import { CERTIFICACIONES } from "../../../constants/constantsPrograms";
 import TextInfo from "./TextInfo";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
@@ -33,7 +33,7 @@ const CentroCertificador = () => {
         {/* Imagen */}
         <div className="flex-1 max-w-2xl mt-8 md:mt-0 md:ml-8 h-[450px] w-full">
             <div className="rounded-2xl overflow-hidden">
-                <img src={Image} alt="Centro certificador" className="object-cover w-full h-[400px]" />
+                <img src={CERTIFICACIONES+"HeroCertificaciones.webp"} alt="Centro certificador" className="object-cover w-full h-[400px]" />
             </div>
         </div>
     </section>

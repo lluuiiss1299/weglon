@@ -2,12 +2,8 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import CenterTitle from "../../components/Principal/CenterTitle";
 import { useTranslation } from "react-i18next";
-import Hospedaje from "../../assets/Images/CaracteristicasViaje/Hospedaje.jpeg";
-import Seguridad from "../../assets/Images/CaracteristicasViaje/Seguridad.jpg";
-import Vuelo from "../../assets/Images/CaracteristicasViaje/VueloRedondo.jpg";
-import Traslados from "../../assets/Images/CaracteristicasViaje/Traslados.png";
-import Seguro from "../../assets/Images/CaracteristicasViaje/SeguroViajero.jpg";
 import ArrowDown from "../../assets/Icons/ArrowDown.svg";
+import { BENEFICIOS } from "../../constants/constantsPrograms";
 
 
 const TravelDetails = () => {
@@ -20,27 +16,27 @@ const TravelDetails = () => {
     {
       title: t("travelDetails.security.title"),
       description: t("travelDetails.security.subtitle"),
-      image: Seguridad,
+      image: BENEFICIOS + "Nasa/" + t("travelDetails.security.img"),
     },
     {
       title: t("travelDetails.lodging.title"),
       description: t("travelDetails.lodging.subtitle"),
-      image: Hospedaje,
+      image: BENEFICIOS + "Nasa/" + t("travelDetails.lodging.img"),
     },
     {
       title: t("travelDetails.fly.title"),
       description: t("travelDetails.fly.subtitle"),
-      image: Vuelo,
+      image: BENEFICIOS + "Nasa/" + t("travelDetails.fly.img"),
     },
     {
       title: t("travelDetails.transportation.title"),
       description: t("travelDetails.transportation.subtitle"),
-      image: Traslados,
+      image: BENEFICIOS + "Nasa/" + t("travelDetails.transportation.img"),
     },
     {
       title: t("travelDetails.travelerSecurity.title"),
       description: t("travelDetails.travelerSecurity.subtitle"),
-      image: Seguro,
+      image: BENEFICIOS + "Tokio/" + t("travelDetails.travelerSecurity.img"),
     },
   ];
 

@@ -36,7 +36,7 @@ const VideoHero = () => {
             muted
             loop
         >
-            <source src={VideoHeroSrc} type="video/mp4" />
+            <source src="https://weglon-assets-prod.s3.us-east-1.amazonaws.com/Videos/japon.mp4" type="video/mp4" />
             Tu navegador no soporta la reproducción de video.
         </video>
         </div>

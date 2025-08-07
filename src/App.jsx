@@ -14,6 +14,7 @@ import CertifyingCenter from './components/pages/Certifications/CertifyingCenter
 import PrivacityPolice from './components/pages/PrivacityPolice';
 import Contact from './components/pages/Contact';
 import Courses from './components/pages/Courses/Courses';
+import Course from './components/pages/Courses/Course';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
             <Route path="/privacidad" element={<PrivacityPolice />} />
             <Route path="/contacto" element={<Contact />} />
             <Route path="/plataformas/cursos" element={<Courses />} />
+            <Route path="/curso/:course" element={<Course />} />
           </Routes>
         </main>
         <Footer />

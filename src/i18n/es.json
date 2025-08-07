@@ -97,126 +97,141 @@
     "subtitle": "Enfoque de enseñanza interactivo y práctico diseñado para que logres tu máximo potencial",
     "canada": {
       "title": "Canadá",
-      "hospedaje": ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"],
+      "cardTitle": "CANADA",
+      "cardImage": "CardCanada.webp",
+
+      "hospedaje": ["HospedajeCanada1.webp", "HospedajeCanada2.webp"],
       "destinos": [
         {
           "title": "Observa ballenas",
-          "img": ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"]
+          "img": ["AVISTAMIENTO+BALLENAS.webp"]
         },
         {
           "title": "Beakor Hill Park",
-          "img": ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"]
+          "img": ["BEACON+HILL+PARK+.webp"]
         },
         {
           "title": "Fisherman Wark",
-          "img": ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"]
+          "img": ["FISHERMAN+WHARF.webp","FISHERMAN+WHARF+2.webp","FISHERMAN+WHARF+3.webp","FISHERMAN+WHARF+5.webp"]
         },
         {
           "title": "Aprende Kayak",
-          "img": ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"]
+          "img": ["KAYAK.webp","KAYAK+2+.webp","KAYAK+3.webp","KAYAK+4.webp","KAYAK+5.webp"]
         },
         {
-          "title": "Dinolab",
-          "img": ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"]
+          "title": "Clases multiculturales",
+          "img": ["INLINGUA+1.webp","INLINGUA+2.webp","INLINGUA+3.webp","INLINGUA+4.webp","INLINGUA+5.webp","INLINGUA+6.webp", "INLINGUA+7.webp", "INLINGUA+8.webp", "INLINGUA+9.webp"]
         },
         {
           "title": "Royal BC Museum",
-          "img": ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"]
+          "img": ["ROYAL+BC+MUSEUM.webp","ROYAL+BC+MUSEUM+2.webp","ROYAL+BC+MUSEUM+3.webp","ROYAL+BC+MUSEUM+4.webp","ROYAL+BC+MUSEUM+5.webp"]
         },
         {
-          "title": "Bug Zoo",
-          "img": ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"]
+          "title": "Parlamento",
+          "img": ["PARLAMENTO.webp","PARLAMENTO+2.webp","PARLAMENTO+3.webp","PARLAMENTO+4.webp"]
+        },
+        {
+          "title": "Minuature World",
+          "img": ["MINIATURE+WORLD.webp","MINIATURE+WORLD+2+.webp","MINIATURE+WORLD+3.webp"]
         }
       ],
       "link": "/programas/canada"
     },
     "nasa": {
       "title": "Nasa",
-      "hospedaje": ["https://images.pixieset.com/84918549/80cc375c5096037b83f385a30c3effde-large.jpg",
-                    "https://images.pixieset.com/84918549/80cc375c5096037b83f385a30c3effde-large.jpg",
-                    "https://images.pixieset.com/84918549/80cc375c5096037b83f385a30c3effde-large.jpg"
-                  ],
+      "cardTitle": "NASA",
+      "cardImage": "CardNasa.webp",
+      "hospedaje": ["HospedajeNasa1.webp", "HospedajeNasa2.webp"],
       "destinos": [
       {
         "title": "Downtown Acuarium",
-        "img": ["https://images.pixieset.com/84918549/1bbc6d4fd7419ac68206bbfe78857bac-xxlarge.jpg",
-                "https://images.pixieset.com/84918549/1bbc6d4fd7419ac68206bbfe78857bac-xxlarge.jpg",
-                "https://images.pixieset.com/84918549/1bbc6d4fd7419ac68206bbfe78857bac-xxlarge.jpg",
-                "https://images.pixieset.com/84918549/1bbc6d4fd7419ac68206bbfe78857bac-xxlarge.jpg",
-                "https://images.pixieset.com/84918549/1bbc6d4fd7419ac68206bbfe78857bac-xxlarge.jpg",
-                "https://images.pixieset.com/84918549/1bbc6d4fd7419ac68206bbfe78857bac-xxlarge.jpg"
-              ]
+        "img": ["DOWNTOWN+AQUARIUM+5.webp","DOWNTOWN+AQUARIUM+1.webp","DOWNTOWN+AQUARIUM+2.webp","DOWNTOWN+AQUARIUM+3.webp",
+                "DOWNTOWN+AQUARIUM.webp"]
       },
       {
         "title": "Museum of Natural Science",
-        "img": ["https://images.pixieset.com/84918549/5986d7439537218152153be9763b291e-xxlarge.jpg",
-                "https://images.pixieset.com/84918549/5986d7439537218152153be9763b291e-xxlarge.jpg",
-                "https://images.pixieset.com/84918549/5986d7439537218152153be9763b291e-xxlarge.jpg",
-                "https://images.pixieset.com/84918549/5986d7439537218152153be9763b291e-xxlarge.jpg"
-                ]
+        "img": ["MUSEUM+OF+NATURAL+SCIENCE.webp","MUSEUM+OF+NATURAL+SCIENCE+2.webp","MUSEUM+OF+NATURAL+SCIENCE+3.webp",
+                "MUSEUM+OF+NATURAL+SCIENCE+6.webp","MUSEUM+OF+NATURAL+SCIENCE+5.webp","MUSEUM+OF+NATURAL+SCIENCE+7.webp"]
       },
       {
         "title": "Houston Zoo",
-        "img": ["https://images.pixieset.com/84918549/59177f158b1b6496e83703b2eec1f94d-large.jpg",
-                "https://images.pixieset.com/84918549/59177f158b1b6496e83703b2eec1f94d-large.jpg",
-                "https://images.pixieset.com/84918549/59177f158b1b6496e83703b2eec1f94d-large.jpg",
-                "https://images.pixieset.com/84918549/59177f158b1b6496e83703b2eec1f94d-large.jpg"
-                ]
+        "img": ["HOUSTON+ZOO+4+.webp","HOUSTON+ZOO+2+.webp","HOUSTON+ZOO+3.webp","HOUSTON+ZOO.webp","HOUSTON+ZOO+4+(1).webp",
+                "HOUSTON+ZOO+6.webp","HOUSTONO+ZOO+7+.webp"]
       },
       {
         "title": "The Health Museum",
-        "img": ["https://images.pixieset.com/84918549/c3e54882030ecc8676eadc344d338de0-xxlarge.jpg",
-                "https://images.pixieset.com/84918549/c3e54882030ecc8676eadc344d338de0-xxlarge.jpg",
-                "https://images.pixieset.com/84918549/c3e54882030ecc8676eadc344d338de0-xxlarge.jpg",
-                "https://images.pixieset.com/84918549/c3e54882030ecc8676eadc344d338de0-xxlarge.jpg"
-                ]
+        "img": ["HEALTH+MUSEUM+5.webp","HEALTH+MUSEUM+2.webp","HEALTH+MUSEUM+4.webp","HEALTH+MUSEUM.webp",
+                "HEALTH+MUSEUM+6.webp","HEALTH+MUSEUM+7.webp"]
       },
       {
         "title": "Children Museum",
-        "img": ["https://images.pixieset.com/84918549/2675423cb85c3781b123fb58a0135902-large.jpg",
-                "https://images.pixieset.com/84918549/2675423cb85c3781b123fb58a0135902-large.jpg",
-                "https://images.pixieset.com/84918549/2675423cb85c3781b123fb58a0135902-large.jpg",
-                "https://images.pixieset.com/84918549/2675423cb85c3781b123fb58a0135902-large.jpg"
-                ]
+        "img": ["CHILDRENS+MUSEUM+.webp","CHILDRENS+MUSEUM+2.webp","CHILDRENS+MUSEUM+3.webp","CHILDRENS+MUSEUM+4.webp"]
       },
       {
         "title": "NASA Johnson Space Center",
-        "img": ["https://images.pixieset.com/84918549/1f30e98fa49c4c20b7d53e94086386b4-xxlarge.jpg",
-                "https://images.pixieset.com/84918549/1f30e98fa49c4c20b7d53e94086386b4-xxlarge.jpg",
-                "https://images.pixieset.com/84918549/1f30e98fa49c4c20b7d53e94086386b4-xxlarge.jpg",
-                "https://images.pixieset.com/84918549/1f30e98fa49c4c20b7d53e94086386b4-xxlarge.jpg"
-                ]
+        "img": ["NASA+29.webp","NASA+2.webp","NASA+3.webp","NASA+4.webp","NASA+5.webp","NASA+6+.webp","NASA+7.webp",
+        "NASA+8.webp","NASA+9.webp","NASA+10.webp","NASA+12.webp","NASA+13.webp","NASA+14.webp","NASA+15.webp",
+        "NASA+16.webp","NASA+17.webp","NASA+18.webp","NASA+19.webp","NASA+20.webp","NASA+21.webp","NASA+22.webp",
+        "NASA+24.webp","NASA+25.webp","NASA+26.webp","NASA+27.webp","NASA+28.webp","NASA .webp",
+        "NASA 30.webp","NASA 31.webp","NASA 32.webp"]
+      },
+      {
+        "title": "Bufalo Soldiers Museum",
+        "img": ["BUFFALO+SOLDIERS+MUSEUM+4.webp", "BUFFALO+SOLDIERS+MUSEUM+2+.webp", "BUFFALO+SOLDIERS+MUSEUM+3.webp",
+                "BUFFALO+SOLDIERS+MUSEUM+.webp", "BUFFALO+SOLDIERS+MUSEUM+5.webp", "BUFFALO+SOLDIERS+MUSEUM+6.webp"]
+      },
+      {
+        "title": "Holocaust Museum",
+        "img": ["HOLOCAUSTO+MUSEUM+2.webp","HOLOCAUSTO+MUSEUM.webp","HOLOCAUSTO+MUSEUM+3.webp","HOLOCAUSTO+MUSEUM+4+.webp",
+                "HOLOCAUSTO+MUSEUM+6.webp","HOLOCAUSTO+MUSEUM+7.webp","HOLOCAUSTO+MUSEUM+8.webp"]
+      },
+      {
+        "title": "Mcgovern Centennial Gardens",
+        "img": ["MCGOVERN+CENTENNIAL+GARDENS.webp","MCGOVERN+CENTENNIAL+GARDENS+2.webp","MCGOVERN+CENTENNIAL+GARDENS+3.webp",
+                "MCGOVERN+CENTENNIAL+GARDENS+4.webp","MCGOVERN+CENTENNIAL+GARDENS+5.webp"]
       }
       ],
       "link": "/programas/nasa"
     },
     "tokio": {
       "title": "Tokio",
-      "hospedaje": ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"],
+      "cardTitle": "TOKIO",
+      "cardImage": "CardJapon.webp",
+      "hospedaje": ["HospedajeTokio1.webp"],
       "destinos": [
         {
-          "title": "Torre Tokio",
-          "img": ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"]
+          "title": "Tokio Tower",
+          "img": ["TOKYO+TOWER+2.webp","TOKYO+TOWER.webp","TOKYO+TOWER+3.webp"]
         },
         {
           "title": "Shibuya Crossing",
-          "img": ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"]
+          "img": ["CRUCE+SHIBUYA.webp","CRUCE+SHIBUYA+2.webp"]
         },
         {
           "title": "Akihabara",
-          "img": ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"]
+          "img": ["CALLE+AMEYA-YOKOCHO.webp", "CALLE+NAKAMISE.webp", "PARQUE+UENO.webp", "TOWER+RECORD+SHIBUYA.webp"]
         },
         {
-          "title": "Senso-ji",
-          "img": ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"]
+          "title": "Templo Zojoji",
+          "img": ["TEMPLO+ZOJOJI.webp","TEMPLO+ZOJOJI+2.webp","TEMPLO+ZOJOJI+3.webp","TEMPLO+ZOJOJI+4+.webp"]
+        },
+        {
+          "title": "Templo Senso-ji",
+          "img": ["TEMPLO+SENSOJI.webp","TEMPLO+SENSOJI+2+.webp","TEMPLO+SENSOJI+3.webp","TEMPLO+SENSOJI+4.webp",
+                  "TEMPLO+SENSOJI+5.webp","TEMPLO+SENSOJI+6.webp"]
         },
         {
           "title": "Harajuku",
-          "img": ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"]
+          "img": ["HARAJUKU.webp"]
         },
         {
-          "title": "Meiji Shrine",
-          "img": ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"]
+          "title": "Santuario Meiji Shrine",
+          "img": ["SANTUARIO+MEIJI+JINGU+.webp","SANTUARIO+MEIJI+JINGU+2+.webp","SANTUARIO+MEIJI+JINGU+3+.webp",
+                  "SANTUARIO+MEIJI+JINGU+4.webp","SANTUARIO+MEIJI+JINGU+5+.webp"]
+        },
+        {
+          "title": "Bahia Tokio",
+          "img": ["BAHIA+TOKYO+2.webp","BAHIA+TOKYO.webp"]
         }
       ],
       "link": "/programas/tokio"
@@ -226,23 +241,28 @@
     "title": "Conoce las características de tu viaje",
     "security": {
       "title": "Seguridad 24 hrs",
-      "subtitle": "Seguridad las 24 horas por nuestro personal capacitado, para hacer de tu viaje una experiencia maravillosa."
+      "subtitle": "Seguridad las 24 horas por nuestro personal capacitado, para hacer de tu viaje una experiencia maravillosa.",
+      "img": "SeguridadNasa2.webp"
     },
     "lodging": {
       "title": "Hospedaje",
-      "subtitle": "Hospedaje de alta calidad y comodidad garantizada para todos nuestros viajeros."
+      "subtitle": "Hospedaje de alta calidad y comodidad garantizada para todos nuestros viajeros.",
+      "img": "HospedajeNasa2.webp"
     },
     "fly": {
       "title": "Vuelo redondo",
-      "subtitle": "Incluye vuelo redondo con aerolíneas de prestigio internacional con equipaje documentado."
+      "subtitle": "Incluye vuelo redondo con aerolíneas de prestigio internacional con equipaje documentado.",
+      "img": "VueloRedondoNasa3.webp"
     },
     "transportation": {
       "title": "Todos los traslados",
-      "subtitle": "Servicio completo de traslado desde y hacia todas las actividades del viaje en transporte privado y local de la zona."
+      "subtitle": "Servicio completo de traslado desde y hacia todas las actividades del viaje en transporte privado y local de la zona.",
+      "img": "TrasladosNasa2.webp"
     },
     "travelerSecurity": {
       "title": "Seguro de viajero",
-      "subtitle": "Seguro integral de viajero para cubrir todas tus necesidades."
+      "subtitle": "Seguro integral de viajero para cubrir todas tus necesidades.",
+      "img": "SeguridadTokio1.webp"
     }
   },
   "weglonTeam": {
@@ -252,27 +272,33 @@
     "team": [
       {
         "name": "Maura Morales",
-        "profession": "Directora"
+        "profession": "Directora",
+        "img": "MAU.webp"
       },
       {
         "name": "Rogelio Villegas",
-        "profession": "Representante Internacional"
+        "profession": "Representante Internacional",
+        "img": "ROGELIO.webp"
       },
       {
         "name": "Alexia Monterrubio",
-        "profession": "Asistente de Dirección"
+        "profession": "Asistente de Dirección",
+        "img": "ALE.webp"
       },
       {
         "name": "Arón Ramírez",
-        "profession": "Representante Internacional"
+        "profession": "Representante Internacional",
+        "img": "ARON.webp"
       },
       {
         "name": "Haidee González",
-        "profession": "Representante Internacional / Administrativo"
+        "profession": "Representante Internacional / Administrativo",
+        "img": "HAIDEE.webp"
       },
       {
         "name": "Baruj Hernández",
-        "profession": "Representante Internacional"
+        "profession": "Representante Internacional",
+        "img": "BARUJ.webp"
       }
     ]
   },
@@ -287,37 +313,43 @@
         "comment": "¡Una experiencia inolvidable! Todo el equipo fue muy profesional y atento.",
         "name": "María López",
         "rol": "Viajera Canadá",
-        "trip": "canada"
+        "trip": "canada",
+        "img": "profile1.png"
       },
       "1": {
         "comment": "El viaje superó mis expectativas. Lo recomiendo totalmente.",
         "name": "Carlos Pérez",
         "rol": "Viajero NASA",
-        "trip": "nasa"
+        "trip": "nasa",
+        "img": "profile2.png"
       },
       "2": {
         "comment": "Me sentí seguro y acompañado en todo momento. ¡Gracias Weglon!",
         "name": "Ana Torres",
         "rol": "Viajera Tokio",
-        "trip": "tokio"
+        "trip": "tokio",
+        "img": "profile1.png"
       },
       "3": {
         "comment": "La organización fue impecable y los destinos increíbles.",
         "name": "Luis Ortega",
         "rol": "Viajero Canadá",
-        "trip": "canada"
+        "trip": "canada",
+        "img": "profile2.png"
       },
       "4": {
         "comment": "Sin duda volvería a viajar con ustedes.",
         "name": "Sofía Ramírez",
         "rol": "Viajera NASA",
-        "trip": "nasa"
+        "trip": "nasa",
+        "img": "profile1.png"
       },
       "5": {
         "comment": "El mejor viaje de mi vida, ¡gracias por todo!",
         "name": "Miguel Sánchez",
         "rol": "Viajero Tokio",
-        "trip": "tokio"
+        "trip": "tokio",
+        "img": "profile2.png"
         }
     }
   },
@@ -329,10 +361,10 @@
       "hoverTitle": "JHONSON SPACE CENTER",
       "hoverSubtitle": "The Food Lab.",
       "imgs": [
-        ["https://images.pixieset.com/84918549/1bbc6d4fd7419ac68206bbfe78857bac-xxlarge.jpg"],
-        ["https://images.pixieset.com/84918549/5986d7439537218152153be9763b291e-xxlarge.jpg",
-          "https://images.pixieset.com/84918549/59177f158b1b6496e83703b2eec1f94d-large.jpg",
-          "https://images.pixieset.com/84918549/c3e54882030ecc8676eadc344d338de0-xxlarge.jpg"]
+        ["NASA+32.webp"],
+        ["NASA+5.webp",
+          "NASA+24.webp",
+          "NASA+30.webp"]
       ],
       "reverse": false
     },
@@ -341,10 +373,10 @@
       "hoverTitle": "DEBAKEY CELL LAB",
       "hoverSubtitle": "un laboratorio educativo bilingüe donde podrás analizar y descubrir misterios microscópicos.",
       "imgs": [
-        ["https://images.pixieset.com/84918549/8aed15732a3a6ff9bbe5d55a55cfc03e-large.jpg"],
-        ["https://images.pixieset.com/84918549/2675423cb85c3781b123fb58a0135902-large.jpg",
-          "https://images.pixieset.com/84918549/1f30e98fa49c4c20b7d53e94086386b4-xxlarge.jpg",
-          "https://images.pixieset.com/84918549/80cc375c5096037b83f385a30c3effde-large.jpg"]
+        ["HEALTH+MUSEUM+5.webp"],
+        ["HEALTH+MUSEUM.webp",
+          "HEALTH+MUSEUM+4.webp",
+          "HEALTH+MUSEUM+2.webp"]
       ],
       "reverse": true
     },
@@ -353,10 +385,10 @@
       "hoverTitle": "Morian Hall of Paleontology",
       "hoverSubtitle": "Hogar de más de 60 esqueletos completos, incuidos varios T. rex.",
       "imgs": [
-        ["https://images.pixieset.com/84918549/142691b927c0dae96b6f98d076b43538-xxlarge.jpg"],
-        ["https://images.pixieset.com/84918549/6e003777a5fa4e075529102fa0ba987c-large.jpg",
-          "https://images.pixieset.com/84918549/ee130b95af11323231f9eacbf52e130a-large.jpg",
-          "https://images.pixieset.com/84918549/05e55c38e3b97c7b1fb435f5e66875b6-large.jpg"]
+        ["MUSEUM+OF+NATURAL+SCIENCE+7.webp"],
+        ["MUSEUM+OF+NATURAL+SCIENCE+6.webp",
+          "MUSEUM+OF+NATURAL+SCIENCE+2.webp",
+          "MUSEUM+OF+NATURAL+SCIENCE.webp"]
       ],
       "reverse": false
     }
@@ -367,22 +399,22 @@
         "hoverTitle": "Templo senzo-ji",
         "hoverSubtitle": "El templo budista mas antiguo y visitado en tokio dedicado a la diosa kannon.",
         "imgs": [
-          ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"],
-          ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg",
-          "https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg",
-          "https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"]
+          ["TEMPLO+SENSOJI+6.webp"],
+          ["TEMPLO+SENSOJI+5.webp",
+          "TEMPLO+SENSOJI.webp",
+          "TEMPLO+SENSOJI+2+.webp"]
         ],
         "reverse": false
       },
       {
         "title": "Sorprendete con la ciudad de Shibuya  y vive de cerca el anime y la tecnología.",
-        "hoverTitle": "SHIBUYA CROSSING:el cruce peatonal más famoso del mundo",
+        "hoverTitle": "SHIBUYA CROSSING: el cruce peatonal más famoso del mundo",
         "hoverSubtitle": "Ubicado frente la estación de Shibuya en Tokio.",
         "imgs": [
-          ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"],
-          ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg",
-          "https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg",
-          "https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"]
+          ["CRUCE+SHIBUYA.webp"],
+          ["HARAJUKU.webp",
+          "CALLE+NAKAMISE.webp",
+          "TOWER+RECORD+SHIBUYA.webp"]
         ],
         "reverse": true
       },
@@ -391,10 +423,10 @@
         "hoverTitle": "Santuario Meiji",
         "hoverSubtitle": "Espacio sagrado que convina armoniosamente naturaleza, espiritualidad e historia moderna de JAPÓN.",
         "imgs": [
-          ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"],
-          ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg",
-          "https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg",
-          "https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"]
+            ["SANTUARIO+MEIJI+JINGU+.webp"],
+          ["SANTUARIO+MEIJI+JINGU+2+.webp",
+          "SANTUARIO+MEIJI+JINGU+4.webp",
+          "SANTUARIO+MEIJI+JINGU+5+.webp"]
         ],
         "reverse": false
       }
@@ -405,10 +437,10 @@
         "hoverTitle": "Certificación Académica Internacional",
         "hoverSubtitle": "Al finalizar el programa cada viajero recibe una constancia oficial de estudios avalando su participación.",
         "imgs": [
-          ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"],
-          ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg",
-          "https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg",
-          "https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"]
+          ["INLINGUA+2.webp"],
+          ["INLINGUA+4.webp",
+          "INLINGUA+8.webp",
+          "INLINGUA+1.webp"]
         ],
         "reverse": true
       },
@@ -417,10 +449,10 @@
         "hoverTitle": "Practica kayak en BC Victoria ",
         "hoverSubtitle": "Rodeados de escenarios naturales espectaculares.",
         "imgs": [
-          ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"],
-          ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg",
-          "https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg",
-          "https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"]
+          ["KAYAK+5.webp"],
+          ["KAYAK+4.webp",
+          "KAYAK+3.webp",
+          "KAYAK.webp"]
         ],
         "reverse": false
       },
@@ -429,10 +461,10 @@
         "hoverTitle": "Encuentro con gigantes del océano",
         "hoverSubtitle": "A bordo de una embarcación segura y especializada.",
         "imgs": [
-          ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"],
-          ["https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg",
-          "https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg",
-          "https://images.pixieset.com/84918549/b86eaea16a83f72461c6c9b8596681af-xxlarge.jpg"]
+          ["AVISTAMIENTO+BALLENAS.webp"],
+          ["FISHERMAN+WHARF+3.webp",
+          "FISHERMAN+WHARF+2.webp",
+          "FISHERMAN+WHARF.webp"]
         ],
         "reverse": true
       }
@@ -446,94 +478,94 @@
     "nasa":[{
         "title": "TRASLADOS",
         "hoverText": "Traslados incluidos durante toda tu estancia.",
-        "img": "https://images.pixieset.com/84918549/80cc375c5096037b83f385a30c3effde-large.jpg"
+        "img": ["TrasladosNasa2.webp","TrasladosNasa1.webp","TrasladosNasa3.webp"]
     },
     {
         "title": "VUELO REDONDO",
         "hoverText": "Vuelo redondo, incluye equipaje documentado.",
-        "img": "https://images.pixieset.com/84918549/80cc375c5096037b83f385a30c3effde-large.jpg"
+        "img": ["VueloRedondoNasa1.webp","VueloRedondoNasa2.webp","VueloRedondoNasa3.webp"]
     },
     {
         "title": "HOSPEDAJE",
         "hoverText": "Hotel Spring Hill Suites by Marriott. Desayuno incluido, habitación doble, gym 24 hrs, lavandería, área de alberca y jacuzzi.",
-        "img": "https://images.pixieset.com/84918549/80cc375c5096037b83f385a30c3effde-large.jpg"
+        "img": ["HospedajeNasa1.webp","HospedajeNasa2.webp"]
     },
     {
         "title": "SEGURIDAD 24H",
         "hoverText": "Seguridad y bienestar emocional las 24 horas por nuestro personal capacitado, para hacer de tu viaje una experiencia inolvidable.",
-        "img": "https://images.pixieset.com/84918549/80cc375c5096037b83f385a30c3effde-large.jpg"
+        "img": ["SeguridadNasa1.webp","SeguridadNasa2.webp"]
     },
     {
         "title": "STAFF",
         "hoverText": "Nuestro staff: El corazón que acompaña cada viaje.",
-        "img": "https://images.pixieset.com/84918549/80cc375c5096037b83f385a30c3effde-large.jpg"
+        "img": ["StaffNasa1.webp"]
     },
     {
         "title": "COMIDAS",
         "hoverText": "Alimentos incluidos(desayuno, comida y cena) tradicional y adaptable a las necesidades del viajero.",
-        "img": "https://images.pixieset.com/84918549/80cc375c5096037b83f385a30c3effde-large.jpg"
+        "img": ["ComidasNasa1.webp","ComidasNasa2.webp","ComidasNasa3.webp"]
     }],
     "tokio": [{
       "title": "TRASLADOS",
       "hoverText": "Traslados incluidos durante toda tu estancia.",
-      "img": "https://images.pixieset.com/84918549/80cc375c5096037b83f385a30c3effde-large.jpg"
+      "img": ["TrasladosTokio1.webp"]
     },
     {
       "title": "VUELO REDONDO",
       "hoverText": "Vuelo redondo, incluye equipaje documentado.",
-      "img": "https://images.pixieset.com/84918549/80cc375c5096037b83f385a30c3effde-large.jpg"
+      "img": ["VueloRedondoTokio1.webp","VueloRedondoTokio2.webp"]
     },
     {
       "title": "HOSPEDAJE",
       "hoverText": "Prince Hotel Tokio, habiatación doble, convenience store.",
-      "img": "https://images.pixieset.com/84918549/80cc375c5096037b83f385a30c3effde-large.jpg"
+      "img": ["HospedajeTokio1.webp"]
     },
     {
       "title": "SEGURIDAD 24H",
       "hoverText": "Seguridad las 24 horas por nuestro personal capacitado, para hacer de tu viaje una experiencia maravillosa.",
-      "img": "https://images.pixieset.com/84918549/80cc375c5096037b83f385a30c3effde-large.jpg"
+      "img": ["SeguridadTokio1.webp"]
     },
     {
       "title": "STAFF",
       "hoverText": "Nuestro staff: El corazón que acompaña cada viaje.",
-      "img": "https://images.pixieset.com/84918549/80cc375c5096037b83f385a30c3effde-large.jpg"
+      "img": ["StaffTokio1.webp"]
     },
     
     {
       "title": "COMIDAS",
       "hoverText": "Desayuno buffet tipo American/Japanese.",
-      "img": "https://images.pixieset.com/84918549/80cc375c5096037b83f385a30c3effde-large.jpg"
+        "img": ["ComidasTokio1.webp","ComidasTokio2.webp"]
     }
   ],
     "canada": [{
       "title": "TRASLADOS",
       "hoverText": "Traslados incluidos durante toda tu estancia.",
-      "img": "https://images.pixieset.com/84918549/80cc375c5096037b83f385a30c3effde-large.jpg"
+      "img": ["TrasladosCanada1.webp"]
     },
     {
       "title": "VUELO REDONDO",
       "hoverText": "Vuelo redondo, incluye equipaje documentado.",
-      "img": "https://images.pixieset.com/84918549/80cc375c5096037b83f385a30c3effde-large.jpg"
+      "img": ["VueloRedondoCanda1.webp"]
     },
     {
       "title": "HOSPEDAJE",
       "hoverText": "Porque en el Homestay no solo se aprende; también se encuentra un segundo hogar.",
-      "img": "https://images.pixieset.com/84918549/80cc375c5096037b83f385a30c3effde-large.jpg"
+      "img": ["HospedajeCanada1.webp","HospedajeCanada2.webp"]
     },
     {
       "title": "SEGURIDAD 24H",
       "hoverText": "Seguridad y bienestar emocional las 24 horas por nuestro personal capacitado, para hacer de tu viaje una experiencia inolvidable.",
-      "img": "https://images.pixieset.com/84918549/80cc375c5096037b83f385a30c3effde-large.jpg"
+      "img": ["SeguridadCanada1.webp"]
     },
     {
       "title": "STAFF",
       "hoverText": "Nuestro staff: El corazón que acompaña cada viaje.",
-      "img": "https://images.pixieset.com/84918549/80cc375c5096037b83f385a30c3effde-large.jpg"
+      "img": ["StaffCanada1.webp"]
     },
     {
       "title": "COMIDAS",
       "hoverText": "Incluye comida en horario tradicional(6:00pm).",
-      "img": "https://images.pixieset.com/84918549/80cc375c5096037b83f385a30c3effde-large.jpg"
+      "img": ["ComidasCanada1.webp"]
     }]
   },
   "OnlineCertifications": {
@@ -621,47 +653,47 @@
           {
             "name": "IELTS",
             "description": "Test diagnóstico inicial.",
-            "link": "/cursos/ielts"
+            "link": "/curso/ielts"
           },
           {
             "name": "LINGUASKILL CAMBRIDGE",
             "description": "Test diagnóstico inicial.",
-            "link": "/cursos/linguaskill"
+            "link": "/curso/linguaskill"
           },
           {
             "name": "TOEFL IBT",
             "description": "Test diagnóstico inicial.",
-            "link": "/cursos/toefl-ibt"
+            "link": "/curso/toefl-ibt"
           },
           {
             "name": "TOEFL ITP",
             "description": "Test diagnóstico inicial.",
-            "link": "/cursos/toefl-itp"
+            "link": "/curso/toefl-itp"
           },
           {
             "name": "CAMBRIDGE ENGLISH ADVANCED",
             "description": "Test diagnóstico inicial.",
-            "link": "/cursos/cambridge-advanced"
+            "link": "/curso/cambridge-advanced"
           },
           {
             "name": "TEST BRIGHT ENGLISH",
             "description": "Test diagnóstico inicial.",
-            "link": "/cursos/test-bright-english"
+            "link": "/curso/test-bright-english"
           },
           {
             "name": "TOEIC BRIDGE",
             "description": "Test diagnóstico inicial.",
-            "link": "/cursos/toeic-bridge"
+            "link": "/curso/toeic-bridge"
           },
           {
             "name": "CAMBRIDGE ENGLISH B2 FIRST",
             "description": "Test diagnóstico inicial.",
-            "link": "/cursos/cambridge-english-b2-first"
+            "link": "/curso/cambridge-english-b2-first"
           },
           {
             "name": "TOIEC",
             "description": "Test diagnóstico inicial.",
-            "link": "/cursos/toiec"
+            "link": "/curso/toiec"
           }
         ]
       },
@@ -675,12 +707,12 @@
           {
             "name": "DELF",
             "description": "Test diagnóstico inicial.",
-            "link": "/cursos/delft"
+            "link": "/curso/delft"
           },
           {
             "name": "TFI",
             "description": "Test diagnóstico inicial.",
-            "link": "/cursos/tfc"
+            "link": "/curso/tfc"
           }
         ]
       },
@@ -694,12 +726,12 @@
           {
             "name": "DELE",
             "description": "Test diagnóstico inicial.",
-            "link": "/cursos/dele"
+            "link": "/curso/dele"
           },
           {
             "name": "Bright Spanish",
             "description": "Test diagnóstico inicial.",
-            "link": "/cursos/tfc"
+            "link": "/curso/bright-spanish"
           }
         ]
       },
@@ -713,17 +745,17 @@
           {
             "name": "Bright Deutsch",
             "description": "Test diagnóstico inicial.",
-            "link": "/cursos/bright-deutsch"
+            "link": "/curso/bright-deutsch"
           },
           {
             "name": "WiDaF",
             "description": "Test diagnóstico inicial.",
-            "link": "/cursos/widaf"
+            "link": "/curso/widaf"
           },
           {
             "name": "TELC",
             "description": "Test diagnóstico inicial.",
-            "link": "/cursos/telc"
+            "link": "/curso/telc"
           }
         ]
       },
@@ -737,11 +769,127 @@
           {
             "name": "HSK",
             "description": "Test diagnóstico inicial.",
-            "link": "/cursos/hsk"
+            "link": "/curso/hsk"
           }
         ]
       }
     }
+  },
+  "coursesData": {
+    "badge": "Mejora tu nivel",
+    "description": "Es un examen académico donde encontrarás temas de educación, literatura, ciencia y tecnología.",
+    "duration": "<b>2,45</b> hrs de duración",
+    "validity": "<b>2</b> años de validez",
+    "button": "Más Información",
+    "back": "Regresar",
+    "studentImage1": "https://randomuser.me/api/portraits/men/14.jpg",
+    "studentImage2": "https://randomuser.me/api/portraits/women/34.jpg",
+    "students": "10,000 + Estudiantes",
+    "studentsDescription": "Nuestros estudiantes mejoran su nivel en 100%.",
+    "ielts": {
+      "title": "IELTS",
+      "image": "CERTIFICADOANGLO.webp"
+    },
+    "linguaskill": {
+      "title": "Linguaskill",
+      "image": "CERTIFICADOANGLO.webp"
+    },
+    "toefl-ibt": {
+      "title": "TOEFL IBT",
+      "image": "CERTIFICADOANGLO.webp"
+    },
+    "toefl-itp": {
+      "title": "TOEFL ITP",
+      "image": "CERTIFICADOANGLO.webp"
+    },
+    "cambridge-advanced": {
+      "title": "Cambridge English Advanced",
+      "image": "CERTIFICADOANGLO.webp"
+    },
+    "test-bright-english": {
+      "title": "Test Bright English",
+      "image": "CERTIFICADOANGLO.webp"
+    },
+    "toeic-bridge": {
+      "title": "TOEIC Bridge",
+      "image": "CERTIFICADOANGLO.webp"
+    },
+    "cambridge-english-b2-first": {
+      "title": "Cambridge English B2 First",
+      "image": "CERTIFICADOANGLO.webp"
+    },
+    "toiec": {
+      "title": "TOIEC",
+      "image": "CERTIFICADOANGLO.webp"
+    },
+    "delft": {
+      "title": "DELF",
+      "image": "CERTIFICADOANGLO.webp"
+    },
+    "tfc": {
+      "title": "TFI",
+      "image": "CERTIFICADOANGLO.webp"
+    },
+    "dele": {
+      "title": "DELE",
+      "image": "CERTIFICADOANGLO.webp"
+    },
+    "bright-spanish": {
+      "title": "Bright Spanish",
+      "image": "CERTIFICADOANGLO.webp"
+    },
+    "bright-deutsch": {
+      "title": "Bright Deutsch",
+      "image": "CERTIFICADOANGLO.webp"
+    },
+    "widaf": {
+      "title": "WiDaF",
+      "image": "CERTIFICADOANGLO.webp"
+    },
+    "telc": {
+      "title": "TELC",
+      "image": "CERTIFICADOANGLO.webp"
+    },
+    "hsk": {
+      "title": "HSK",
+      "image": "CERTIFICADOANGLO.webp"
+    }
+  },
+  "collage": {
+    "logos": [
+      "alSchool.webp",
+      "atenas.webp",
+      "britishenglishacademy.webp",
+      "casaprimavera.webp",
+      "CACI.webp",
+      "benemerito.webp",
+      "cervantes.webp",
+      "cip.webp",
+      "alberteinstein.webp",
+      "colegiobrisas.webp",
+      "carmensalles.webp",
+      "colegiomichoacan.webp",
+      "howardgardner.webp",
+      "quetzalli.webp",
+      "ColegioPradera.webp",
+      "colegiovida.webp",
+      "williamshakespeare.webp",
+      "CollageMonteAlban.webp",
+      "EmilioFriexas.webp",
+      "normalsuperior.webp",
+      "Euroamericano.webp",
+      "goldenwood.webp",
+      "BENEMERITODELASAMERICAS.webp",
+      "lauravicuña.webp",
+      "leicestersecundaria.webp",
+      "LiceoAgazziBombelli.webp",
+      "CUENCAMORELO.webp",
+      "HOWARDGARNDER.webp",
+      "INSITITUTOALIANZA.webp",
+      "PREPARATORIA.webp",
+      "oxford.webp",
+      "universidad.webp"
+    ]
   }
 }
 

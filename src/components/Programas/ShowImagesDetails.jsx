@@ -4,6 +4,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import ImageModal from "./ImageModal";
 import { useTranslation } from "react-i18next";
 import CenterTitle from "../../components/Principal/CenterTitle";
+import { LUGARESNASA, LUGARESTOKIO, LUGARESCANADA } from "../../constants/constantsPrograms";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -13,6 +14,7 @@ const ExperienciasSeccion = ({ trip }) => {
   const [modalImg, setModalImg] = useState("");
   const [modalAlt, setModalAlt] = useState("");
   const { t } = useTranslation();
+  const lugares = trip === "nasa" ? LUGARESNASA : trip === "tokio" ? LUGARESTOKIO : LUGARESCANADA;
 
   useEffect(() => {
     sectionRefs.current.forEach((ref, idx) => {
@@ -25,7 +27,7 @@ const ExperienciasSeccion = ({ trip }) => {
         opacity: 1,
         filter: "blur(0px)",
         stagger: 0.15,
-        duration: 1.1,
+        duration: 1.5,
         ease: "power2.out",
         scrollTrigger: {
           trigger: ref,
@@ -45,8 +47,8 @@ const ExperienciasSeccion = ({ trip }) => {
 
   return (
     <section className="flex flex-col gap-20 py-12 mb-12 mt-6">
-      <CenterTitle title={t(`showImagesDetails.title`)} />
       <ImageModal isOpen={modalOpen} onClose={() => setModalOpen(false)} imgSrc={modalImg} alt={modalAlt} />
+      <CenterTitle title={t(`showImagesDetails.title`)} />
       {(t(`showImagesDetails.${trip}`, { returnObjects: true })).map((sec, i) => (
         <div
           ref={el => (sectionRefs.current[i] = el)}
@@ -63,25 +65,28 @@ const ExperienciasSeccion = ({ trip }) => {
               </div>
               <div className="flex flex-col gap-3 text-gray-400 ">
                 <img
-                  src={sec.imgs[1][0]}
+                  src={lugares + sec.imgs[1][0]}
                   alt="Mapa antiguo de Tokio"
+                  
                   className="w-full h-[110px] object-cover rounded-2xl bg-gray-300 transition-transform duration-500 hover:scale-110"
-                  onClick={() => handleImgClick(sec.imgs[1][0], "Mapa antiguo de Tokio")}
+                  onClick={() => handleImgClick(lugares + sec.imgs[1][0], "Mapa antiguo de Tokio")}
                   style={{ cursor: "pointer" }}
                 />
                 <div className="flex gap-3 text-gray-400">
                   <img
-                    src={sec.imgs[1][1]}
+                    src={lugares + sec.imgs[1][1]}
                     alt="Jardín japonés"
+                    
                     className="w-1/2 h-[110px] object-cover rounded-xl bg-gray-300 transition-transform duration-500 hover:scale-110"
-                    onClick={() => handleImgClick(sec.imgs[1][1], "Jardín japonés")}
+                    onClick={() => handleImgClick(lugares + sec.imgs[1][1], "Jardín japonés")}
                     style={{ cursor: "pointer" }}
                   />
                   <img
-                    src={sec.imgs[1][2]}
+                    src={lugares + sec.imgs[1][2]}
                     alt="Palacio tradicional interior"
+                    
                     className="w-1/2 h-[110px] object-cover rounded-xl bg-gray-300 transition-transform duration-500 hover:scale-110"
-                    onClick={() => handleImgClick(sec.imgs[1][2], "Palacio tradicional interior")}
+                    onClick={() => handleImgClick(lugares + sec.imgs[1][2], "Palacio tradicional interior")}
                     style={{ cursor: "pointer" }}
                   />
                 </div>
@@ -97,7 +102,7 @@ const ExperienciasSeccion = ({ trip }) => {
                   key={idx2}
                   className="exp-img bg-gray-300 rounded-2xl overflow-hidden w-full h-[465px] relative group"
                 >
-                  <img src={src} alt="Imagen" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" onClick={() => handleImgClick(src, "Imagen grande")} style={{ cursor: "pointer" }} />
+                  <img src={lugares + src} alt="Imagen" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" onClick={() => handleImgClick(lugares + src, "Imagen grande")} style={{ cursor: "pointer" }} />
                   {/* Overlay con título y subtítulo */}
                   <div className="absolute bottom-0 left-0 w-full p-4 bg-gradient-to-t from-black/80 via-black/40 to-transparent flex flex-col items-start transition-opacity duration-300 opacity-0 group-hover:opacity-100">
                     <h2 className="text-white text-lg font-bold">{t(`showImagesDetails.${trip}.${i}.hoverTitle`)}</h2>

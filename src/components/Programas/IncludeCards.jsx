@@ -3,6 +3,7 @@ import Arrow from "../../assets/Icons/ArrowDown.svg";
 import { useTranslation } from "react-i18next"; 
 import { motion } from "framer-motion";
 import CenterTitle from "../Principal/CenterTitle";
+import { BENEFICIOS } from "../../constants/constantsPrograms";
 
 const CARD_WIDTH = 350; // px (ajusta según diseño)
 
@@ -12,7 +13,7 @@ const CarruselCaracteristicas = ({ trip }) => {
   const [isDragging, setIsDragging] = useState(false);
   const [startX, setStartX] = useState(0);
   const [scrollLeft, setScrollLeft] = useState(0);
-
+  const beneficios = trip === "nasa" ? BENEFICIOS + "Nasa/" : trip === "tokio" ? BENEFICIOS + "Tokio/" : BENEFICIOS + "Canada/";
   const scrollByCards = (dir = 1) => {
     if (scrollRef.current) {
       scrollRef.current.scrollBy({
@@ -77,7 +78,7 @@ const CarruselCaracteristicas = ({ trip }) => {
               className="flex-shrink-0 rounded-3xl bg-neutral-200 overflow-hidden shadow-md relative group"
               style={{ width: `${CARD_WIDTH}px`, height: "500px" }}
             >
-              <img src={item.img} alt={item.titulo} className="object-cover w-full h-full pointer-events-none" />
+              <img src={beneficios + item.img[0]} alt={item.titulo} className="object-cover w-full h-full pointer-events-none" />
               <div className="absolute inset-0 flex flex-col justify-between p-5 text-center">
                 <div>
                   <span className="text-3xl font-extrabold text-white drop-shadow-lg leading-tight">

@@ -1,9 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import HeroNasa from '../../assets/Images/Hero/HeroNasa.jpg';
-import HeroTokio from '../../assets/Images/Hero/HeroTokio.jpg';
-import HeroCanada from '../../assets/Images/Hero/HeroCanada.jpg';
+import { useNavigate } from "react-router-dom";
 import HeroTitle from '../Principal/HeroTitle';
+import { HERO } from "../../constants/constantsPrograms.js";
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 
@@ -11,10 +9,16 @@ import { motion } from 'framer-motion';
 
 const Carousel = () => {
     const { t } = useTranslation();
+    const navigate = useNavigate();
+
+    const handleCardClick = (ruta) => {
+      navigate(ruta);
+      window.scrollTo(0, 0);
+    };
     const destinos = [
-        { nombre: "NASA", texto: t('destinations.nasa.CardText'), ruta: "/programas/nasa", imagen: HeroNasa },
-        { nombre: "TOKYO", texto: t('destinations.tokio.CardText'), ruta: "/programas/tokio", imagen: HeroTokio },
-        { nombre: "CANADA", texto: t('destinations.canada.CardText'), ruta: "/programas/canada", imagen: HeroCanada },
+        { nombre: t('travelVisits.nasa.cardTitle'), texto: t('destinations.nasa.CardText'), ruta: t("travelVisits.nasa.link"), imagen: `${HERO+t("destinations.nasa.imageHero")}` },
+        { nombre: t('travelVisits.tokio.cardTitle'), texto: t('destinations.tokio.CardText'), ruta: t("travelVisits.tokio.link"), imagen: `${HERO+t("destinations.tokio.imageHero")}` },
+        { nombre: t('travelVisits.canada.cardTitle'), texto: t('destinations.canada.CardText'), ruta: t("travelVisits.canada.link"), imagen: `${HERO+t("destinations.canada.imageHero")}` },
       //   { nombre: "ITALIA", ruta: "/programas/italia", imagen: cardItaly },
       ];
   return (
@@ -23,15 +27,16 @@ const Carousel = () => {
 
       <div className="flex gap-6 overflow-x-auto scrollbar-hide items-center flex-row justify-center items-center ">
         {destinos.map((destino, index) => (
-          <Link
+          <div
             key={index}
-            to={destino.ruta}
-            className="group flex-shrink-0 w-[400px] h-[500px] bg-cover bg-center rounded-2xl shadow-md relative scale-90 hover:scale-100 transition-all duration-300"
-          ><motion.img
-          src={destino.imagen}
-          layoutId={`hero-image-${index}`}
-          className="w-full h-full object-cover object-center rounded-2xl"
-        />
+            onClick={() => handleCardClick(destino.ruta)}
+            className="group flex-shrink-0 w-[400px] h-[500px] bg-cover bg-center rounded-2xl shadow-md relative scale-90 hover:scale-100 transition-all duration-300 cursor-pointer"
+          >
+            <motion.img
+              src={destino.imagen}
+              layoutId={`hero-image-${index}`}
+              className="w-full h-full object-cover object-center rounded-2xl"
+            />
             <div className="absolute inset-0 bg-black/30 rounded-2xl group-hover:opacity-0 group-hover:invisible transition-all duration-300">
               <div className="flex flex-col justify-start items-start p-4 text-white text-center">
                 <h1 className="text-lg font-semibold">{destino.texto}</h1>
@@ -41,7 +46,7 @@ const Carousel = () => {
               <span className="text-sm font-semibold tracking-widest">WE-EXPERIENCE</span>
               <span className="text-3xl font-bold">{destino.nombre}</span>
             </div>
-          </Link>
+          </div>
         ))}
       </div>
 

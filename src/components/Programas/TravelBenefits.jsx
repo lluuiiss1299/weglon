@@ -7,12 +7,7 @@ import Security from "../../assets/Icons/Benefits/Seguridad.svg";
 import Hotel from "../../assets/Icons/Benefits/Hospedaje.svg";
 import Bus from "../../assets/Icons/Benefits/Traslados.svg";
 import Flight from "../../assets/Icons/Benefits/VueloRedondo.svg";
-import CanadaBenefits from "../../assets/Images/CanadaBenefits.jpg";
-import NasaBenefits from "../../assets/Images/Hero/HeroNasa.jpg";
-import TokioBenefits from "../../assets/Images/Hero/HeroTokio.jpg";
-import FlagUSA from "../../assets/Images/Banderas/FlagUsa.png"; 
-import FlagCanada from "../../assets/Images/Banderas/canada.png";
-import FlagTokio from "../../assets/Images/Banderas/japon.svg";
+import { BENEFICIOS, BANDERAS } from "../../constants/constantsPrograms.js";
 
 const TravelBenefits = () => {
     const { t } = useTranslation();
@@ -24,6 +19,12 @@ const TravelBenefits = () => {
       { texto: t('travelBenefits.bus'), icono: Bus },
       { texto: t('travelBenefits.culture'), icono: Activities }
     ];
+    const Nasa = BENEFICIOS+"Nasa/"+t("characteristics.nasa", {returnObjects: true})[3].img[0];
+    const Canada = BENEFICIOS+"Canada/"+t("characteristics.canada", {returnObjects: true})[3].img[0];
+    const Tokio = BENEFICIOS+"Tokio/"+t("characteristics.tokio", {returnObjects: true})[2].img[0];
+    const FlagNasa = BANDERAS+"FlagUsa.png";
+    const FlagCanada = BANDERAS+"canada.png";
+    const FlagTokio = BANDERAS+"japon.svg";
   return (
     <motion.section
       className="w-full py-16"
@@ -41,15 +42,15 @@ const TravelBenefits = () => {
 
         <div className="flex flex-wrap justify-center gap-6 mb-10">
           
-          <div className="w-72 h-60 rounded-xl flex items-start justify-start bg-cover bg-center" style={{ backgroundImage: `url(${NasaBenefits})` }}>
-            <span className="text-white font-bold mt-2 ml-2 text-2xl"><img src={FlagUSA} alt="BanderaUSA" className="w-8 h-5" /></span>
+          <div className="w-72 h-60 rounded-xl flex items-start justify-start bg-cover bg-center" style={{ backgroundImage: `url(${Nasa})` }}>
+            <span className="text-white font-bold mt-2 ml-2 text-2xl"><img src={FlagNasa} alt="BanderaUSA" className="w-8 h-5" /></span>
           </div>
           
-          <div className="w-72 h-60 rounded-xl flex items-start justify-star bg-cover bg-center" style={{ backgroundImage: `url(${CanadaBenefits})` }}>
+          <div className="w-72 h-60 rounded-xl flex items-start justify-star bg-cover bg-center" style={{ backgroundImage: `url(${Canada})` }}>
             <span className="text-white font-bold mt-2 ml-2 text-2xl"><img src={FlagCanada} alt="BanderaCanada" className="w-8 h-5" /></span>
           </div>
           
-          <div className="w-72 h-60 rounded-xl flex items-start justify-start bg-cover bg-center" style={{ backgroundImage: `url(${TokioBenefits})` }}>
+          <div className="w-72 h-60 rounded-xl flex items-start justify-start bg-cover bg-center" style={{ backgroundImage: `url(${Tokio})` }}>
             <span className="text-white font-bold mt-2 ml-2 text-2xl"><img src={FlagTokio} alt="BanderaTokio" className="w-8 h-5" /></span>
           </div>
         </div>
