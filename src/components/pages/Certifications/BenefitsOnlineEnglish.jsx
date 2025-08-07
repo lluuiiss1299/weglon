@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "../../../assets/Images/OnlineIngles.png";
 import { useTranslation } from "react-i18next";
 import Calendario from "../../../assets/Icons/Benefits/Calendario.svg";
 import Clock24Hrs from "../../../assets/Icons/Benefits/Clock24Hrs.svg";
