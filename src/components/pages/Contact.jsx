@@ -1,7 +1,7 @@
 import React from "react";
-import Facebook from "../../assets/icons/FacebookWhite.svg";
-import Instagram from "../../assets/icons/InstagramWhite.svg";
-import Whatsapp from "../../assets/icons/WhatsappWhite.svg";
+import Facebook from "../../assets/Icons/FacebookWhite.svg";
+import Instagram from "../../assets/Icons/InstagramWhite.svg";
+import Whatsapp from "../../assets/Icons/WhatsappWhite.svg";
 import { motion } from "framer-motion";
 
 // Puedes reemplazar estos íconos SVG por tus propios componentes o de lucide-react, etc.

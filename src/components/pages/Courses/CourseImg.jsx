@@ -1,11 +1,10 @@
 import React from 'react';
-import Toeic from '../../../assets/images/Toeic.png';
 
 const CourseImg = () => {
   return (
     <>
         <div className="flex flex-col items-center justify-center max-w-3xl mx-auto my-12">
-            <img src={Toeic} alt="Toeic" className="w-full h-full object-cover" />
+            <img src="https://weglon-assets-prod.s3.us-east-1.amazonaws.com/Images/Toeic.png" alt="Toeic" className="w-full h-full object-cover" />
         </div>
     </>
   );
