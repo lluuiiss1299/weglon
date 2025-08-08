@@ -10,19 +10,25 @@ const VideoHero = () => {
   const videoRef = useRef(null);
   const { t } = useTranslation();
   useEffect(() => {
-    if (!videoRef.current) return;
-
-    gsap.to(videoRef.current, {
-      scrollTrigger: {
-        trigger: videoRef.current,
-        start: 'top top',
-        end: 'bottom center',
-        scrub: true,
-      },
-      borderRadius: '45px',
-      scale: 0.87,
-      ease: 'none',
+    let ctx = gsap.context(() => {
+      ScrollTrigger.matchMedia({
+        "(min-width: 1024px)": () => {
+          gsap.to(videoRef.current, {
+            scrollTrigger: {
+              trigger: videoRef.current,
+              start: "top top",
+              end: "bottom center",
+              scrub: true,
+            },
+            borderRadius: "45px",
+            scale: 0.87,
+            ease: "none",
+          });
+        },
+      });
     });
+
+    return () => ctx.revert();
   }, []);
 
   return (

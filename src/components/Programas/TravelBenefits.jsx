@@ -27,7 +27,7 @@ const TravelBenefits = () => {
     const FlagTokio = BANDERAS+"japon.svg";
   return (
     <motion.section
-      className="w-full py-16"
+      className="w-full py-16 max-sm:mb-[500px]"
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
@@ -55,9 +55,9 @@ const TravelBenefits = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-6 text-sm text-gray-800">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-6 text-sm text-gray-800 max-sm:ml-10">
           {servicios.map((serv, index) => (
-            <div key={index} className="flex items-center justify-center gap-3">
+            <div key={index} className="flex items-center justify-center gap-3 max-sm:justify-start">
               <img src={serv.icono} alt={serv.texto} className="w-6 h-6" />
               <span>{serv.texto}</span>
             </div>

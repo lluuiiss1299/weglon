@@ -1,16 +1,18 @@
-import React from "react";
+import React, { useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import HeroTitle from '../Principal/HeroTitle';
 import { HERO } from "../../constants/constantsPrograms.js";
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
+import Arrow from "../../assets/Icons/ArrowDown.svg";
+
 
 
 
 const Carousel = () => {
     const { t } = useTranslation();
     const navigate = useNavigate();
-
+    const scrollRef = useRef();
     const handleCardClick = (ruta) => {
       navigate(ruta);
       window.scrollTo(0, 0);
@@ -21,11 +23,24 @@ const Carousel = () => {
         { nombre: t('travelVisits.canada.cardTitle'), texto: t('destinations.canada.CardText'), ruta: t("travelVisits.canada.link"), imagen: `${HERO+t("destinations.canada.imageHero")}` },
       //   { nombre: "ITALIA", ruta: "/programas/italia", imagen: cardItaly },
       ];
+
+    const scrollByCards = (dir = 1) => {
+      if (scrollRef.current) {
+        scrollRef.current.scrollBy({
+          left: dir * (400 + 24), // ancho de card + gap (si usas gap-6)
+          behavior: "smooth",
+        });
+      }
+    };
+
   return (
     <section className="w-full px-6 pt-10 pb-24 ">
         <HeroTitle title={t('destinations.programs.title')} />
 
-      <div className="flex gap-6 overflow-x-auto scrollbar-hide items-center flex-row justify-center items-center ">
+      <div 
+      className="flex gap-6 overflow-x-auto scrollbar-hide items-center flex-row justify-center items-center max-xl:justify-start"
+      ref={scrollRef}
+      >
         {destinos.map((destino, index) => (
           <div
             key={index}
@@ -48,6 +63,20 @@ const Carousel = () => {
             </div>
           </div>
         ))}
+      </div>
+      <div className="xl:hidden flex-row flex justify-end gap-6 ">
+        <button
+          className="w-10 h-10 rounded-full bg-gray-100 shadow hover:bg-blue-200 flex items-center justify-center"
+          onClick={() => scrollByCards(-1)}
+        >
+          <img src={Arrow} alt="Arrow" className="w-5 h-5 rotate-90" />
+        </button>
+        <button
+          className="w-10 h-10 rounded-full bg-gray-100 shadow hover:bg-blue-200 flex items-center justify-center"
+          onClick={() => scrollByCards(1)}
+        >
+          <img src={Arrow} alt="Arrow" className="w-5 h-5 rotate-[270deg]" />
+        </button>
       </div>
 
     </section>

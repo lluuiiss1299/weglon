@@ -58,19 +58,19 @@ const Carousel = () => {
       </div>
 
       <div className="md:hidden flex-row flex justify-end gap-6 mt-6 ">
-          <button
-            className="w-12 h-12 rounded-full bg-white shadow hover:bg-blue-200 flex items-center justify-center"
-            onClick={() => scrollByCards(-1)}
-          >
-            <img src={Arrow} alt="Arrow" className="w-7 h-7 rotate-90" />
-          </button>
-          <button
-            className="w-12 h-12 rounded-full bg-white shadow hover:bg-blue-200 flex items-center justify-center"
-            onClick={() => scrollByCards(1)}
-          >
-            <img src={Arrow} alt="Arrow" className="w-7 h-7 rotate-[270deg]" />
-          </button>
-        </div>
+        <button
+          className="w-12 h-12 rounded-full bg-white shadow hover:bg-blue-200 flex items-center justify-center"
+          onClick={() => scrollByCards(-1)}
+        >
+          <img src={Arrow} alt="Arrow" className="w-7 h-7 rotate-90" />
+        </button>
+        <button
+          className="w-12 h-12 rounded-full bg-white shadow hover:bg-blue-200 flex items-center justify-center"
+          onClick={() => scrollByCards(1)}
+        >
+          <img src={Arrow} alt="Arrow" className="w-7 h-7 rotate-[270deg]" />
+        </button>
+      </div>
 
     </section>
   );
