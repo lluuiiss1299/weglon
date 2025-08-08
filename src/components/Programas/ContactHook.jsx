@@ -24,13 +24,13 @@ const AgendaCita = () => (
         href="/contacto"
         className="px-6 py-2 rounded-full border-2 border-blue-700 font-semibold text-blue-700 transition bg-white hover:bg-black hover:text-white hover:border-black"
       >
-        Contactanos
+        Contáctanos
       </a>
     </div>
     {/* Imagen */}
     <div className="flex-1 max-w-xl mt-8 md:mt-0 md:ml-8">
       <div className="rounded-2xl overflow-hidden">
-        <img src={EQUIPOWEGLON+"STAFFCOMPLETO.png"} alt="Equipo" className="object-cover w-full h-[290px]" />
+        <img src={EQUIPOWEGLON+"STAFFCOMPLETO.webp"} alt="Equipo" className="object-cover w-full h-[290px]" />
       </div>
     </div>
   </section>

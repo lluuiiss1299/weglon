@@ -53,7 +53,7 @@ const ContactoAvanzado = () => (
     <div className="flex flex-col md:flex-row w-full min-h-[700px]">
       {/* Formulario */}
       <div className="flex-1 pr-0 md:px-8 pt-8 pb-6 flex flex-col">
-        <h2 className="text-5xl font-bold mb-3">Contactanos</h2>
+        <h2 className="text-5xl font-bold mb-3">Contáctanos</h2>
         <p className="text-base mb-7">
           Estamos ansiosos por conocerte, te responderemos lo antes posible.
         </p>

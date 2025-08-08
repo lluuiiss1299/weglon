@@ -24,7 +24,7 @@ const Certifications = () => {
       <HeroTitle title={t('certifications.title')} subtitle={t('certifications.subtitle')} />
       <div className="max-w-7xl mx-auto">
 
-        <p className="text-center text-lg text-gray-700 max-w-3xl mx-auto mb-14 w-1/2">
+        <p className="text-center text-lg text-gray-700 max-w-3xl mx-auto mb-14 w-1/2 max-sm:w-full max-sm:mb-4">
           <Trans i18nKey="certifications.text" components={{ b: <b /> }} />
         </p>
 

@@ -30,7 +30,7 @@ const VideoHero = () => {
   return (
     <section className="w-full py-6">
       <HeroTitle title={t('platform.title')} subtitle={t('platform.subtitle')} />
-        <div className="mx-auto">
+        <div className="mx-auto max-xl:mb-24">
         <video
             className="w-full"
             ref={videoRef}

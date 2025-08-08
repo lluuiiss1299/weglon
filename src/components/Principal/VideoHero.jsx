@@ -26,7 +26,7 @@ const VideoHero = () => {
   }, []);
 
   return (
-    <section className="w-full py-6">
+    <section className="w-full py-6 max-sm:py-0">
         <div className="mx-auto">
         <video
             className="w-full"
