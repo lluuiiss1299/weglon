@@ -16,7 +16,7 @@ const WeglonTeam = () => {
       container.innerHTML += originalContent;
 
       tweenRef.current = gsap.to(container, {
-          xPercent: -25,
+          xPercent: -75,
           ease: "none",
           duration: 150,
           repeat: -1,
@@ -55,12 +55,12 @@ const WeglonTeam = () => {
     >
       <HeroTitle title={t("weglonTeam.HeroText")} /> 
     <section className="w-full max-w-5xl mx-auto rounded-[30px] p-0 overflow-hidden shadow-xl flex flex-col md:flex-row bg-gradient-to-r from-[#FAFAFA] from-40% via-[#B2B8F6] via-90% via-[#8E97F1] via-90% to-[#6D78ED]">
-      <div className="grid grid-cols-1 md:grid-cols-6 gap-8 items-start ">
-        <div className="flex-1 flex flex-col justify-center px-8 py-10 min-w-[270px] bg-white/60 md:bg-transparent col-span-2 justify-center mt-10">
+      <div className="grid grid-cols-1 md:grid-cols-6 gap-8 max-sm:gap-0 items-start ">
+        <div className="flex-1 flex flex-col px-8 py-10 max-sm:py-0 min-w-[270px] md:bg-transparent col-span-2 mt-10 max-sm:text-center max-sm:px-6 max-sm:items-center">
             <h2 className="text-2xl md:text-3xl font-bold text-black mb-2">
             {t("weglonTeam.title")}
             </h2>
-            <p className="mb-7 text-gray-700 max-w-xs">
+            <p className="mb-7 text-gray-700 max-w-xs ">
             {t("weglonTeam.subtitle")}
             </p>
             <motion.a
@@ -76,7 +76,7 @@ const WeglonTeam = () => {
             Cominicate con nosotros
             </motion.a>
         </div>
-        <div className="flex-1 min-w-0 relative py-10 pr-8 col-span-4 ">
+        <div className="flex-1 min-w-0 relative py-10 pr-8 col-span-4 max-sm:py-0">
           <div className="w-full h-full overflow-hidden rounded-[25px]">
             <div
                 ref={containerRef}

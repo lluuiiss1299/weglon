@@ -27,14 +27,14 @@ const TravelBenefits = () => {
     const FlagTokio = BANDERAS+"japon.svg";
   return (
     <motion.section
-      className="w-full py-16 max-sm:mb-[500px]"
+      className="w-full py-16 "
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.8, ease: "easeOut" }}
     >
       <div className="max-w-6xl mx-auto px-6 text-center ">
-        <div className="bg-gradient-to-t from-[#3CA8E0] to-[#10223E] rounded-2xl w-full h-60 mb-60">
+        <div className="bg-gradient-to-t from-[#3CA8E0] to-[#10223E] rounded-2xl w-full h-60 mb-[17rem] benefits-container">
         <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white inline-grid mt-10">
           <span className="text-white">{t('travelBenefits.cards.title')}</span>
           <span className="text-white">{t('travelBenefits.cards.subtitle')}</span>

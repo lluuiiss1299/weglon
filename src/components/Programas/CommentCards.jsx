@@ -34,7 +34,9 @@ function getShadowClass(trip) {
 const CommentCards = () => {
   const { t } = useTranslation();
   const contenedoresRef = useRef([]);
+  const mobileTrackRef = useRef(null);
 
+  // Animación columnas (desktop/tablet)
   useEffect(() => {
     let timelines = [];
     contenedoresRef.current.forEach((col, idx) => {
@@ -58,6 +60,36 @@ const CommentCards = () => {
     };
   }, []);
 
+  // Animación carrusel horizontal (mobile)
+  useEffect(() => {
+    const track = mobileTrackRef.current;
+    if (!track) return;
+
+    // Loop horizontal de la pista
+    gsap.set(track, { xPercent: 0 });
+    const trackTl = gsap.to(track, {
+      xPercent: -150,
+      duration: 50,
+      ease: "none",
+      repeat: -1,
+      onRepeat: () => gsap.set(track, { xPercent: 0 })
+    });
+
+    // Pausa en hover de todo el carrusel
+    const container = track.parentElement;
+    const pause = () => trackTl.pause();
+    const resume = () => trackTl.resume();
+    container.addEventListener("mouseenter", pause);
+    container.addEventListener("mouseleave", resume);
+
+
+    return () => {
+      trackTl.kill();
+      container.removeEventListener("mouseenter", pause);
+      container.removeEventListener("mouseleave", resume);
+    };
+  }, []);
+
   return (
     <motion.section
       className="w-full py-16"
@@ -67,7 +99,8 @@ const CommentCards = () => {
       transition={{ duration: 0.8, ease: "easeOut" }}
     >
       <Titulo title={t("testimonials.title")} />
-      <section className="relative w-full py-16 bg-white overflow-hidden">
+      {/* Desktop/Tablet: columnas verticales auto-scroll */}
+      <section className="relative w-full py-16 bg-white overflow-hidden hidden md:block">
         <div className="max-w-5xl mx-auto flex gap-8">
           {[...Array(columnas)].map((_, idx) => (
             <div
@@ -76,21 +109,16 @@ const CommentCards = () => {
               style={{ minWidth: "260px" }}
             >
               <div
-                ref={el => (contenedoresRef.current[idx] = el)}
+                ref={(el) => (contenedoresRef.current[idx] = el)}
                 className="flex flex-col gap-6"
               >
-                {/* Repite dos veces para loop visual */}
                 {[...getColumnData(idx), ...getColumnData(idx)].map((testi, tIdx) => {
-                  // Obtener el tipo de viaje desde la traducción
                   const trip = t(testi.tripKey);
                   const shadowClass = getShadowClass(trip);
                   return (
                     <div
                       key={tIdx}
                       className={`bg-white rounded-xl shadow-lg px-7 py-6 min-h-[150px] flex flex-col justify-between border border-blue-100 transition-shadow duration-300 ${shadowClass}`}
-                    //   style={{
-                    //     boxShadow: "0 2px 16px 0 rgba(88,133,255,0.10)",
-                    //   }}
                     >
                       <div className="italic text-gray-700 mb-6">{t(testi.commentKey)}</div>
                       <div className="flex items-center gap-3">
@@ -108,11 +136,59 @@ const CommentCards = () => {
                   );
                 })}
               </div>
-              {/* Fades arriba y abajo */}
               <div className="pointer-events-none absolute top-0 left-0 w-full h-16 bg-gradient-to-b from-white/90 via-white/60 to-transparent z-10" />
               <div className="pointer-events-none absolute bottom-0 left-0 w-full h-16 bg-gradient-to-t from-white/90 via-white/60 to-transparent z-10" />
             </div>
           ))}
+        </div>
+      </section>
+
+      {/* Mobile: carrusel horizontal infinito con blob animado */}
+      <section className="relative w-full py-10 bg-white overflow-hidden md:hidden">
+        <div className="max-w-[92vw] mx-auto">
+          <div className="relative overflow-hidden">
+            <div
+              ref={mobileTrackRef}
+              className="flex gap-6 will-change-transform"
+            >
+              {[...testimonios, ...testimonios].map((testi, idx) => {
+                const trip = t(testi.tripKey);
+                const shadowClass = getShadowClass(trip);
+
+                const blobColorClass =
+                  trip === "nasa"
+                    ? "bg-blue-300"
+                    : trip === "canada"
+                    ? "bg-red-300"
+                    : trip === "tokio"
+                    ? "bg-yellow-300"
+                    : "bg-slate-300";
+
+                return (
+                  <div key={idx} className="relative shrink-0">
+                    <div
+                      className={`bg-white rounded-xl shadow-lg px-6 py-6 w-[280px] min-h-[150px] flex flex-col justify-between border border-blue-100 transition-shadow duration-300 ${shadowClass}`}
+                    >
+                      <div className="italic text-gray-700 mb-6 text-sm">
+                        {t(testi.commentKey)}
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <img
+                          src={BASEIMAGE + "Avatar/" + t(testi.avatar)}
+                          alt={t(testi.nameKey)}
+                          className="w-10 h-10 rounded-full object-cover bg-blue-100"
+                        />
+                        <div>
+                          <div className="font-bold text-[15px]">{t(testi.nameKey)}</div>
+                          <div className="text-xs text-blue-600">{t(testi.rolKey)}</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
         </div>
       </section>
     </motion.section>

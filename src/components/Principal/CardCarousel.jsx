@@ -7,7 +7,6 @@ import { useTranslation } from 'react-i18next';
 const Carousel = () => {
   const scrollRef = useRef();
   const { t } = useTranslation();
-  console.log(CARDS+t("travelVisits.nasa.cardImage"));
   const destinos = [
     { nombre: t("travelVisits.nasa.cardTitle"), ruta: t("travelVisits.nasa.link"), imagen: `${CARDS+t("travelVisits.nasa.cardImage")}` },
     { nombre: t("travelVisits.tokio.cardTitle"), ruta: t("travelVisits.tokio.link"), imagen: `${CARDS+t("travelVisits.tokio.cardImage")}`  },

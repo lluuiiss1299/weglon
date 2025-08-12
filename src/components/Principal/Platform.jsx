@@ -30,17 +30,18 @@ const VideoHero = () => {
   return (
     <section className="w-full py-6">
       <HeroTitle title={t('platform.title')} subtitle={t('platform.subtitle')} />
-        <div className="mx-auto max-xl:mb-24">
-        <video
-            className="w-full"
-            ref={videoRef}
-            autoPlay
-            muted
-            loop
-        >
-            <source src="https://weglon-assets-prod.s3.us-east-1.amazonaws.com/Videos/japon.mp4" type="video/mp4" />
-            Tu navegador no soporta la reproducción de video.
-        </video>
+        <div
+        id="iframe-wrapper"
+         className="mx-auto mb-24 flex justify-center w-[70%] h-[70vh] relative">
+        <iframe 
+
+          src="https://anglolinguist.com" 
+          style={{width: '100%', height: '100%', border: 'none', pointerEvents:'none'}} 
+          loading="lazy">
+        </iframe> 
+        <a href="https://anglolinguist.com" target="_blank" 
+          style={{position: 'absolute', top: 0, left: 0, width: '98%', height: '100%', zIndex: 2}}>
+        </a>
         </div>
         <CenterTitle title={t('centers.title')} subtitle={t('centers.subtitle')} /> 
     </section>

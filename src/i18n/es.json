@@ -310,47 +310,75 @@
     "title": "Testimonios de la Comunidad",
     "comments": {
       "0": {
-        "comment": "¡Una experiencia inolvidable! Todo el equipo fue muy profesional y atento.",
-        "name": "María López",
-        "rol": "Viajera Canadá",
-        "trip": "canada",
-        "img": "profile1.png"
+        "comment": "Recomiendo mucho esta experiencia, porque ademas de ser un viaje seguro, conocemos nuevos lugares y no cualquiera tiene esta oportunidad.",
+        "name": "Mariel",
+        "rol": "Viajera NASA",
+        "trip": "nasa",
+        "img": "MARIELNASA2024.webp"
       },
       "1": {
-        "comment": "El viaje superó mis expectativas. Lo recomiendo totalmente.",
-        "name": "Carlos Pérez",
+        "comment": "Fue un viaje muy seguro y la organización es muy buena.",
+        "name": "Constansa",
         "rol": "Viajero NASA",
         "trip": "nasa",
-        "img": "profile2.png"
+        "img": "CONSTANSANASA2025.webp"
       },
       "2": {
-        "comment": "Me sentí seguro y acompañado en todo momento. ¡Gracias Weglon!",
-        "name": "Ana Torres",
-        "rol": "Viajera Tokio",
-        "trip": "tokio",
-        "img": "profile1.png"
+        "comment": "¡Fue increíble! por todo lo que vivimos, los lugares que visitamos y las personas que conocí.",
+        "name": "Diego",
+        "rol": "Viajero NASA",
+        "trip": "nasa",
+        "img": "DIEGONASA2025.webp"
       },
       "3": {
-        "comment": "La organización fue impecable y los destinos increíbles.",
-        "name": "Luis Ortega",
-        "rol": "Viajero Canadá",
-        "trip": "canada",
-        "img": "profile2.png"
+        "comment": "Creo que es una experiencia que cualquiera podría disfrutar. ¡Inigualable!",
+        "name": "Osmar",
+        "rol": "Viajero NASA",
+        "trip": "nasa",
+        "img": "OSMARNASA2025.webp"
       },
       "4": {
-        "comment": "Sin duda volvería a viajar con ustedes.",
-        "name": "Sofía Ramírez",
-        "rol": "Viajera NASA",
+        "comment": "Me emociono mucho conocer a un astronauta.",
+        "name": "Angel",
+        "rol": "Viajero NASA",
         "trip": "nasa",
         "img": "profile1.png"
       },
       "5": {
-        "comment": "El mejor viaje de mi vida, ¡gracias por todo!",
-        "name": "Miguel Sánchez",
-        "rol": "Viajero Tokio",
-        "trip": "tokio",
-        "img": "profile2.png"
-        }
+        "comment": "Me hace sentir seguro que son un equipo muy bien organizado y muy agradables, ¡Es mi segundo viaje con Weglon!",
+        "name": "Diego",
+        "rol": "Viajero CANADA",
+        "trip": "canada",
+        "img": "DIEGOCANADA2025.webp"
+        },
+      "6": {
+        "comment": "Me ayudo a practicar y mejorar mi inglés, para poder viajar y cumplir mis sueños.",
+        "name": "Fernanda",
+        "rol": "Viajera CANADA",
+        "trip": "canada",
+        "img": "FERNANDACANADA2025.webp"
+        },
+      "7": {
+        "comment": "Me pude desarrollar como persona y a desenvolverme mucho mejor en otro idioma ademas del español.",
+        "name": "Valentina",
+        "rol": "Viajera CANADA",
+        "trip": "canada",
+        "img": "VALENTINACANADA2025.webp"
+      },
+      "8": {
+        "comment": "Gracias por la facilidad y confianza para que nuestros chicos viajen al extranjero.",
+        "name": "mama fernanda",
+        "rol": "Madre de viajero CANADA",
+        "trip": "canada",
+        "img": "MAMADVIAJERAFERNANDACANADA2025.webp"
+      },
+      "9": {
+        "comment": "El mas alto reconocimiento para Weglon, siempre bien organizados y la informacion siempre fue oportuna y clara, ¡Gracias!",
+        "name": "Miguel",
+        "rol": "Padre de viajero CANADA",
+        "trip": "canada",
+        "img": "PAPADVIAJEROALEXCANADA2025.webp"
+      }
     }
   },
   "showImagesDetails": {
@@ -517,7 +545,7 @@
     },
     {
       "title": "HOSPEDAJE",
-      "hoverText": "Prince Hotel Tokio, habiatación doble, convenience store.",
+      "hoverText": "Prince Hotel Tokio, habitación doble, convenience store.",
       "img": ["HospedajeTokio1.webp"]
     },
     {

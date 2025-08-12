@@ -56,6 +56,23 @@ body{
     animation: logo-spin infinite 20s linear;
   }
 }
+@media (max-width: 960px) and (min-width: 648px) {
+
+  .benefits-container {
+    margin-bottom: 30rem;
+  } 
+}
+
+@media (max-width: 648px) and (min-width: 390px) {
+  .benefits-container {
+    margin-bottom: 50rem;
+  }
+}
+@media (max-width: 390px) {
+  .benefits-container {
+    margin-bottom: 60rem;
+  } 
+}
 
 .card {
   padding: 2em;

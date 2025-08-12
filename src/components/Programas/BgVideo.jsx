@@ -2,11 +2,15 @@ import React, { useRef, useEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useTranslation } from "react-i18next";
+import { HERO } from '../../constants/constantsPrograms';
 
 gsap.registerPlugin(ScrollTrigger);
 
 
 const VideoScrollReveal = ({ trip }) => {
+  const numero_aleatorio = Math.floor(Math.random() * 2) + 1;
+
+  const video_name = trip === "canada" ? "CANADAVIDEOPT" : trip === "tokio" ? "JAPONVIDEOPT" : "NASAVIDEOPT";
   const { t } = useTranslation();
   const containerRef = useRef(null);
   const videoRef = useRef(null);
@@ -55,8 +59,10 @@ const VideoScrollReveal = ({ trip }) => {
       <div ref={containerRef} className="relative h-[200vh]">
         <video
         ref={videoRef}
-        src="https://weglon-assets-prod.s3.us-east-1.amazonaws.com/Videos/japon.mp4"
+        poster={`${HERO + video_name + numero_aleatorio + ".webp"}`}
+        src={`https://weglon-assets-prod.s3.us-east-1.amazonaws.com/Videos/${video_name}${numero_aleatorio}.mp4`}
         className="w-full h-[100vh] object-cover sticky top-0"
+        preload="none"
         autoPlay
         muted
         loop

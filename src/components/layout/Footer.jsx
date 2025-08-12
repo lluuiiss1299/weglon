@@ -72,7 +72,7 @@ const Footer = () => {
           <h2 className="text-lg font-bold mb-2">{t('footer.contactTitle')}</h2>
           <p className="text-sm text-gray-700 mb-2">
             {t('footer.phone')}<br />
-            <a href="mailto:wegn2013@gmail.com" className="underline hover:text-blue-500">wegn2013@gmail.com</a>
+            <a href="mailto:ventas@weglon.com" className="underline hover:text-blue-500">ventas@weglon.com</a>
           </p>
 
           <div className="flex space-x-3 mt-8 bottom-0 align-items-end">

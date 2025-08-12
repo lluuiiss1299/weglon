@@ -19,7 +19,6 @@ const TravelVisits = () => {
     ...destino,
     img: LUGARESTOKIO + destino.img[0]
   }));
-  // console.log(canadaDestinos.map((destino) => destino.img));
 
   const viajes = [
     {
@@ -66,17 +65,17 @@ const TravelVisits = () => {
           {viajes.map((viaje, i) => (
             <button
               key={i}
-              className={`py-2 text-lg font-semibold pl-6 ${tabActivo === i ? "text-black border-b-2 border-black" : "text-gray-500"}`}
+              className={`py-2 max-sm:px-5 text-lg font-semibold pl-6 ${tabActivo === i ? "text-black border-b-2 border-black" : "text-gray-500"}`}
               onClick={() => setTabActivo(i)}
             >
-              {viaje.nombre} <span className="text-xs text-gray-200 ml-6">|</span>
+              {viaje.nombre} <span className="text-xs text-gray-200 ml-6 max-sm:hidden ">|</span>
             </button>
           ))}
         </div>
 
-        <div className="grid grid-cols-4 gap-4 p-6">
+        <div className="grid grid-cols-4 gap-4 p-6 max-sm:flex max-sm:flex-col">
           {/* Destinos */}
-          <ul className="flex flex-col gap-2 text-sm">
+          <ul className="flex flex-col gap-2 text-sm max-sm:overflow-x-auto max-sm:flex-row max-sm:justify-start">
             {viajes[tabActivo].destinos.map((destino, i) => (
               <li key={i}>
                 <button
@@ -90,12 +89,11 @@ const TravelVisits = () => {
           </ul>
 
           {/* Carrusel */}
-          <div className="col-span-3 flex justify-center items-center overflow-hidden relative pt-10 bg-gray-200 rounded-xl min-h-[340px]">
+          <div className="col-span-3 max-sm:col-span-4 flex justify-center items-center overflow-hidden relative pt-10 bg-gray-200 rounded-xl min-h-[340px]">
             <AnimatePresence initial={false}>
               {viajes[tabActivo].imagenes.map((img, i) => {
                 const posicion = i - destinoActivo;
                 const isActive = posicion === 0;
-                console.log(img);
                 return (
                   Math.abs(posicion) <= 1 && (
                     <motion.div

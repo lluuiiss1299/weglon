@@ -20,7 +20,7 @@ const Carousel = () => {
       <section className="w-full px-6 pt-10 ">
         <HeroTitle title={t("wePassport.title")} subtitle={t("wePassport.subtitle")} />
         <div className="flex flex-row justify-center items-center">
-          <img src={BASEIMAGE + "WEPASSPORT.webp"} alt="We-Passport" className="w-[850px] h-[650px] object-cover"/>
+          <img src={BASEIMAGE + "WEPASSPORT.webp"} alt="We-Passport" className="w-[85%] h-[85%] object-cover"/>
         </div>
       </section>
     </motion.section>
