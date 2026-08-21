@@ -82,15 +82,15 @@ const VideoScrollReveal = ({ trip }) => {
             }}
             >
             <div className="max-w-7xl grid h-56 grid-rows-3 content-around gap-32 text-center px-4  pb-12">
-                <h1 className="mb-4 text-7xl">{t(`destinations.${trip}.videoTitle`)}</h1>
-                <h2 className="text-4xl mb-4">
+                <h1 className="mb-4 text-4xl sm:text-7xl">{t(`destinations.${trip}.videoTitle`)}</h1>
+                <h2 className="text-2xl mb-4 sm:text-4xl">
                 {t(`destinations.${trip}.videoText1`)}
                 </h2>
-                <h2 className="text-4xl mb-4">
+                <h2 className="text-2xl mb-4 sm:text-4xl">
                 {t(`destinations.${trip}.videoText2`)}
                 </h2>
                 <a href="/contacto" className=" px-12 py-2 rounded-full text-white border-2 border-gray-300 border-solid w-[70%] text-center mx-auto hover:bg-gray-300 hover:text-black">
-                    <span className=" text-4xl">{t(`destinations.buttonText`)}</span>
+                    <span className=" text-2xl sm:text-4xl">{t(`destinations.buttonText`)}</span>
                 </a>
             </div>
         </div>

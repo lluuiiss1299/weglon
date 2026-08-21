@@ -304,7 +304,22 @@
   },
   "wePassport": {
     "title": "We-Passport",
-    "subtitle": "Conviértete en un viajero frecuente y obtén beneficios exclusivos."
+    "subtitle": "Conviértete en un viajero frecuente y obtén beneficios exclusivos.",
+    "phrases": [
+      {
+        "phrase": "Quien no conoce tierras extranjeras no conoce su propio país.",
+        "author": "Johann Wolfgang von Goethe"
+      },
+      {
+        "phrase": "Viajar es fatal para el prejuicio, la intolerancia y la estrechez de mente.",
+        "author": "Mark Twain"
+      },
+      {
+        "phrase": "No he contado ni la mitad de lo que vi.",
+        "author": "Marco Polo"
+      }
+      
+    ]
   },
   "testimonials": {
     "title": "Testimonios de la Comunidad",
@@ -625,7 +640,7 @@
     }
   },
   "centroCertificador": {
-    "titulo": "Conviértete en CENTRO CERTIFICADOR",
+    "titulo": "Conviertete en CENTRO CERTIFICADOR",
     "texto": "Eleva el nivel académico de tus alumnos, ofreciéndoles una ventaja competitiva para su futuro.",
     "button": "Cominícate con nosotros",
     "text1": "Haz que tus alumnos certifiquen su nivel de inglés con seguridad, respaldo académico y tecnología educativa de primer nivel.",
@@ -645,12 +660,12 @@
         "subtitle": "Examen diagnostico para ubicarte en tu nivel (A1 - B2+) basado en el marco común europeo, exámenes de practica."
       },
       "3": {
-        "title": "Certificacion gratuita",
-        "subtitle": "1 Certificacion sin costo para tus maestros, consulta bases y condiciones."
+        "title": "Certificación gratuita",
+        "subtitle": "1 Certificación sin costo para tus maestros, consulta bases y condiciones."
       },
       "4": {
-        "title": "Retribucion economica",
-        "subtitle": "Retribucion económica parta institucion consulta bases y condiciones."
+        "title": "Retribución economica",
+        "subtitle": "Retribución económica parta institucion consulta bases y condiciones."
       },
       "5": {
         "title": "Material Publicitario",
@@ -888,7 +903,6 @@
       "alSchool.webp",
       "atenas.webp",
       "britishenglishacademy.webp",
-      "casaprimavera.webp",
       "CACI.webp",
       "benemerito.webp",
       "cervantes.webp",

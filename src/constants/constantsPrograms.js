@@ -9,6 +9,8 @@ export const LUGARESCANADA = BASEIMAGE+"Lugares/Canada/";
 export const BENEFICIOS = BASEIMAGE+"beneficios/";
 export const BANDERAS = BASEIMAGE+"Banderas/";
 export const EQUIPOWEGLON = BASEIMAGE+"EquipoWeglon/";
+export const WEPASSPORT = BASEIMAGE+"Wepassport/";
+export const WEPASSPORTIMAGES = BASEIMAGE+"WepassportImages/";
 
 export const equipoWeglon = [
   { imagen: "weglonTeam.team.0.img", nombreKey: "weglonTeam.team.0.name", profesionKey: "weglonTeam.team.0.profession" },
